@@ -6,6 +6,7 @@ WORKSPACE="$HOME/protein-core"
 LAYERS_DIR="$WORKSPACE/12-runtime/conveyor/layers"
 PROCESSING_DIR="$WORKSPACE/12-runtime/conveyor/processing"
 RBM_ADAPTER="$WORKSPACE/12-runtime/conveyor/adapters/rbm-core.py"
+HYGIENE_SCRIPT="$WORKSPACE/protein-hygiene.sh"
 
 mkdir -p "$PROCESSING_DIR"
 
@@ -75,11 +76,14 @@ $(echo "$rbm_out" | grep -E "RBM_FREE_ENERGY|RBM_METABOLIC_STRESS|RBM_STATE")
 GENESIS_EOF
         ;;
     heal)
-        print "🛡️ [IMMUNE & HARMONY] System integrity verified. Peaceful homeostasis active."
+        print "🛡️ [IMMUNE & HARMONY] Executing system hygiene and integrity audit..."
+        if [[ -x "$HYGIENE_SCRIPT" ]]; then
+            "$HYGIENE_SCRIPT"
+        fi
         
         cat << GENESIS_EOF > "$PROCESSING_DIR/genesis_result.log"
 STATUS=COMPLETED
-HOMEOSTASIS=IMMUNE_HEALED
+HOMEOSTASIS=IMMUNE_HEALED_AND_SANITIZED
 BATTERY_ENERGY=${battery_level}%
 RBM_STATE=ENERGY_EQUILIBRIUM
 0K_IDLE=ACTIVE
