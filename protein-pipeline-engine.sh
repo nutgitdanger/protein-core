@@ -1,46 +1,38 @@
-#!/data/data/com.termux/files/usr/bin/zsh
-set -euo pipefail
+#!/usr/bin/env zsh
+set -uo pipefail
 
-PIPE_ROOT="$HOME/protein-core/pipeline"
-LOG_DIR="$HOME/protein-core/logs"
-mkdir -p "$LOG_DIR" "$PIPE_ROOT"/{pending,processing,completed,failed}
+WORKSPACE="$HOME/protein-core/pipeline"
+PENDING="$WORKSPACE/pending"
+PROCESSING="$WORKSPACE/processing"
+COMPLETED="$WORKSPACE/completed"
+FAILED="$WORKSPACE/failed"
 
-PENDING="$PIPE_ROOT/pending"
-PROCESSING="$PIPE_ROOT/processing"
-COMPLETED="$PIPE_ROOT/completed"
-FAILED="$PIPE_ROOT/failed"
+mkdir -p "$PENDING" "$PROCESSING" "$COMPLETED" "$FAILED"
 
-job_file=$(find "$PENDING" -maxdepth 1 -name "*.json" | sort | head -n 1)
+for stuck in "$PROCESSING"/*(N); do
+    [[ -e "$stuck" ]] && mv "$stuck" "$PENDING/" && print "♻️ [RECOVERED] Stale task returned."
+done
 
-if [[ -z "$job_file" ]]; then
-    print "⚪ [PIPELINE] No work items. 0 K idle state."
-    exit 0
-fi
-
-job_name=$(basename "$job_file")
-work_path="$PROCESSING/$job_name"
-
-# ย้ายงานมาล็อกสถานะ (Atomic Lock)
-mv "$job_file" "$work_path"
-print "🟢 [PIPELINE] Executing pipeline task: $job_name"
-
-# ดึงชื่อ executor และ task จาก JSON
-if python3 -c "import json; d=json.load(open('$work_path')); assert 'task' in d" 2>/dev/null; then
-    task_type=$(python3 -c "import json; print(json.load(open('$work_path'))['task'])")
-    executor=$(python3 -c "import json; d=json.load(open('$work_path')); print(d.get('executor', ''))")
+for job in "$PENDING"/*.json(N); do
+    [[ -e "$job" ]] || continue
     
-    print "⚙️ [PIPELINE] Routed task: $task_type (Executor: ${executor:-None})"
+    local name=$(basename "$job")
+    local proc="$PROCESSING/$name"
     
-    # ถ้ามีการระบุ executor script จริง ให้สั่งรันและเก็บ Log
-    if [[ -n "$executor" && -f "$HOME/protein-core/$executor" ]]; then
-        print "🚀 [PIPELINE] Running actual protein script: $executor"
-        "$HOME/protein-core/$executor" >> "$LOG_DIR/pipeline_exec.log" 2>&1 || true
+    mv "$job" "$proc" || continue
+    
+    local exec=$(grep -o '"executor"[[:space:]]*:[[:space:]]*"[^"]*"' "$proc" | cut -d'"' -f4)
+    
+    if [[ -n "$exec" && "$exec" != "None" && -x "$HOME/protein-core/$exec" ]]; then
+        cd "$HOME/protein-core" && ./"$exec"
+        if [[ $? -eq 0 ]]; then
+            mv "$proc" "$COMPLETED/" && print "✅ [DONE] $name"
+        else
+            mv "$proc" "$FAILED/" && print "❌ [FAIL] $name"
+        fi
+    else
+        sleep 0.02
+        mv "$proc" "$COMPLETED/" && print "✅ [VIRTUAL] $name"
     fi
-
-    # ทำงานสำเร็จ ย้ายไป completed
-    mv "$work_path" "$COMPLETED/$job_name"
-    print "✅ [PIPELINE] Task $job_name completed and archived."
-else
-    mv "$work_path" "$FAILED/$job_name"
-    print "❌ [PIPELINE] Task $job_name failed schema validation."
-fi
+done
+print "💤 [PIPELINE] Queue clear. Returning to 0K idle state."
