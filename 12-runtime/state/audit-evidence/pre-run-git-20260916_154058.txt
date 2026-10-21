@@ -1,0 +1,76 @@
+ M containers/protein/container.meta
+ D protein/12-runtime/bridge/reorganize-20260911-153755/aws.route
+ D protein/12-runtime/bridge/reorganize-20260911-165233/aws.route
+ M protein/12-runtime/state/folding.result
+ M protein/12-runtime/state/folding.state
+ D protein/projects/nutdata
+ D prototype/AWS
+ D prototype/GitHub
+ D prototype/core-blueprint
+ D prototype/network-audit
+ D prototype/protein
+ D prototype/router-audit
+ D reports/architecture-decision-20260914_200125.txt
+ D reports/pre-ec2-baseline-20260914_194634.txt
+ D reports/safety-boundary-20260914_195619.txt
+ D reports/system-load-boundary-20260914_201003.txt
+?? .folded-paths/
+?? .s3-evidence/
+?? .test-extract/
+?? .test-machine-map-20260916/
+?? __pycache__/
+?? containers/protein/.dockerignore
+?? containers/protein/Dockerfile
+?? containers/protein/README.md
+?? containers/protein/archive/
+?? containers/protein/benchmark-pipeline.sh
+?? containers/protein/bin/
+?? containers/protein/config/
+?? containers/protein/full-pipeline.py
+?? containers/protein/git-vault-pipeline.sh
+?? containers/protein/health-check-pipeline.sh
+?? containers/protein/lan-scanner.sh
+?? containers/protein/models
+?? containers/protein/output/
+?? containers/protein/port-scan-pipeline.sh
+?? containers/protein/protein-pipeline.sh
+?? containers/protein/protein-reconcile.sh
+?? containers/protein/protein-worker.sh
+?? containers/protein/protein.sh
+?? containers/protein/research/
+?? containers/protein/router-recon-pipeline.sh
+?? containers/protein/target-probe.sh
+?? containers/protein/venv
+?? containers/protein/wan-ip.sh
+?? "n' '=== AD8B822 PROJECT DIFF ==='"
+?? protein-10-layer-hard-gate.py
+?? protein-evolve.sh
+?? protein-fiber-link.sh
+?? protein-image-cluster.sh
+?? protein-nib.sh
+?? protein-restore-safe.zsh
+?? protein-smart-manager.sh
+?? protein/08-cleaner/receipts/engine-20260912_005739.log
+?? protein/08-cleaner/receipts/engine-20260912_032812.log
+?? protein/08-cleaner/receipts/engine-20260912_032816.log
+?? protein/08-cleaner/receipts/engine-20260912_033057.log
+?? protein/08-cleaner/receipts/healer-20260916_003957.log
+?? protein/08-cleaner/receipts/healer-20260916_005627.log
+?? protein/12-runtime/bridge/reorganize-20260911-153755/aws-route.route
+?? protein/12-runtime/bridge/reorganize-20260911-165233/aws-route.route
+?? protein/12-runtime/development/
+?? protein/12-runtime/state/audit-evidence/
+?? protein/12-runtime/state/nib-evidence/
+?? protein/projects/nutdata-project
+?? protein/raw/
+?? reports/root-map-20260916_095453.txt
+?? reports/root-map-final-20260916_095549.txt
+?? run-protein-worker.sh
+?? runtime/ebs/
+?? runtime/protein/
+?? runtime/runtime/
+?? state/governor-20260916_005252.log
+?? state/governor-20260916_012139.log
+?? state/governor-20260916_013023.log
+?? state/governor-20260916_013348.log
+?? tools/

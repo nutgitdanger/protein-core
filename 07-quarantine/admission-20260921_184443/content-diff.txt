@@ -1,0 +1,211 @@
+=== NON-DESTRUCTIVE CONTENT DIFF ===
+TIME=20260921_184443
+ZIP=expansion/incoming/protein-molecule-architecture.zip
+
+========================================
+MEMBER=protein/04-relation/protein-relation.state
+--- CURRENT SHA256 ---
+2180ff0434e53ac106ef48b7ed5d89cb5e47bab53baa2efd12d94202bb169af6  protein/04-relation/protein-relation.state
+--- INCOMING SHA256 ---
+773597b6cea6b20faffea8876f49021a4115bd5afd8cb8f13b46b6d5433fbf0a  -
+--- CURRENT CONTENT ---
+TYPE=PROTEIN_RELATION
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+TIMESTAMP=20260912_012028
+DNA=protein/00-core/dna
+COLLECTOR=protein/02-collector
+CLASSIFIER=protein/03-classifier
+RELATION=protein/04-relation
+VALIDATOR=protein/05-validator
+FOLDING=protein/00-core/map/fibers/02-folding-engine.sh
+MOLECULES=protein/11-molecules
+RUNTIME=protein/12-runtime
+--- INCOMING CONTENT ---
+# Protein relation state
+schema_version=1
+state_role=RELATION_AUTHORITY
+source_of_truth=protein/12-runtime/state/folding.state
+
+[molecule_chain]
+folding_state=protein/12-runtime/state/folding.state
+molecule_state=protein/12-runtime/state/molecule.state
+live_molecule=protein/11-molecules/live.molecule
+bead_counter=DERIVED
+bead_promotion=protein/06-promoter/bead-promotion
+
+[rules]
+relation_is_authoritative_for_relationships=true
+bead_counter_is_derived=true
+fiber_must_not_hardcode_bead_types=true
+canonical_mutation_requires_promoter=true
+promotion_requires_evidence=true
+--- UNIFIED DIFF ---
+--- protein/04-relation/protein-relation.state	2026-09-12 01:20:28.795183886 +0700
++++ /proc/self/fd/11	2026-09-21 18:44:43.683601474 +0700
+@@ -1,11 +1,18 @@
+-TYPE=PROTEIN_RELATION
+-ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+-TIMESTAMP=20260912_012028
+-DNA=protein/00-core/dna
+-COLLECTOR=protein/02-collector
+-CLASSIFIER=protein/03-classifier
+-RELATION=protein/04-relation
+-VALIDATOR=protein/05-validator
+-FOLDING=protein/00-core/map/fibers/02-folding-engine.sh
+-MOLECULES=protein/11-molecules
+-RUNTIME=protein/12-runtime
++# Protein relation state
++schema_version=1
++state_role=RELATION_AUTHORITY
++source_of_truth=protein/12-runtime/state/folding.state
++
++[molecule_chain]
++folding_state=protein/12-runtime/state/folding.state
++molecule_state=protein/12-runtime/state/molecule.state
++live_molecule=protein/11-molecules/live.molecule
++bead_counter=DERIVED
++bead_promotion=protein/06-promoter/bead-promotion
++
++[rules]
++relation_is_authoritative_for_relationships=true
++bead_counter_is_derived=true
++fiber_must_not_hardcode_bead_types=true
++canonical_mutation_requires_promoter=true
++promotion_requires_evidence=true
+
+========================================
+MEMBER=protein/11-molecules/live.molecule
+--- CURRENT SHA256 ---
+7c3b69630780b432b359202e618a95e4c00a9443491fb6784f8343b03529e33a  protein/11-molecules/live.molecule
+--- INCOMING SHA256 ---
+39ffb7a50e01455762bf8993557249a4237cc16ea46d3cf66562ead1a051e198  -
+--- CURRENT CONTENT ---
+TYPE=MOLECULE
+STATUS=ACTIVE
+TIMESTAMP=20260918_211647
+FIBERS=1
+MOLECULES=6
+STATES=14
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+--- INCOMING CONTENT ---
+schema_version=1
+state_role=MATERIALIZED_MOLECULE
+source=protein/12-runtime/state/folding.state
+relation=protein/04-relation/protein-relation.state
+status=EMPTY
+bead_count=0
+last_promotion=
+evidence=
+--- UNIFIED DIFF ---
+--- protein/11-molecules/live.molecule	2026-09-18 21:16:47.636278242 +0700
++++ /proc/self/fd/11	2026-09-21 18:44:43.783601474 +0700
+@@ -1,7 +1,8 @@
+-TYPE=MOLECULE
+-STATUS=ACTIVE
+-TIMESTAMP=20260918_211647
+-FIBERS=1
+-MOLECULES=6
+-STATES=14
+-SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
++schema_version=1
++state_role=MATERIALIZED_MOLECULE
++source=protein/12-runtime/state/folding.state
++relation=protein/04-relation/protein-relation.state
++status=EMPTY
++bead_count=0
++last_promotion=
++evidence=
+
+========================================
+MEMBER=protein/12-runtime/state/molecule.state
+--- CURRENT SHA256 ---
+acf9c1a2ec1debf0e29e653b829c926b6e5d3c37ddc99dd2fee4f24c80cb3960  protein/12-runtime/state/molecule.state
+--- INCOMING SHA256 ---
+4acad3f2063627cbf9a930f0163258e3e601fb434d59b2bbd32d1674ee344a5e  -
+--- CURRENT CONTENT ---
+ENGINE=molecules
+STATUS=ACTIVE
+TIMESTAMP=20260918_211647
+FIBERS=1
+MOLECULES=6
+STATES=14
+OUTPUT=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/live.molecule
+--- INCOMING CONTENT ---
+schema_version=1
+state_role=DERIVED_RUNTIME_BOOKKEEPING
+source=protein/12-runtime/state/folding.state
+relation=protein/04-relation/protein-relation.state
+status=EMPTY
+revision=0
+bead_count=0
+updated_at=
+evidence=
+--- UNIFIED DIFF ---
+--- protein/12-runtime/state/molecule.state	2026-09-18 21:16:47.640278242 +0700
++++ /proc/self/fd/11	2026-09-21 18:44:43.859601474 +0700
+@@ -1,7 +1,9 @@
+-ENGINE=molecules
+-STATUS=ACTIVE
+-TIMESTAMP=20260918_211647
+-FIBERS=1
+-MOLECULES=6
+-STATES=14
+-OUTPUT=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/live.molecule
++schema_version=1
++state_role=DERIVED_RUNTIME_BOOKKEEPING
++source=protein/12-runtime/state/folding.state
++relation=protein/04-relation/protein-relation.state
++status=EMPTY
++revision=0
++bead_count=0
++updated_at=
++evidence=
+
+========================================
+MEMBER=protein/12-runtime/state/folding.state
+--- CURRENT SHA256 ---
+6283e7dd130c2c17ae3ddd17b22e33af5ea3ccf8984e095f9bd7295781af540b  protein/12-runtime/state/folding.state
+--- INCOMING SHA256 ---
+cb7e8c7557be3d21b029120e6d6b5fcca01e1f6d84dac87c342ae513cdb290d6  -
+--- CURRENT CONTENT ---
+ENGINE=folding
+STATUS=FOLDED
+TIMESTAMP=20260919_151339
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+FIBERS=1
+MOLECULES=6
+STATES=17
+--- INCOMING CONTENT ---
+schema_version=1
+state_role=AUTHORITATIVE_FOLDING_INPUT_STATE
+status=INITIAL
+revision=0
+source=
+sequence=
+folding_state=
+updated_at=
+evidence=
+--- UNIFIED DIFF ---
+--- protein/12-runtime/state/folding.state	2026-09-19 15:13:39.615656610 +0700
++++ /proc/self/fd/11	2026-09-21 18:44:43.935601474 +0700
+@@ -1,7 +1,9 @@
+-ENGINE=folding
+-STATUS=FOLDED
+-TIMESTAMP=20260919_151339
+-ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+-FIBERS=1
+-MOLECULES=6
+-STATES=17
++schema_version=1
++state_role=AUTHORITATIVE_FOLDING_INPUT_STATE
++status=INITIAL
++revision=0
++source=
++sequence=
++folding_state=
++updated_at=
++evidence=
+
+=== END NON-DESTRUCTIVE CONTENT DIFF ===
+ZIP WAS NOT EXTRACTED
+CURRENT FILES WERE NOT MODIFIED

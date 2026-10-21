@@ -1,0 +1,8 @@
+#!/usr/bin/env zsh
+echo "✒️ [PEN-NIB ACTIVE] Writing deterministic state to system fabric..."
+if [[ -f "$HOME/.config/dynu-audit/protein-folding-engine.sh" ]]; then
+    bash "$HOME/.config/dynu-audit/protein-folding-engine.sh" 2>/dev/null || true
+fi
+if [[ -f "$HOME/.config/dynu-audit/protein-master-status.sh" ]]; then
+    bash "$HOME/.config/dynu-audit/protein-master-status.sh"
+fi

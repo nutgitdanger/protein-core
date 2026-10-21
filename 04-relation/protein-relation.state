@@ -1,0 +1,11 @@
+TYPE=PROTEIN_RELATION
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+TIMESTAMP=20260912_012028
+DNA=protein/00-core/dna
+COLLECTOR=protein/02-collector
+CLASSIFIER=protein/03-classifier
+RELATION=protein/04-relation
+VALIDATOR=protein/05-validator
+FOLDING=protein/00-core/map/fibers/02-folding-engine.sh
+MOLECULES=protein/11-molecules
+RUNTIME=protein/12-runtime

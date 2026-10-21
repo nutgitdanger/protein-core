@@ -1,0 +1,10 @@
+{
+  "RESULT": "PASS",
+  "MODE": "STRUCTURE_NORMALIZATION",
+  "INPUT_RUNS": 0,
+  "NORMALIZED_RUNS": 0,
+  "PAIR_COMPARISONS": 0,
+  "ROTATION_ALIGNMENT": false,
+  "PAIRWISE": []
+}
+EVIDENCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/bead20-normalization-result.json

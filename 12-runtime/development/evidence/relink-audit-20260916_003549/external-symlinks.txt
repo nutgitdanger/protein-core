@@ -1,0 +1,12 @@
+=== 4. EXTERNAL SYMLINKS ===
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/bin/python -> 
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/bin/python3 -> 
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/bin/python3.13 -> 
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/fibers/recovery -> /data/data/com.termux/files/home/recovery
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/ai-router -> /data/data/com.termux/files/home/ai-router
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/network -> /data/data/com.termux/files/home/network
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-lite -> /data/data/com.termux/files/home/protein-lite
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup -> /data/data/com.termux/files/home/protein-prototype-backup
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/recovery -> /data/data/com.termux/files/home/recovery
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/ai-router -> /data/data/com.termux/files/home/ai-router
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/protein-lite -> /data/data/com.termux/files/home/protein-lite

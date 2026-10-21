@@ -1,0 +1,31 @@
+#!/usr/bin/env zsh
+PROTEIN_HOME="${HOME}/.protein"
+FLEET_DIR="${PROTEIN_HOME}/fleet"
+RECEPTOR_DIR="${PROTEIN_HOME}/receptors"
+VAULT_DIR="${PROTEIN_HOME}/vault"
+NEXUS_LOG="${PROTEIN_HOME}/nexus.log"
+
+init_nexus() {
+    mkdir -p "${PROTEIN_HOME}" "${FLEET_DIR}" "${RECEPTOR_DIR}" "${VAULT_DIR}"
+    touch "${NEXUS_LOG}"
+    echo "[$(date +'%Y-%m-%d %H:%M:%S')] [NEXUS] Local Organism Nervous System initialized." >> "${NEXUS_LOG}"
+}
+
+awaken_organism() {
+    init_nexus
+    echo "[$(date +'%Y-%m-%d %H:%M:%S')] [AWAKEN] Initializing 8-Core Enclaves and verifying VFS receptors..." >> "${NEXUS_LOG}"
+    for i in {1..8}; do
+        mkdir -p "${FLEET_DIR}/core_${i}"
+    done
+    local base_bin="/bin/zsh"
+    if [ -x "${base_bin}" ] && [ ! -L "${RECEPTOR_DIR}/core_receptor" ]; then
+        ln -s "${base_bin}" "${RECEPTOR_DIR}/core_receptor"
+    fi
+    echo "[$(date +'%Y-%m-%d %H:%M:%S')] [AWAKEN] Organism fully awakened. Zero-weight state locked." >> "${NEXUS_LOG}"
+}
+
+case "$1" in
+    init) init_nexus; echo "🌐 Nexus master initialized." ;;
+    awaken) awaken_organism; echo "🌟 Organism awakened across 8 enclaves." ;;
+    *) echo "Usage: protein-nexus {init|awaken}"; exit 1 ;;
+esac

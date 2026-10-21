@@ -1,0 +1,11 @@
+TYPE=BEAD_RELATION_AXIS
+STATUS=EXTENDED
+TIMESTAMP=20260926_154055
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+SOURCE_AXIS=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/symlink-axis.latest
+SOURCE_RAW=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/symlink-axis.20260926_153833.raw
+MODE=APPEND_PRESERVE
+RELATION_KEY=SYMLINK_TARGET
+ORDER=EXISTING_BEAD_FIRST
+
+=== EXISTING BEADS ===

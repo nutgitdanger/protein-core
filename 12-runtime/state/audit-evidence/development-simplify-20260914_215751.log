@@ -1,0 +1,19 @@
+DEVELOPMENT_MODEL=SIMPLE
+TIMESTAMP=20260914_215751
+FLOW=CANDIDATE_CHECK_TEST_EVIDENCE_KEEP_OR_FOLD_BACK
+CORE_MUTATION=NO
+CORE_DELETE=NO
+CORE_MOVE=NO
+AWS_MUTATION=NO
+BACKGROUND_START=NO
+
+=== DEVELOPMENT ===
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidate
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence
+
+=== PROTECTED ===
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/00-core
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/07-quarantine
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime
+PRESENT /data/data/com.termux/files/home/recovery

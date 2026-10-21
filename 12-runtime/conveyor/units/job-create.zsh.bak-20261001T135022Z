@@ -1,0 +1,47 @@
+#!/data/data/com.termux/files/usr/bin/zsh
+setopt NO_BANG_HIST
+
+JOB_FILE="${1:-}"
+INPUT_SHA="${2:-}"
+METHOD="${3:-}"
+PARAMS="${4:-}"
+DEPENDENCY="${5:-none}"
+GENERATION="${6:-1}"
+CREATED="${7:-}"
+INPUT_REF="${8:-}"
+
+if [[ -z "$JOB_FILE" || -z "$INPUT_SHA" || -z "$METHOD" || -z "$CREATED" ]]; then
+  exit 2
+fi
+
+CLAIM="$JOB_FILE.claim"
+JOB_TMP="$JOB_FILE.tmp.$$"
+
+if ! mkdir "$CLAIM" 2>/dev/null; then
+  exit 3
+fi
+
+cleanup() {
+  rm -f "$JOB_TMP" 2>/dev/null
+  rmdir "$CLAIM" 2>/dev/null
+}
+trap cleanup EXIT INT TERM HUP
+
+if [[ -f "$JOB_FILE" ]]; then
+  exit 4
+fi
+
+{
+  printf 'JOB_ID=%s\n' "${JOB_FILE:t:r}"
+  printf 'INPUT_SHA256=%s\n' "$INPUT_SHA"
+  printf 'METHOD=%s\n' "$METHOD"
+  printf 'PARAMS=%s\n' "$PARAMS"
+  printf 'DEPENDENCY=%s\n' "$DEPENDENCY"
+  printf 'GENERATION=%s\n' "$GENERATION"
+  printf 'CREATED=%s\n' "$CREATED"
+  printf 'STATUS=READY\n'
+  [[ -n "$INPUT_REF" ]] && printf 'INPUT_REF=%s\n' "$INPUT_REF"
+} > "$JOB_TMP" || exit 5
+
+mv -f "$JOB_TMP" "$JOB_FILE" || exit 6
+exit 0

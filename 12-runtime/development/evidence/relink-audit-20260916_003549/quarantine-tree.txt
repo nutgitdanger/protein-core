@@ -1,0 +1,4 @@
+=== 10. CURRENT QUARANTINE STRUCTURE ===
+/data/data/com.termux/files/home/.config/dynu-audit/protein/07-quarantine
+/data/data/com.termux/files/home/.config/dynu-audit/protein/07-quarantine/20260911
+/data/data/com.termux/files/home/.config/dynu-audit/protein/07-quarantine/development

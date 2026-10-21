@@ -1,0 +1,11 @@
+{
+  "RESULT": "PASS",
+  "MODE": "CONVERGENCE_V2",
+  "RUNS": 0,
+  "PAIR_COMPARISONS": 0,
+  "AVERAGE_RMSD": null,
+  "MIN_RMSD": null,
+  "MAX_RMSD": null,
+  "ROTATION_ALIGNED": false
+}
+EVIDENCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/bead20-convergence-v2-result.json

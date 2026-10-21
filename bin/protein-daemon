@@ -1,0 +1,56 @@
+#!/usr/bin/env zsh
+PROTEIN_HOME="${HOME}/.protein"
+RECEPTOR_DIR="${PROTEIN_HOME}/receptors"
+VAULT_DIR="${PROTEIN_HOME}/vault"
+EVOLUTION_LOG="${PROTEIN_HOME}/evolution_daemon.log"
+RCLONE_REMOTE="gdrive:protein_vault"
+
+init_daemon() {
+    mkdir -p "${PROTEIN_HOME}" "${RECEPTOR_DIR}" "${VAULT_DIR}"
+    touch "${EVOLUTION_LOG}"
+    echo "[$(date +'%Y-%m-%d %H:%M:%S')] [DAEMON] Zero-Weight Evolution Sentinel initialized." >> "${EVOLUTION_LOG}"
+}
+
+sync_to_cloud() {
+    local snapshot_name="state_$(date +%s).tar.gz"
+    local snapshot_path="${VAULT_DIR}/${snapshot_name}"
+    tar -czf "${snapshot_path}" -C "${PROTEIN_HOME}" receptors evolution_daemon.log 2>/dev/null
+    if command -v rclone &> /dev/null; then
+        rclone copyto "${snapshot_path}" "${RCLONE_REMOTE}/${snapshot_name}" --quiet &>/dev/null &
+        echo "[$(date +'%Y-%m-%d %H:%M:%S')] [CLOUD-SYNC] Telemetry snapshot pushed to Cloud." >> "${EVOLUTION_LOG}"
+    fi
+    rm -f "${snapshot_path}"
+}
+
+mutation_cycle() {
+    echo "[$(date +'%Y-%m-%d %H:%M:%S')] [MUTATION-LOOP] Scanning VFS receptors..." >> "${EVOLUTION_LOG}"
+    for receptor in "${RECEPTOR_DIR}"/*(N); do
+        if [ -L "${receptor}" ]; then
+            local target_path="$(readlink "${receptor}")"
+            if [ ! -e "${target_path}" ]; then
+                local fallback_bin="/bin/sh"
+                if [ -x "${fallback_bin}" ]; then
+                    rm -f "${receptor}"
+                    ln -s "${fallback_bin}" "${receptor}"
+                fi
+            fi
+        fi
+    done
+    sync_to_cloud
+}
+
+start_daemon() {
+    init_daemon
+    echo "🚀 Starting Zero-Weight Evolution Daemon (PID: $$)..."
+    while true; do
+        mutation_cycle
+        sleep 60
+    done
+}
+
+case "$1" in
+    init) init_daemon; echo "🧬 Evolution Daemon environment initialized." ;;
+    run) start_daemon ;;
+    check) init_daemon; mutation_cycle; echo "⚡ Single-pass mutation check & cloud sync executed." ;;
+    *) echo "Usage: protein-daemon {init|run|check}"; exit 1 ;;
+esac

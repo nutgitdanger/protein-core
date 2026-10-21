@@ -1,0 +1,11 @@
+=== PROTEIN PEN-NIB FIBER MANIFEST ===
+Generated: 20260926_165336
+----------------------------------------
+total 28
+drwx------. 2 u0_a372 u0_a372 4096 Sep 26 16:53 .
+drwx------. 3 u0_a372 u0_a372 4096 Sep 26 16:07 ..
+lrwxrwxrwx. 1 u0_a372 u0_a372   66 Sep 26 16:53 01-pen-nib-bridge.sh -> /data/data/com.termux/files/home/.config/dynu-audit/protein-nib.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   77 Sep 26 16:53 02-folding-engine.sh -> /data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   76 Sep 26 16:53 03-master-status.sh -> /data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   84 Sep 26 16:53 04-system-blueprint.sh -> /data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+-rw-------. 1 u0_a372 u0_a372  107 Sep 26 16:53 fiber-manifest.txt

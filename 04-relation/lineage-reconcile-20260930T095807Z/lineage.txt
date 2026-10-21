@@ -1,0 +1,61 @@
+=== LINEAGE RECONCILIATION ===
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+BRANCH=/data/data/com.termux/files/home/protein-lab
+
+=== CLASSIFICATION ===
+protein-lab=BRANCH_EXTENSION
+CANONICAL_ROOT=dynu-audit
+DIRECT_EXECUTION_PROVEN=false
+STRUCTURAL_LINEAGE_PROVEN=true
+COMMON_HISTORY_PROVEN=true
+
+=== COMMON HISTORY ===
+befcca9c2a84f427abd353b12a745caef594c025 2026-09-13 00:40:08 +0700 protein: stabilize folding engine and molecule map
+
+=== ROOT-ONLY ADVANCE ===
+a485f6d 2026-09-28 fix(protein): make folding state writes atomic
+
+=== LAB CURRENT COMMIT ===
+a835be23db0a7d1a633ed1c2930b23ac390e958c
+
+=== FOLDING HASHES ===
+805902516ea71842a997196ad1675c657c397d58c2ef23872b221fdb0c2fb6c2  /data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+1ea9aa5b4658cc1d76f726c8e46006e95d64312cd17a03925315af8b7875708a  /data/data/com.termux/files/home/protein-lab/protein-folding-engine.sh
+
+=== EXTENSION MARKERS ===
+/data/data/com.termux/files/home/protein-lab/expansion/ARCHITECTURE
+/data/data/com.termux/files/home/protein-lab/expansion/BEAD_MODEL
+/data/data/com.termux/files/home/protein-lab/expansion/FOLD_MODEL
+/data/data/com.termux/files/home/protein-lab/expansion/MANIFEST
+/data/data/com.termux/files/home/protein-lab/expansion/ROOT_GATE
+/data/data/com.termux/files/home/protein-lab/expansion/SOS_BOUNDARY
+/data/data/com.termux/files/home/protein-lab/expansion/STATE_MODEL
+
+=== CANONICAL LIVE STATE ===
+
+[/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state]
+ENGINE=folding
+STATUS=FOLDED
+TIMESTAMP=20260930_125409
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+FIBERS=1
+MOLECULES=4
+STATES=25
+
+[/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.result]
+FOLDING_RESULT=OK
+TIMESTAMP=20260930_125409
+FIBERS=1
+MOLECULES=4
+STATES=25
+
+[/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state]
+ENGINE=molecules
+STATUS=ACTIVE
+BEADS=4
+LAST_BEAD=4
+TIMESTAMP=20260930_110118
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+NEXT=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-4.state
+
+=== RESULT ===

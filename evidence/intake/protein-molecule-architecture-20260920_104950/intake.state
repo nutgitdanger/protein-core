@@ -1,0 +1,7 @@
+source=protein-molecule-architecture.zip
+hash_verified=true
+collision_policy=preserve_existing
+new_files_promoted=3
+existing_files_overwritten=0
+evidence=/data/data/com.termux/files/home/.config/dynu-audit/protein/evidence/intake/protein-molecule-architecture-20260920_104950
+status=PROMOTED_PARTIAL

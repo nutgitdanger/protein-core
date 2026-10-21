@@ -1,0 +1,7 @@
+EXISTS  protein/04-relation/protein-relation.state
+NEW     protein/11-molecules/BEAD-ARCHITECTURE.md
+EXISTS  protein/11-molecules/live.molecule
+NEW     protein/11-molecules/bead-types/README
+EXISTS  protein/12-runtime/state/molecule.state
+EXISTS  protein/12-runtime/state/folding.state
+NEW     protein/06-promoter/bead-promotion/README

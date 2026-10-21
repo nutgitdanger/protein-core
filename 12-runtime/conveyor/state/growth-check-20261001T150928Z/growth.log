@@ -1,0 +1,144 @@
+T=20261001T150928Z
+LOAD=32.50, 33.26, 32.51
+MEM=3533/5666MB swap=3533/5666MB
+RUNTIME=48992 KB
+AUDIT=46992 KB
+DEV=1312 KB
+CONVEYOR=260 KB
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+515173 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/full-audit-20260916_115307.txt
+334681 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/evidence-map-20260929T222203Z/files.tsv
+333333 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/map-candidates.txt
+T=20261001T150933Z
+LOAD=32.14, 33.18, 32.49
+MEM=3499/5666MB swap=3499/5666MB
+RUNTIME=48992 KB
+AUDIT=46992 KB
+DEV=1312 KB
+CONVEYOR=260 KB
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+515173 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/full-audit-20260916_115307.txt
+334681 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/evidence-map-20260929T222203Z/files.tsv
+333333 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/map-candidates.txt
+T=20261001T150938Z
+LOAD=31.89, 33.11, 32.47
+MEM=3505/5666MB swap=3505/5666MB
+RUNTIME=48992 KB
+AUDIT=46992 KB
+DEV=1312 KB
+CONVEYOR=260 KB
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+515173 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/full-audit-20260916_115307.txt
+334681 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/evidence-map-20260929T222203Z/files.tsv
+333333 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/map-candidates.txt
+T=20261001T150944Z
+LOAD=31.58, 33.02, 32.45
+MEM=3500/5666MB swap=3500/5666MB
+RUNTIME=48992 KB
+AUDIT=46992 KB
+DEV=1312 KB
+CONVEYOR=260 KB
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+515173 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/full-audit-20260916_115307.txt
+334681 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/evidence-map-20260929T222203Z/files.tsv
+333333 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/map-candidates.txt
+T=20261001T150949Z
+LOAD=31.61, 33.00, 32.44
+MEM=3471/5666MB swap=3471/5666MB
+RUNTIME=48992 KB
+AUDIT=46992 KB
+DEV=1312 KB
+CONVEYOR=260 KB
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+515173 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/full-audit-20260916_115307.txt
+334681 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/evidence-map-20260929T222203Z/files.tsv
+333333 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/map-candidates.txt
+T=20261001T150954Z
+LOAD=31.40, 32.94, 32.42
+MEM=3481/5666MB swap=3481/5666MB
+RUNTIME=48996 KB
+AUDIT=46992 KB
+DEV=1312 KB
+CONVEYOR=264 KB
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+515173 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/full-audit-20260916_115307.txt
+334681 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/evidence-map-20260929T222203Z/files.tsv
+333333 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/map-candidates.txt
+T=20261001T150959Z
+LOAD=31.21, 32.87, 32.41
+MEM=3496/5666MB swap=3496/5666MB
+RUNTIME=48996 KB
+AUDIT=46992 KB
+DEV=1312 KB
+CONVEYOR=264 KB
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+515173 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/full-audit-20260916_115307.txt
+334681 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/evidence-map-20260929T222203Z/files.tsv
+333333 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/map-candidates.txt
+T=20261001T151004Z
+LOAD=31.03, 32.81, 32.39
+MEM=3507/5666MB swap=3507/5666MB
+RUNTIME=48996 KB
+AUDIT=46992 KB
+DEV=1312 KB
+CONVEYOR=264 KB
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+515173 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/full-audit-20260916_115307.txt
+334681 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/evidence-map-20260929T222203Z/files.tsv
+333333 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/map-candidates.txt
+T=20261001T151009Z
+LOAD=30.79, 32.73, 32.36
+MEM=3496/5666MB swap=3496/5666MB
+RUNTIME=48996 KB
+AUDIT=46992 KB
+DEV=1312 KB
+CONVEYOR=264 KB
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+515173 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/full-audit-20260916_115307.txt
+334681 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/evidence-map-20260929T222203Z/files.tsv
+333333 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/map-candidates.txt
+T=20261001T151015Z
+LOAD=30.72, 32.68, 32.35
+MEM=3496/5666MB swap=3496/5666MB
+RUNTIME=48996 KB
+AUDIT=46992 KB
+DEV=1312 KB
+CONVEYOR=264 KB
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+515173 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/full-audit-20260916_115307.txt
+334681 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/evidence-map-20260929T222203Z/files.tsv
+333333 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/map-candidates.txt
+T=20261001T151020Z
+LOAD=30.75, 32.65, 32.34
+MEM=3456/5666MB swap=3456/5666MB
+RUNTIME=49000 KB
+AUDIT=46992 KB
+DEV=1312 KB
+CONVEYOR=268 KB
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+515173 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/full-audit-20260916_115307.txt
+334681 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/evidence-map-20260929T222203Z/files.tsv
+333333 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/map-candidates.txt
+T=20261001T151025Z
+LOAD=31.17, 32.71, 32.36
+MEM=3379/5666MB swap=3379/5666MB
+RUNTIME=49000 KB
+AUDIT=46992 KB
+DEV=1312 KB
+CONVEYOR=268 KB
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+515173 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/full-audit-20260916_115307.txt
+334681 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/evidence-map-20260929T222203Z/files.tsv
+333333 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/map-candidates.txt

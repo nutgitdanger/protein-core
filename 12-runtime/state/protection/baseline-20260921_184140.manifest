@@ -1,0 +1,13 @@
+MANIFEST_VERSION=1
+CREATED=20260921_184140
+REPO=/data/data/com.termux/files/home/.config/dynu-audit
+GIT_HEAD=1160ca646539644a5f8bc6f14ad3c265289b9c42
+GIT_BRANCH=main
+PROTECTED_ROOTS_BEGIN
+protein/00-core
+protein/05-validator
+protein/08-cleaner
+protein/10-governor
+protein/11-molecules
+protein/12-runtime/state
+PROTECTED_ROOTS_END

@@ -1,0 +1,98 @@
+{
+  "RESULT": "PASS",
+  "MODE": "PROPAGATION_SELECTION",
+  "GENERATIONS": 3,
+  "CHILDREN_PER_GENERATION": 5,
+  "POPULATION": [
+    {
+      "GENERATION": 0,
+      "WINNER": {
+        "GENERATION": 0,
+        "INDEX": 3,
+        "SCORE": 0.0400237818236614,
+        "SEQUENCE": [
+          "Flower",
+          "MetalSpacer",
+          "Bugle",
+          "Twisted",
+          "Acrylic",
+          "Crystal",
+          "GoldBead",
+          "Heart",
+          "Facet",
+          "Pearl",
+          "Neon",
+          "SeedBead",
+          "Antique",
+          "LetterA",
+          "Glass",
+          "Shell",
+          "Smile",
+          "Gemstone",
+          "Star",
+          "Wood"
+        ]
+      }
+    },
+    {
+      "GENERATION": 1,
+      "WINNER": {
+        "GENERATION": 1,
+        "INDEX": 3,
+        "SCORE": 0.25329363445523245,
+        "SEQUENCE": [
+          "Flower",
+          "MetalSpacer",
+          "Bugle",
+          "Twisted",
+          "Acrylic",
+          "Crystal",
+          "GoldBead",
+          "Heart",
+          "Facet",
+          "Pearl",
+          "Gemstone",
+          "SeedBead",
+          "Antique",
+          "LetterA",
+          "Glass",
+          "Shell",
+          "Smile",
+          "Neon",
+          "Star",
+          "Wood"
+        ]
+      }
+    },
+    {
+      "GENERATION": 2,
+      "WINNER": {
+        "GENERATION": 2,
+        "INDEX": 1,
+        "SCORE": 0.010104125779734852,
+        "SEQUENCE": [
+          "Flower",
+          "MetalSpacer",
+          "Bugle",
+          "Twisted",
+          "Crystal",
+          "Acrylic",
+          "GoldBead",
+          "Heart",
+          "Facet",
+          "Pearl",
+          "Gemstone",
+          "SeedBead",
+          "Antique",
+          "LetterA",
+          "Glass",
+          "Shell",
+          "Smile",
+          "Neon",
+          "Star",
+          "Wood"
+        ]
+      }
+    }
+  ]
+}

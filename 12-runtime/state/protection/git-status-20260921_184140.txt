@@ -1,0 +1,120 @@
+ M containers/protein/container.meta
+ M protein-network-monitor.sh
+ M protein/00-core/map/bridge
+ M protein/00-core/map/governor
+ M protein/00-core/map/manifest.txt
+ D protein/05-validator/conflicts/security-audit-20260911_165233.txt
+ D protein/05-validator/conflicts/security-audit-20260911_182655.txt
+ D protein/08-cleaner/receipts/classification-20260911_165226.log
+ D protein/08-cleaner/receipts/dissector-20260911_165227.log
+ D protein/08-cleaner/receipts/engine-20260911_165227.log
+ D protein/08-cleaner/receipts/healer-20260911_165230.log
+ D protein/08-cleaner/receipts/metabolic-cost-20260911_165227.log
+ D protein/08-cleaner/receipts/metabolism-20260911_165231.log
+ D protein/08-cleaner/receipts/replicator-20260911_165233.log
+ D protein/08-cleaner/receipts/sentinel-20260911_165233.log
+ D protein/08-cleaner/receipts/sentinel-20260911_182655.log
+ M protein/11-molecules/live.molecule
+ D protein/12-runtime/bridge/reorganize-20260911-153755/aws.route
+ D protein/12-runtime/bridge/reorganize-20260911-165233/aws.route
+ M protein/12-runtime/state/folding.result
+ M protein/12-runtime/state/folding.state
+ M protein/12-runtime/state/molecule.state
+ D protein/projects/nutdata
+ D prototype/AWS
+ D prototype/GitHub
+ D prototype/core-blueprint
+ D prototype/network-audit
+ D prototype/protein
+ D prototype/router-audit
+ D reports/architecture-decision-20260914_200125.txt
+ D reports/pre-ec2-baseline-20260914_194634.txt
+ D reports/safety-boundary-20260914_195619.txt
+ D reports/system-load-boundary-20260914_201003.txt
+?? .folded-paths/
+?? .s3-evidence/
+?? .test-extract/
+?? .test-machine-map-20260916/
+?? check-reach.sh
+?? containers/protein/.dockerignore
+?? containers/protein/Dockerfile
+?? containers/protein/README.md
+?? containers/protein/archive/
+?? containers/protein/benchmark-pipeline.sh
+?? containers/protein/bin/
+?? containers/protein/config/
+?? containers/protein/full-pipeline.py
+?? containers/protein/git-vault-pipeline.sh
+?? containers/protein/health-check-pipeline.sh
+?? containers/protein/lan-scanner.sh
+?? containers/protein/models
+?? containers/protein/output/
+?? containers/protein/port-scan-pipeline.sh
+?? containers/protein/protein-pipeline.sh
+?? containers/protein/protein-reconcile.sh
+?? containers/protein/protein-worker.sh
+?? containers/protein/protein.sh
+?? containers/protein/research/
+?? containers/protein/router-recon-pipeline.sh
+?? containers/protein/target-probe.sh
+?? containers/protein/venv
+?? containers/protein/wan-ip.sh
+?? dynu-daemon.sh
+?? dynu-sync.sh
+?? expansion/incoming/
+?? "n' '=== AD8B822 PROJECT DIFF ==='"
+?? protein-10-layer-hard-gate.py
+?? protein-ec2-local.py
+?? protein-evolve.sh
+?? protein-fiber-link.sh
+?? protein-image-cluster.sh
+?? protein-nib.sh
+?? protein-restore-safe.zsh
+?? protein-smart-manager.sh
+?? protein/00-core/policy/
+?? protein/06-promoter/
+?? protein/07-quarantine/
+?? protein/08-cleaner/receipts/engine-20260918_204447.log
+?? protein/08-cleaner/receipts/healer-20260916_003957.log
+?? protein/08-cleaner/receipts/healer-20260916_005627.log
+?? protein/08-cleaner/receipts/metabolic-cost-20260921_030906.log
+?? protein/11-molecules/BEAD-ARCHITECTURE.md
+?? protein/11-molecules/bead-types/
+?? protein/11-molecules/beads/bead-3.state
+?? protein/12-runtime/bridge/reorganize-20260911-153755/aws-route.route
+?? protein/12-runtime/bridge/reorganize-20260911-165233/aws-route.route
+?? protein/12-runtime/development/
+?? protein/12-runtime/state/audit-evidence/
+?? protein/12-runtime/state/complete-audit-20260919_151304.log
+?? protein/12-runtime/state/final-closeout-20260919_151339.log
+?? protein/12-runtime/state/finalize-20260919_151223.log
+?? protein/12-runtime/state/nib-evidence/
+?? protein/12-runtime/state/protection/
+?? protein/STRUCTURE.md
+?? protein/evidence/
+?? protein/raw/
+?? reports/architecture-audit-20260920_141414/
+?? reports/broken-link-active-check-20260920_150209/
+?? reports/broken-link-classification-20260920_150000/
+?? reports/cleanup-audit-20260920_144449/
+?? reports/cleanup-target-audit-20260920_144529/
+?? reports/cleanup-target-audit-20260920_144928/
+?? reports/global-map-20260920_145758/
+?? reports/root-classification-20260920_141544/
+?? reports/root-map-20260916_095453.txt
+?? reports/root-map-final-20260916_095549.txt
+?? reports/runtime-ownership-20260920_134505/
+?? reports/runtime-ownership-20260920_135716/
+?? reports/topology-audit-20260920_145835/
+?? reports/topology-classification-20260920_145919/
+?? reports/worker-contract-audit-20260918_210613.txt
+?? run-protein-worker.sh
+?? runtime/ebs/
+?? runtime/ec2-offload/
+?? runtime/protein/
+?? runtime/runtime/
+?? state/governor-20260916_005252.log
+?? state/governor-20260916_012139.log
+?? state/governor-20260916_013023.log
+?? state/governor-20260916_013348.log
+?? tools/

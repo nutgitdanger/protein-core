@@ -1,0 +1,6 @@
+TYPE=MOLECULE_CHAIN
+STATUS=ACTIVE
+BEADS=6
+LAST_BEAD=6
+TIMESTAMP=20261002_121057
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state

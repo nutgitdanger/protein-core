@@ -1,0 +1,21 @@
+=== ADMISSION BOUNDARY AUDIT ===
+TIME=20260921_184212
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+
+--- INCOMING CONTENT ---
+expansion/incoming
+expansion/incoming/protein-molecule-architecture.zip
+
+--- SYMLINKS INSIDE INCOMING ---
+
+--- GATE TEST: CORE ---
+PASS: CORE BLOCKED
+
+--- GATE TEST: INCOMING ---
+ADMISSION SAFE FOR REVIEW
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/expansion/incoming
+BOUNDARY=/data/data/com.termux/files/home/.config/dynu-audit/expansion/incoming
+ACTION=REVIEW_ONLY
+NO_IMPORT_PERFORMED
+
+=== END ADMISSION AUDIT ===

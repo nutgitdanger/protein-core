@@ -1,0 +1,7 @@
+TYPE=MOLECULE
+STATUS=ACTIVE
+TIMESTAMP=20261002_121058
+FIBERS=1
+MOLECULES=6
+STATES=28
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state

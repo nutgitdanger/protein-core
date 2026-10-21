@@ -1,0 +1,108 @@
+{
+  "source": "protein/12-runtime/development/relation/bead20/bead20-relation.json",
+  "bead_count": 20,
+  "relation_count": 190,
+  "analysis": "degree_and_mean_distance",
+  "ranking": [
+    {
+      "bead": "Facet",
+      "degree": 19,
+      "mean_distance": 0.014302620170798416
+    },
+    {
+      "bead": "Flower",
+      "degree": 19,
+      "mean_distance": 0.01555761687475686
+    },
+    {
+      "bead": "SeedBead",
+      "degree": 19,
+      "mean_distance": 0.01571504592439334
+    },
+    {
+      "bead": "Antique",
+      "degree": 19,
+      "mean_distance": 0.016349751723823826
+    },
+    {
+      "bead": "Neon",
+      "degree": 19,
+      "mean_distance": 0.01635103608903231
+    },
+    {
+      "bead": "GoldBead",
+      "degree": 19,
+      "mean_distance": 0.01686797567358421
+    },
+    {
+      "bead": "Shell",
+      "degree": 19,
+      "mean_distance": 0.017223517693478685
+    },
+    {
+      "bead": "Glass",
+      "degree": 19,
+      "mean_distance": 0.017418084198021922
+    },
+    {
+      "bead": "Star",
+      "degree": 19,
+      "mean_distance": 0.018795023700524122
+    },
+    {
+      "bead": "LetterA",
+      "degree": 19,
+      "mean_distance": 0.019254852121711588
+    },
+    {
+      "bead": "Heart",
+      "degree": 19,
+      "mean_distance": 0.019285542515671772
+    },
+    {
+      "bead": "Gemstone",
+      "degree": 19,
+      "mean_distance": 0.01944311266996119
+    },
+    {
+      "bead": "Bugle",
+      "degree": 19,
+      "mean_distance": 0.019633368927530974
+    },
+    {
+      "bead": "Acrylic",
+      "degree": 19,
+      "mean_distance": 0.021004704259908483
+    },
+    {
+      "bead": "Smile",
+      "degree": 19,
+      "mean_distance": 0.021468262249309155
+    },
+    {
+      "bead": "Crystal",
+      "degree": 19,
+      "mean_distance": 0.021731161000145882
+    },
+    {
+      "bead": "MetalSpacer",
+      "degree": 19,
+      "mean_distance": 0.02262678548624826
+    },
+    {
+      "bead": "Twisted",
+      "degree": 19,
+      "mean_distance": 0.023068994818563716
+    },
+    {
+      "bead": "Wood",
+      "degree": 19,
+      "mean_distance": 0.02430485314450848
+    },
+    {
+      "bead": "Pearl",
+      "degree": 19,
+      "mean_distance": 0.02553111975765936
+    }
+  ]
+}

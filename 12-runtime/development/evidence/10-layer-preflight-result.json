@@ -1,0 +1,71 @@
+{
+  "RESULT": "PASS",
+  "MODE": "10_LAYER_PREFLIGHT",
+  "EXECUTION": "ISOLATED",
+  "AUTO_PROMOTION": false,
+  "CORE_MUTATION": false,
+  "LAYERS": [
+    {
+      "LAYER": "01_collision_contract",
+      "STATUS": "PASS",
+      "RETURN_CODE": 0,
+      "RUNTIME_SEC": 0.165356,
+      "OUTPUT_TAIL": "{\n  \"RESULT\": \"PASS\",\n  \"MODE\": \"COLLISION_CONTRACT_V2\",\n  \"TEMPLATE\": false,\n  \"BEADS\": 20,\n  \"TEST_PAIR\": [\n    \"Flower\",\n    \"MetalSpacer\"\n  ],\n  \"COLLISION_BEFORE\": true,\n  \"DISTANCE_BEFORE\": 0.0,\n  \"CONTRACTIONS\": 4,\n  \"CONTRACTION_STEP\": 0.01,\n  \"MAX_CONTRACTIONS\": 10,\n  \"DISTANCE_AFTER\": 0.04,\n  \"COLLISION_AFTER\": false,\n  \"RESOLVED\": true\n}\nEVIDENCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/bead20-collision-contract-v2-result.json\n",
+      "ERROR_TAIL": ""
+    },
+    {
+      "LAYER": "02_repeatability",
+      "STATUS": "PASS",
+      "RETURN_CODE": 0,
+      "RUNTIME_SEC": 9.733646,
+      "OUTPUT_TAIL": "D\": 88,\n      \"INITIAL_COST\": 91.1506830276342,\n      \"BEST_COST\": 45.266111952430705,\n      \"FINAL_COST\": 45.266111952430705,\n      \"IMPROVEMENT_PERCENT\": 50.33925095360245,\n      \"ACCEPTED\": 180,\n      \"REJECTED\": 220,\n      \"COLLISIONS\": 0,\n      \"IMPROVED\": true\n    },\n    {\n      \"SEED\": 99,\n      \"INITIAL_COST\": 77.03112737312117,\n      \"BEST_COST\": 33.579833919549245,\n      \"FINAL_COST\": 33.579833919549245,\n      \"IMPROVEMENT_PERCENT\": 56.40744843718019,\n      \"ACCEPTED\": 183,\n      \"REJECTED\": 217,\n      \"COLLISIONS\": 0,\n      \"IMPROVED\": true\n    },\n    {\n      \"SEED\": 111,\n      \"INITIAL_COST\": 96.1084605440934,\n      \"BEST_COST\": 35.09175195871836,\n      \"FINAL_COST\": 35.09175195871836,\n      \"IMPROVEMENT_PERCENT\": 63.487343611524516,\n      \"ACCEPTED\": 198,\n      \"REJECTED\": 202,\n      \"COLLISIONS\": 0,\n      \"IMPROVED\": true\n    }\n  ]\n}\nEVIDENCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/bead20-self-fold-multiseed-result.json\n",
+      "ERROR_TAIL": ""
+    },
+    {
+      "LAYER": "03_structure_normalization",
+      "STATUS": "NOT_READY",
+      "RUNTIME_SEC": 1.4e-05
+    },
+    {
+      "LAYER": "04_convergence",
+      "STATUS": "PASS",
+      "RETURN_CODE": 0,
+      "RUNTIME_SEC": 9.5433,
+      "OUTPUT_TAIL": "RESULT=PASS\nMODE=SELF_FOLD_STRUCTURE_COMPARE\nTEMPLATE=false\nBEADS=20\nRUNS=10\nPAIR_COMPARISONS=45\nAVERAGE_RAW_RMSD=1.0624049994260165\nEVIDENCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/bead20-self-fold-compare-result.json\n",
+      "ERROR_TAIL": ""
+    },
+    {
+      "LAYER": "05_constraint_stress",
+      "STATUS": "NOT_READY",
+      "RUNTIME_SEC": 1.1e-05
+    },
+    {
+      "LAYER": "06_mutation_unit",
+      "STATUS": "NOT_READY",
+      "RUNTIME_SEC": 2e-06
+    },
+    {
+      "LAYER": "07_mutation_pair",
+      "STATUS": "NOT_READY",
+      "RUNTIME_SEC": 2e-06
+    },
+    {
+      "LAYER": "08_co_mutation",
+      "STATUS": "NOT_READY",
+      "RUNTIME_SEC": 2e-06
+    },
+    {
+      "LAYER": "09_propagation_selection",
+      "STATUS": "NOT_READY",
+      "RUNTIME_SEC": 2e-06
+    },
+    {
+      "LAYER": "10_relation_conservation",
+      "STATUS": "NOT_READY",
+      "RUNTIME_SEC": 2e-06
+    }
+  ],
+  "PASS": 3,
+  "FAIL": 0,
+  "NOT_READY": 7
+}

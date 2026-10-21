@@ -1,0 +1,460 @@
+=== PROTEIN ZIP PROVENANCE / LINEAGE AUDIT ===
+TIME=20260921_184605
+ZIP=expansion/incoming/protein-molecule-architecture.zip
+
+=== ZIP IDENTITY ===
+ecd8ff651acf1747b548aee86024d3e6304b71776d1a3034a247e07381e0c901  expansion/incoming/protein-molecule-architecture.zip
+-rw-------. 1 u0_a372 u0_a372 3.0K Sep 20 10:46 expansion/incoming/protein-molecule-architecture.zip
+
+=== ZIP METADATA ===
+Archive:  expansion/incoming/protein-molecule-architecture.zip
+There is no zipfile comment.
+
+End-of-central-directory record:
+-------------------------------
+
+  Zip archive file size:                      3049 (0000000000000BE9h)
+  Actual end-cent-dir record offset:          3027 (0000000000000BD3h)
+  Expected end-cent-dir record offset:        3027 (0000000000000BD3h)
+  (based on the length of the central directory and its expected offset)
+
+  This zipfile constitutes the sole disk of a single-part archive; its
+  central directory contains 7 entries.
+  The central directory is 595 (0000000000000253h) bytes long,
+  and its (expected) offset in bytes from the beginning of the zipfile
+  is 2432 (0000000000000980h).
+
+
+Central directory entry #1:
+---------------------------
+
+  protein/04-relation/protein-relation.state
+
+  offset of local header from start of archive:   0
+                                                  (0000000000000000h) bytes
+  file system or operating system of origin:      Unix
+  version of encoding software:                   2.0
+  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+  minimum software version required to extract:   2.0
+  compression method:                             deflated
+  compression sub-type (deflation):               normal
+  file security status:                           not encrypted
+  extended local header:                          no
+  file last modified on (DOS date/time):          2026 Sep 20 03:46:24
+  32-bit CRC value (hex):                         9de1f901
+  compressed size:                                287 bytes
+  uncompressed size:                              575 bytes
+  length of filename:                             42 characters
+  length of extra field:                          0 bytes
+  length of file comment:                         0 characters
+  disk number on which file begins:               disk 1
+  apparent file type:                             binary
+  Unix file attributes (100644 octal):            -rw-r--r--
+  MS-DOS file attributes (00 hex):                none
+
+  There is no file comment.
+
+Central directory entry #2:
+---------------------------
+
+  protein/11-molecules/BEAD-ARCHITECTURE.md
+
+  offset of local header from start of archive:   359
+                                                  (0000000000000167h) bytes
+  file system or operating system of origin:      Unix
+  version of encoding software:                   2.0
+  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+  minimum software version required to extract:   2.0
+  compression method:                             deflated
+  compression sub-type (deflation):               normal
+  file security status:                           not encrypted
+  extended local header:                          no
+  file last modified on (DOS date/time):          2026 Sep 20 03:46:24
+  32-bit CRC value (hex):                         fbc1abe1
+  compressed size:                                574 bytes
+  uncompressed size:                              1220 bytes
+  length of filename:                             41 characters
+  length of extra field:                          0 bytes
+  length of file comment:                         0 characters
+  disk number on which file begins:               disk 1
+  apparent file type:                             binary
+  Unix file attributes (100644 octal):            -rw-r--r--
+  MS-DOS file attributes (00 hex):                none
+
+  There is no file comment.
+
+Central directory entry #3:
+---------------------------
+
+  protein/11-molecules/live.molecule
+
+  offset of local header from start of archive:   1004
+                                                  (00000000000003ECh) bytes
+  file system or operating system of origin:      Unix
+  version of encoding software:                   2.0
+  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+  minimum software version required to extract:   2.0
+  compression method:                             deflated
+  compression sub-type (deflation):               normal
+  file security status:                           not encrypted
+  extended local header:                          no
+  file last modified on (DOS date/time):          2026 Sep 20 03:46:24
+  32-bit CRC value (hex):                         64263443
+  compressed size:                                148 bytes
+  uncompressed size:                              200 bytes
+  length of filename:                             34 characters
+  length of extra field:                          0 bytes
+  length of file comment:                         0 characters
+  disk number on which file begins:               disk 1
+  apparent file type:                             binary
+  Unix file attributes (100644 octal):            -rw-r--r--
+  MS-DOS file attributes (00 hex):                none
+
+  There is no file comment.
+
+Central directory entry #4:
+---------------------------
+
+  protein/11-molecules/bead-types/README
+
+  offset of local header from start of archive:   1216
+                                                  (00000000000004C0h) bytes
+  file system or operating system of origin:      Unix
+  version of encoding software:                   2.0
+  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+  minimum software version required to extract:   2.0
+  compression method:                             deflated
+  compression sub-type (deflation):               normal
+  file security status:                           not encrypted
+  extended local header:                          no
+  file last modified on (DOS date/time):          2026 Sep 20 03:46:24
+  32-bit CRC value (hex):                         1813defa
+  compressed size:                                297 bytes
+  uncompressed size:                              501 bytes
+  length of filename:                             38 characters
+  length of extra field:                          0 bytes
+  length of file comment:                         0 characters
+  disk number on which file begins:               disk 1
+  apparent file type:                             binary
+  Unix file attributes (100644 octal):            -rw-r--r--
+  MS-DOS file attributes (00 hex):                none
+
+  There is no file comment.
+
+Central directory entry #5:
+---------------------------
+
+  protein/12-runtime/state/molecule.state
+
+  offset of local header from start of archive:   1581
+                                                  (000000000000062Dh) bytes
+  file system or operating system of origin:      Unix
+  version of encoding software:                   2.0
+  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+  minimum software version required to extract:   2.0
+  compression method:                             deflated
+  compression sub-type (deflation):               normal
+  file security status:                           not encrypted
+  extended local header:                          no
+  file last modified on (DOS date/time):          2026 Sep 20 03:46:24
+  32-bit CRC value (hex):                         a897a65a
+  compressed size:                                156 bytes
+  uncompressed size:                              213 bytes
+  length of filename:                             39 characters
+  length of extra field:                          0 bytes
+  length of file comment:                         0 characters
+  disk number on which file begins:               disk 1
+  apparent file type:                             binary
+  Unix file attributes (100644 octal):            -rw-r--r--
+  MS-DOS file attributes (00 hex):                none
+
+  There is no file comment.
+
+Central directory entry #6:
+---------------------------
+
+  protein/12-runtime/state/folding.state
+
+  offset of local header from start of archive:   1806
+                                                  (000000000000070Eh) bytes
+  file system or operating system of origin:      Unix
+  version of encoding software:                   2.0
+  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+  minimum software version required to extract:   2.0
+  compression method:                             deflated
+  compression sub-type (deflation):               normal
+  file security status:                           not encrypted
+  extended local header:                          no
+  file last modified on (DOS date/time):          2026 Sep 20 03:46:24
+  32-bit CRC value (hex):                         5d5513be
+
+=== ZIP MEMBERS ===
+protein/04-relation/protein-relation.state
+protein/11-molecules/BEAD-ARCHITECTURE.md
+protein/11-molecules/live.molecule
+protein/11-molecules/bead-types/README
+protein/12-runtime/state/molecule.state
+protein/12-runtime/state/folding.state
+protein/06-promoter/bead-promotion/README
+
+=== ZIP COMMENTS ===
+Archive:  expansion/incoming/protein-molecule-architecture.zip
+
+=== MEMBER CONTENT / REFERENCES ===
+
+--- protein/04-relation/protein-relation.state ---
+# Protein relation state
+schema_version=1
+state_role=RELATION_AUTHORITY
+source_of_truth=protein/12-runtime/state/folding.state
+
+[molecule_chain]
+folding_state=protein/12-runtime/state/folding.state
+molecule_state=protein/12-runtime/state/molecule.state
+live_molecule=protein/11-molecules/live.molecule
+bead_counter=DERIVED
+bead_promotion=protein/06-promoter/bead-promotion
+
+[rules]
+relation_is_authoritative_for_relationships=true
+bead_counter_is_derived=true
+fiber_must_not_hardcode_bead_types=true
+canonical_mutation_requires_promoter=true
+promotion_requires_evidence=true
+
+--- protein/11-molecules/BEAD-ARCHITECTURE.md ---
+# Bead / Molecule Chain
+
+## Canonical roles
+
+- `12-runtime/state/folding.state` is the authoritative source state.
+- `12-runtime/state/molecule.state` is derived runtime bookkeeping.
+- `11-molecules/live.molecule` is the current materialized molecule.
+- `04-relation/protein-relation.state` is the authority for relationships.
+- `BEADS` is a derived counter, not a source of truth.
+- `06-promoter/bead-promotion/` is the canonical mutation boundary.
+
+## Lifecycle
+
+```text
+source
+  -> collect
+  -> classify
+  -> relate
+  -> validate
+  -> promote
+  -> materialize
+  -> derive runtime state
+  -> evidence
+```
+
+## Important boundary
+
+The current `folding.state` is state bookkeeping. It must not be described as
+a computational folding engine until an actual computation, validation, and
+evidence chain exists.
+
+## Bead types
+
+The architecture reserves 20 type slots:
+
+```text
+type-01 ... type-20
+```
+
+Fibers operate on the generic bead abstraction and must not hard-code the 20
+types.
+
+## Reconciliation
+
+If the bead counter disagrees with canonical state, do not manually adjust the
+counter. Reconcile:
+
+```text
+folding.state
+-> molecule.state
+-> live.molecule
+-> relation
+-> evidence
+```
+
+Then regenerate derived state.
+
+--- protein/11-molecules/live.molecule ---
+schema_version=1
+state_role=MATERIALIZED_MOLECULE
+source=protein/12-runtime/state/folding.state
+relation=protein/04-relation/protein-relation.state
+status=EMPTY
+bead_count=0
+last_promotion=
+evidence=
+
+--- protein/11-molecules/bead-types/README ---
+BEAD TYPE REGISTRY
+
+This directory contains the definitions for the supported bead types.
+
+The architecture reserves type-01 through type-20 without requiring the
+execution fibers to hard-code individual types.
+
+Each type should describe:
+- type identifier
+- canonical name
+- source/derivation
+- validation requirements
+- relation metadata
+- evidence requirements
+
+Do not create a type directory merely to increase the counter. A type becomes
+active only when a validated canonical definition exists.
+
+--- protein/12-runtime/state/molecule.state ---
+schema_version=1
+state_role=DERIVED_RUNTIME_BOOKKEEPING
+source=protein/12-runtime/state/folding.state
+relation=protein/04-relation/protein-relation.state
+status=EMPTY
+revision=0
+bead_count=0
+updated_at=
+evidence=
+
+--- protein/12-runtime/state/folding.state ---
+schema_version=1
+state_role=AUTHORITATIVE_FOLDING_INPUT_STATE
+status=INITIAL
+revision=0
+source=
+sequence=
+folding_state=
+updated_at=
+evidence=
+
+--- protein/06-promoter/bead-promotion/README ---
+BEAD PROMOTION BOUNDARY
+
+Role:
+Promote validated bead/molecule changes into canonical Protein state.
+
+Required flow:
+RECEIVED -> CLASSIFIED -> RELATED -> VALIDATED -> PROMOTED
+
+Rules:
+- Do not edit folding.state directly as a promotion shortcut.
+- Do not increment BEADS directly.
+- Preserve source and hash evidence for every promotion.
+- Update relation state before declaring promotion complete.
+- Derived counters must be reconciled from canonical state.
+
+This directory defines the boundary; executable promotion logic may be added
+after the current implementation is inventoried and verified.
+
+=== INCOMING INTERNAL REFERENCES ===
+
+--- REFERENCES FROM protein/04-relation/protein-relation.state ---
+# Protein relation state
+schema_version=1
+state_role=RELATION_AUTHORITY
+source_of_truth=protein/12-runtime/state/folding.state
+folding_state=protein/12-runtime/state/folding.state
+molecule_state=protein/12-runtime/state/molecule.state
+live_molecule=protein/11-molecules/live.molecule
+bead_counter=DERIVED
+bead_promotion=protein/06-promoter/bead-promotion
+relation_is_authoritative_for_relationships=true
+bead_counter_is_derived=true
+promotion_requires_evidence=true
+
+--- REFERENCES FROM protein/11-molecules/BEAD-ARCHITECTURE.md ---
+- `12-runtime/state/folding.state` is the authoritative source state.
+- `12-runtime/state/molecule.state` is derived runtime bookkeeping.
+- `11-molecules/live.molecule` is the current materialized molecule.
+- `04-relation/protein-relation.state` is the authority for relationships.
+- `BEADS` is a derived counter, not a source of truth.
+- `06-promoter/bead-promotion/` is the canonical mutation boundary.
+source
+  -> derive runtime state
+The current `folding.state` is state bookkeeping. It must not be described as
+a computational folding engine until an actual computation, validation, and
+Fibers operate on the generic bead abstraction and must not hard-code the 20
+If the bead counter disagrees with canonical state, do not manually adjust the
+folding.state
+-> molecule.state
+-> relation
+Then regenerate derived state.
+
+--- REFERENCES FROM protein/11-molecules/live.molecule ---
+schema_version=1
+state_role=MATERIALIZED_MOLECULE
+source=protein/12-runtime/state/folding.state
+relation=protein/04-relation/protein-relation.state
+bead_count=0
+
+--- REFERENCES FROM protein/11-molecules/bead-types/README ---
+This directory contains the definitions for the supported bead types.
+- source/derivation
+- relation metadata
+
+--- REFERENCES FROM protein/12-runtime/state/molecule.state ---
+schema_version=1
+state_role=DERIVED_RUNTIME_BOOKKEEPING
+source=protein/12-runtime/state/folding.state
+relation=protein/04-relation/protein-relation.state
+revision=0
+bead_count=0
+
+--- REFERENCES FROM protein/12-runtime/state/folding.state ---
+schema_version=1
+state_role=AUTHORITATIVE_FOLDING_INPUT_STATE
+revision=0
+source=
+folding_state=
+
+--- REFERENCES FROM protein/06-promoter/bead-promotion/README ---
+Promote validated bead/molecule changes into canonical Protein state.
+- Do not edit folding.state directly as a promotion shortcut.
+- Preserve source and hash evidence for every promotion.
+- Update relation state before declaring promotion complete.
+- Derived counters must be reconciled from canonical state.
+This directory defines the boundary; executable promotion logic may be added
+
+=== CURRENT GIT IDENTITY ===
+main
+/data/data/com.termux/files/home/.config/dynu-audit
+1160ca646539644a5f8bc6f14ad3c265289b9c42
+
+=== CURRENT GIT RECENT HISTORY ===
+a835be2 checkpoint: lock protein architecture boundary
+
+=== CURRENT FILE HISTORY ===
+
+--- protein/04-relation/protein-relation.state ---
+The program git is not installed. Install it by executing:
+ pkg install git
+
+--- protein/11-molecules/live.molecule ---
+The program git is not installed. Install it by executing:
+ pkg install git
+
+--- protein/12-runtime/state/molecule.state ---
+The program git is not installed. Install it by executing:
+ pkg install git
+
+--- protein/12-runtime/state/folding.state ---
+The program git is not installed. Install it by executing:
+ pkg install git
+
+=== SEARCH CURRENT REPO FOR INCOMING SCHEMA TERMS ===
+
+=== SEARCH CURRENT REPO FOR INCOMING FIELD NAMES ===
+
+=== SOURCE / BRANCH EVIDENCE IN ZIP ===
+
+=== SAFETY RESULT ===
+ZIP WAS NOT EXTRACTED
+CURRENT FILES WERE NOT MODIFIED
+NO MERGE
+NO OVERWRITE
+NO DELETE
+=== END PROVENANCE / LINEAGE AUDIT ===

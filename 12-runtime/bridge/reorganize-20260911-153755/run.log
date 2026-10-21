@@ -1,0 +1,113 @@
+=== PROTEIN REORGANIZATION ===
+TIME=20260911-153755
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+
+=== PRECHECK ===
+PRECHECK=PASS
+
+=== GIT BEFORE ===
+?? protein-classifier.sh
+?? protein-cost-evaluator.sh
+?? protein-demand.sh
+?? protein-dissector.sh
+?? protein-engine.sh
+?? protein-evolution.sh
+?? protein-healer.sh
+?? protein-metabolism.sh
+?? protein-omniscience.zsh
+?? protein-overview.sh
+?? protein-reorganize.sh
+?? protein-replicator.sh
+?? protein-sentinel.sh
+?? protein-status.sh
+?? protein-verifier.sh
+?? protein/
+?? prototype/
+
+=== CURRENT STRUCTURE ===
+76 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/bridge/reorganize-20260911-153755/tree.before
+
+=== REQUIRED GROUPS ===
+SOURCE=preserve
+RAW=raw
+RESOURCE=protein/11-molecules
+EVIDENCE=evidence
+RUN=protein/12-runtime/bridge
+STATE=state + protein/12-runtime/state
+REPORT=reports
+LEGACY=legacy
+MAP=protein/00-core/map
+RELATION=protein/04-relation
+DECISION=protein/10-governor
+
+=== EXISTING DATA PRESERVED ===
+FOUND raw
+FOUND evidence
+FOUND runs
+FOUND reports
+FOUND state
+FOUND legacy
+FOUND protein/11-molecules
+FOUND protein/12-runtime/bridge
+FOUND protein/12-runtime/state
+FOUND protein/00-core/map
+FOUND protein/04-relation
+FOUND protein/10-governor
+
+=== RUN CAPSULES ===
+
+=== MAP ===
+MAP_PROVENANCE=NOT_FOUND
+
+=== AWS STATUS ===
+
+=== CORE ROUTES ===
+PASS system
+PASS memory
+PASS storage
+PASS process
+PASS network
+PASS dns
+PASS git
+PASS projects
+ROUTES_EXPECTED=8
+ROUTES_PASSED=8
+ROUTES_FAILED=0
+
+=== REORGANIZATION POLICY ===
+SOURCE: immutable
+RAW: immutable
+SUCCESS BASELINES: immutable
+RUN CAPSULES: immutable
+LEGACY: reference-only
+UNKNOWN: not moved automatically
+EXECUTABLES: not moved automatically
+ACTIVE PROJECT FILES: not moved automatically
+
+=== HASH OF PRE-STATE ===
+=== RESULT ===
+CORE_ROUTES=PASS
+REORGANIZATION=STRUCTURE_PREPARED
+NO_EXISTING_DATA_MOVED=YES
+NO_EXISTING_DATA_DELETED=YES
+
+=== GIT AFTER ===
+?? protein-classifier.sh
+?? protein-cost-evaluator.sh
+?? protein-demand.sh
+?? protein-dissector.sh
+?? protein-engine.sh
+?? protein-evolution.sh
+?? protein-healer.sh
+?? protein-metabolism.sh
+?? protein-omniscience.zsh
+?? protein-overview.sh
+?? protein-reorganize.sh
+?? protein-replicator.sh
+?? protein-sentinel.sh
+?? protein-status.sh
+?? protein-verifier.sh
+?? protein/
+?? prototype/
+
+RUN_CAPSULE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/bridge/reorganize-20260911-153755

@@ -1,0 +1,17 @@
+{
+  "RESULT": "FAIL",
+  "MODE": "COLLISION_CONTRACT",
+  "TEMPLATE": false,
+  "BEADS": 20,
+  "TEST_PAIR": [
+    "Flower",
+    "MetalSpacer"
+  ],
+  "COLLISION_BEFORE": true,
+  "DISTANCE_BEFORE": 0.0,
+  "CONTRACTION": 0.01,
+  "DISTANCE_AFTER": 0.01,
+  "COLLISION_AFTER": true,
+  "CONTRACTED": true,
+  "RESOLVED": false
+}

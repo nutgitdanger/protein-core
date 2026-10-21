@@ -1,0 +1,34 @@
+DEVELOPMENT_PREPARATION=COMPLETE
+TIMESTAMP=20260914_215555
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+CORE_MUTATION=NO
+CORE_DELETE=NO
+CORE_MOVE=NO
+AWS_MUTATION=NO
+ENGINE_EXECUTION=NO
+BACKGROUND_START=NO
+ROLLBACK_PATH=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/rollback
+
+=== DEVELOPMENT ===
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/benchmark
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidate
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/experiment
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/manifests
+
+=== QUARANTINE ===
+/data/data/com.termux/files/home/.config/dynu-audit/protein/07-quarantine/development
+
+=== ROLLBACK ===
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/rollback
+
+=== PROTECTED ROOTS ===
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/00-core
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/04-relation
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/05-validator
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/07-quarantine
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/08-cleaner
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/10-governor
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime
+PRESENT /data/data/com.termux/files/home/recovery

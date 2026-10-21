@@ -1,0 +1,239 @@
+{
+  "type": "bead20-backbone",
+  "source": "protein/12-runtime/development/relation/bead20/bead20-relation.json",
+  "nodes": 20,
+  "source_relations": 190,
+  "nearest_per_node": 3,
+  "backbone_edges": 41,
+  "components": [
+    [
+      "Acrylic",
+      "Antique",
+      "Bugle",
+      "Crystal",
+      "Facet",
+      "Flower",
+      "Gemstone",
+      "Glass",
+      "GoldBead",
+      "Heart",
+      "LetterA",
+      "MetalSpacer",
+      "Neon",
+      "Pearl",
+      "SeedBead",
+      "Shell",
+      "Smile",
+      "Star",
+      "Twisted",
+      "Wood"
+    ]
+  ],
+  "edges": [
+    {
+      "from": "Acrylic",
+      "to": "Bugle",
+      "distance": 0.011658549582751216
+    },
+    {
+      "from": "Acrylic",
+      "to": "Flower",
+      "distance": 0.012735332864980851
+    },
+    {
+      "from": "Acrylic",
+      "to": "Twisted",
+      "distance": 0.01889333029221847
+    },
+    {
+      "from": "Acrylic",
+      "to": "Wood",
+      "distance": 0.012237650757362386
+    },
+    {
+      "from": "Antique",
+      "to": "Facet",
+      "distance": 0.006218367281752122
+    },
+    {
+      "from": "Antique",
+      "to": "GoldBead",
+      "distance": 0.00598958841050153
+    },
+    {
+      "from": "Antique",
+      "to": "Heart",
+      "distance": 0.006321864728816482
+    },
+    {
+      "from": "Antique",
+      "to": "Shell",
+      "distance": 0.004443066241982829
+    },
+    {
+      "from": "Bugle",
+      "to": "Crystal",
+      "distance": 0.0070468091562791504
+    },
+    {
+      "from": "Bugle",
+      "to": "Twisted",
+      "distance": 0.00742155798153243
+    },
+    {
+      "from": "Crystal",
+      "to": "Facet",
+      "distance": 0.017317622632559374
+    },
+    {
+      "from": "Crystal",
+      "to": "Twisted",
+      "distance": 0.0037620847685412135
+    },
+    {
+      "from": "Facet",
+      "to": "Gemstone",
+      "distance": 0.01557323329365656
+    },
+    {
+      "from": "Facet",
+      "to": "GoldBead",
+      "distance": 0.008848347945240562
+    },
+    {
+      "from": "Facet",
+      "to": "Neon",
+      "distance": 0.007068924184011242
+    },
+    {
+      "from": "Facet",
+      "to": "SeedBead",
+      "distance": 0.00779766668555544
+    },
+    {
+      "from": "Facet",
+      "to": "Shell",
+      "distance": 0.00692522724567576
+    },
+    {
+      "from": "Flower",
+      "to": "Glass",
+      "distance": 0.007267781656304182
+    },
+    {
+      "from": "Flower",
+      "to": "SeedBead",
+      "distance": 0.009479164988113388
+    },
+    {
+      "from": "Flower",
+      "to": "Smile",
+      "distance": 0.012724670854877732
+    },
+    {
+      "from": "Flower",
+      "to": "Star",
+      "distance": 0.007718213609059907
+    },
+    {
+      "from": "Flower",
+      "to": "Wood",
+      "distance": 0.01442485166392542
+    },
+    {
+      "from": "Gemstone",
+      "to": "GoldBead",
+      "distance": 0.014282159176795678
+    },
+    {
+      "from": "Gemstone",
+      "to": "MetalSpacer",
+      "distance": 0.010203628246917949
+    },
+    {
+      "from": "Gemstone",
+      "to": "Pearl",
+      "distance": 0.01798188667691123
+    },
+    {
+      "from": "Glass",
+      "to": "SeedBead",
+      "distance": 0.010300970056590473
+    },
+    {
+      "from": "Glass",
+      "to": "Smile",
+      "distance": 0.01431827543571912
+    },
+    {
+      "from": "Glass",
+      "to": "Star",
+      "distance": 0.005028261313832989
+    },
+    {
+      "from": "GoldBead",
+      "to": "Heart",
+      "distance": 0.005875555324965528
+    },
+    {
+      "from": "GoldBead",
+      "to": "MetalSpacer",
+      "distance": 0.013840285814401918
+    },
+    {
+      "from": "GoldBead",
+      "to": "Pearl",
+      "distance": 0.018833534307083028
+    },
+    {
+      "from": "Heart",
+      "to": "MetalSpacer",
+      "distance": 0.011293101557842288
+    },
+    {
+      "from": "Heart",
+      "to": "Shell",
+      "distance": 0.010172080536932325
+    },
+    {
+      "from": "LetterA",
+      "to": "Neon",
+      "distance": 0.004302670630918046
+    },
+    {
+      "from": "LetterA",
+      "to": "SeedBead",
+      "distance": 0.00871946887765086
+    },
+    {
+      "from": "LetterA",
+      "to": "Shell",
+      "distance": 0.009578308180094206
+    },
+    {
+      "from": "Neon",
+      "to": "SeedBead",
+      "distance": 0.005811724482396072
+    },
+    {
+      "from": "Neon",
+      "to": "Shell",
+      "distance": 0.0075430565177385086
+    },
+    {
+      "from": "Pearl",
+      "to": "Smile",
+      "distance": 0.008956797868060832
+    },
+    {
+      "from": "SeedBead",
+      "to": "Star",
+      "distance": 0.01085806995760324
+    },
+    {
+      "from": "Star",
+      "to": "Wood",
+      "distance": 0.01192910594608481
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+TYPE=SYMLINK_RELATION_BEAD_AXIS
+STATUS=CAPTURED
+TIMESTAMP=20260926_153833
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/symlink-axis.20260926_153833.raw
+RELATIONS=103
+TARGET_GROUPS=56
+AXIS=TARGET_CONVERGENCE
+MODE=OBSERVE_AND_GROUP
+
+=== HIGH-CONVERGENCE TARGETS ===
+6	/data/data/com.termux/files/home/.config/dynu-audit
+5	/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+5	/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+4	python3
+4	/data/data/com.termux/files/home/recovery
+4	/data/data/com.termux/files/home/ai-router
+4	/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+3	/data/data/com.termux/files/home/.config/dynu-audit/protein-orphan-reaper.sh
+2	/usr/bin/python3
+2	/data/data/com.termux/files/home/protein-prototype-backup
+2	/data/data/com.termux/files/home/protein-lite
+2	/data/data/com.termux/files/home/network
+2	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/11-molecules
+2	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/11-molecules
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-system-info.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-storage-formatter.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-process-audit.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-nib.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-network-monitor.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-network-deep.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-load-inspector.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-load-cleanup.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-live-stream.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-kernel-audit.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-hardware-sensors.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-full-audit.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-deep-inspect.sh
+2	/data/data/com.termux/files/home/.config/dynu-audit/protein-battery-storage.sh
+1	shared/venv
+1	/data/data/com.termux/files/home/nutdata

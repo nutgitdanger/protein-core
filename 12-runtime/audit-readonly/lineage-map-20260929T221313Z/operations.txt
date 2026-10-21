@@ -1,0 +1,12 @@
+--- IMPORTANT OPERATIONS ---
+7:mkdir -p "$LOG_DIR"
+8:ENGINE_LOG="$LOG_DIR/engine-$STAMP.log"
+11:    echo "[$(date +'%T')] $1" | tee -a "$ENGINE_LOG"
+18:uptime > "$PROTEIN_HOME/01-observer/metrics/uptime.txt"
+19:free -h > "$PROTEIN_HOME/01-observer/metrics/memory.txt"
+20:ps -ef | grep -E 'dynu|protein|pm2' | grep -v grep > "$PROTEIN_HOME/01-observer/metrics/active-processes.txt" || true
+24:find "$HOME/.config/dynu-audit" -maxdepth 2 -type f > "$PROTEIN_HOME/02-collector/inventory/dynu-files.txt" 2>/dev/null || true
+33:            echo "$p: VALID ($(readlink "$PROTEIN_HOME/projects/$p"))"
+42:find "$PROTEIN_HOME/07-quarantine" -type f -mtime +7 -delete 2>/dev/null || true
+46:REPORT_FILE="$PROTEIN_HOME/09-verifier/reports/health-$STAMP.txt"
+56:} > "$REPORT_FILE"

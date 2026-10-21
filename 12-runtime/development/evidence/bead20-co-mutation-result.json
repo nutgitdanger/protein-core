@@ -1,0 +1,13 @@
+{
+  "RESULT": "PASS",
+  "MODE": "CO_MUTATION",
+  "PARENT_SIZE": 20,
+  "MUTANT_SIZE": 20,
+  "CHANGED_POSITIONS": [
+    0,
+    1
+  ],
+  "CHANGE_COUNT": 2,
+  "CO_MUTATION": true,
+  "UNIQUE_PRESERVED": true
+}

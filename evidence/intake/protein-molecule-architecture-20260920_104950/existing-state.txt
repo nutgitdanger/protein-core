@@ -1,0 +1,8 @@
+protein/04-relation/protein-relation.state  1789150828 367
+2180ff0434e53ac106ef48b7ed5d89cb5e47bab53baa2efd12d94202bb169af6  /data/data/com.termux/files/home/.config/dynu-audit/protein/04-relation/protein-relation.state
+protein/11-molecules/live.molecule  1789741007 183
+7c3b69630780b432b359202e618a95e4c00a9443491fb6784f8343b03529e33a  /data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/live.molecule
+protein/12-runtime/state/folding.state  1789805619 143
+6283e7dd130c2c17ae3ddd17b22e33af5ea3ccf8984e095f9bd7295781af540b  /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+protein/12-runtime/state/molecule.state  1789741007 182
+acf9c1a2ec1debf0e29e653b829c926b6e5d3c37ddc99dd2fee4f24c80cb3960  /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state

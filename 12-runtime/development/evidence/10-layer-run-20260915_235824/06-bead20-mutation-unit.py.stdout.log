@@ -1,0 +1,11 @@
+{
+  "RESULT": "PASS",
+  "MODE": "MUTATION_UNIT",
+  "BEADS": 20,
+  "CHANGED_POSITIONS": 2,
+  "PARENT_UNIQUE": 20,
+  "MUTANT_UNIQUE": 20,
+  "SINGLE_EVENT": true,
+  "VALID": true
+}
+EVIDENCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/bead20-mutation-unit-result.json

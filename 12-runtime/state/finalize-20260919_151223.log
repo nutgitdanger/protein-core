@@ -1,0 +1,111 @@
+========== FINALIZE START ==========
+TIMESTAMP=20260919_151223
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+USER=u0_a372
+HOST=localhost
+
+--- GIT BEFORE ---
+ M protein/00-core/map/bridge
+ M protein/00-core/map/governor
+ M protein/00-core/map/manifest.txt
+ M protein/11-molecules/live.molecule
+ D protein/12-runtime/bridge/reorganize-20260911-153755/aws.route
+ D protein/12-runtime/bridge/reorganize-20260911-165233/aws.route
+ M protein/12-runtime/state/folding.result
+ M protein/12-runtime/state/folding.state
+ M protein/12-runtime/state/molecule.state
+ D protein/projects/nutdata
+?? protein/08-cleaner/receipts/engine-20260912_005739.log
+?? protein/08-cleaner/receipts/engine-20260912_032812.log
+?? protein/08-cleaner/receipts/engine-20260912_032816.log
+?? protein/08-cleaner/receipts/engine-20260912_033057.log
+?? protein/08-cleaner/receipts/engine-20260918_204447.log
+?? protein/08-cleaner/receipts/healer-20260916_003957.log
+?? protein/08-cleaner/receipts/healer-20260916_005627.log
+?? protein/11-molecules/beads/bead-3.state
+?? protein/12-runtime/bridge/reorganize-20260911-153755/aws-route.route
+?? protein/12-runtime/bridge/reorganize-20260911-165233/aws-route.route
+?? protein/12-runtime/development/
+?? protein/12-runtime/state/audit-evidence/
+?? protein/12-runtime/state/finalize-20260919_151223.log
+?? protein/12-runtime/state/nib-evidence/
+?? protein/STRUCTURE.md
+?? protein/projects/nutdata-project
+?? protein/raw/
+
+--- ENGINE ---
+ENGINE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/fibers/02-folding-engine.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+SYNTAX_RC=0
+
+--- COUNTS BEFORE ---
+FIBERS=1
+MOLECULES=6
+STATES=15
+
+--- FOLD RUN ---
+>>> FOLDING
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+PROTEIN=/data/data/com.termux/files/home/.config/dynu-audit/protein
+[OK] folding state written
+ENGINE=folding
+STATUS=FOLDED
+TIMESTAMP=20260919_151223
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+FIBERS=1
+MOLECULES=6
+STATES=15
+ENGINE_RC=0
+
+--- FOLD STATE ---
+ENGINE=folding
+STATUS=FOLDED
+TIMESTAMP=20260919_151223
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+FIBERS=1
+MOLECULES=6
+STATES=15
+
+--- FOLD RESULT ---
+FOLDING_RESULT=OK
+TIMESTAMP=20260919_151223
+FIBERS=1
+MOLECULES=6
+STATES=15
+
+--- GIT AFTER ---
+ M protein/00-core/map/bridge
+ M protein/00-core/map/governor
+ M protein/00-core/map/manifest.txt
+ M protein/11-molecules/live.molecule
+ D protein/12-runtime/bridge/reorganize-20260911-153755/aws.route
+ D protein/12-runtime/bridge/reorganize-20260911-165233/aws.route
+ M protein/12-runtime/state/folding.result
+ M protein/12-runtime/state/folding.state
+ M protein/12-runtime/state/molecule.state
+ D protein/projects/nutdata
+?? protein/08-cleaner/receipts/engine-20260912_005739.log
+?? protein/08-cleaner/receipts/engine-20260912_032812.log
+?? protein/08-cleaner/receipts/engine-20260912_032816.log
+?? protein/08-cleaner/receipts/engine-20260912_033057.log
+?? protein/08-cleaner/receipts/engine-20260918_204447.log
+?? protein/08-cleaner/receipts/healer-20260916_003957.log
+?? protein/08-cleaner/receipts/healer-20260916_005627.log
+?? protein/11-molecules/beads/bead-3.state
+?? protein/12-runtime/bridge/reorganize-20260911-153755/aws-route.route
+?? protein/12-runtime/bridge/reorganize-20260911-165233/aws-route.route
+?? protein/12-runtime/development/
+?? protein/12-runtime/state/audit-evidence/
+?? protein/12-runtime/state/finalize-20260919_151223.log
+?? protein/12-runtime/state/nib-evidence/
+?? protein/STRUCTURE.md
+?? protein/projects/nutdata-project
+?? protein/raw/
+
+--- FOLD FILES ---
+ M protein/12-runtime/state/folding.result
+ M protein/12-runtime/state/folding.state
+
+--- FINAL CHECK ---
+FINAL_STATUS=OK
+========== FINALIZE END ==========

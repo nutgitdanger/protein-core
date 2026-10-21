@@ -1,0 +1,9 @@
+JOB_ID=folding-fc39e9e14e3db84f895d38064f70e03c2c7f502056489fe059f5d404658f6e2a
+INPUT_SHA256=fc39e9e14e3db84f895d38064f70e03c2c7f502056489fe059f5d404658f6e2a
+METHOD=folding
+PARAMS=default
+DEPENDENCY=none
+GENERATION=1
+CREATED=20260930T132050Z
+STATUS=READY
+INPUT_REF=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state

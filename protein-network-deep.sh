@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+echo "====================================================================="
+echo "           🧬 PROTEIN ACTIVE SOCKETS & INTERFACES AUDIT             "
+echo "====================================================================="
+echo "[🌐 ACTIVE NETWORK INTERFACES]"
+ip -4 addr show 2>/dev/null || ifconfig 2>/dev/null || echo "Interface query restricted."
+echo "---------------------------------------------------------------------"
+echo "[🔌 ACTIVE TCP/UDP SOCKETS]"
+ss -tuln 2>/dev/null || netstat -tuln 2>/dev/null || echo "Socket query restricted."
+echo "====================================================================="

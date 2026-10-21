@@ -1,0 +1,112 @@
+========== PROTEIN COMPLETE AUDIT ==========
+TIMESTAMP=20260919_151304
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+HOST=localhost
+USER=u0_a372
+
+--- ENGINE LINK ---
+ENGINE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/fibers/02-folding-engine.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+ENGINE_EXISTS_RC=0
+
+--- SYNTAX ---
+ZSH_SYNTAX_RC=0
+BASH_SYNTAX_RC=0
+
+--- INVENTORY BEFORE ---
+FIBERS=1
+MOLECULES=6
+STATES=16
+TOTAL_PROTEIN_FILES=187
+
+--- ENGINE RUN ---
+>>> FOLDING
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+PROTEIN=/data/data/com.termux/files/home/.config/dynu-audit/protein
+[OK] folding state written
+ENGINE=folding
+STATUS=FOLDED
+TIMESTAMP=20260919_151304
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+FIBERS=1
+MOLECULES=6
+STATES=16
+ENGINE_RC=0
+
+--- FINAL STATE ---
+ENGINE=folding
+STATUS=FOLDED
+TIMESTAMP=20260919_151304
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+FIBERS=1
+MOLECULES=6
+STATES=16
+
+--- FINAL RESULT ---
+FOLDING_RESULT=OK
+TIMESTAMP=20260919_151304
+FIBERS=1
+MOLECULES=6
+STATES=16
+
+--- DESTRUCTIVE OPS IN ACTIVE ENGINE ---
+DESTRUCTIVE_SCAN_DONE=YES
+
+--- WRITE TARGETS ---
+9:print ">>> FOLDING"
+42:} > "$STATE"
+50:} > "$OUT"
+
+--- GIT PROTEIN STATUS ---
+ M protein/00-core/map/bridge
+ M protein/00-core/map/governor
+ M protein/00-core/map/manifest.txt
+ M protein/11-molecules/live.molecule
+ D protein/12-runtime/bridge/reorganize-20260911-153755/aws.route
+ D protein/12-runtime/bridge/reorganize-20260911-165233/aws.route
+ M protein/12-runtime/state/folding.result
+ M protein/12-runtime/state/folding.state
+ M protein/12-runtime/state/molecule.state
+ D protein/projects/nutdata
+?? protein/08-cleaner/receipts/engine-20260912_005739.log
+?? protein/08-cleaner/receipts/engine-20260912_032812.log
+?? protein/08-cleaner/receipts/engine-20260912_032816.log
+?? protein/08-cleaner/receipts/engine-20260912_033057.log
+?? protein/08-cleaner/receipts/engine-20260918_204447.log
+?? protein/08-cleaner/receipts/healer-20260916_003957.log
+?? protein/08-cleaner/receipts/healer-20260916_005627.log
+?? protein/11-molecules/beads/bead-3.state
+?? protein/12-runtime/bridge/reorganize-20260911-153755/aws-route.route
+?? protein/12-runtime/bridge/reorganize-20260911-165233/aws-route.route
+?? protein/12-runtime/development/
+?? protein/12-runtime/state/audit-evidence/
+?? protein/12-runtime/state/complete-audit-20260919_151304.log
+?? protein/12-runtime/state/finalize-20260919_151223.log
+?? protein/12-runtime/state/nib-evidence/
+?? protein/STRUCTURE.md
+?? protein/projects/nutdata-project
+?? protein/raw/
+
+--- FOLD STATUS ---
+ M protein/12-runtime/state/folding.result
+ M protein/12-runtime/state/folding.state
+
+--- DIFF STAT ---
+ protein/00-core/map/bridge                                    |  2 +-
+ protein/00-core/map/governor                                  |  2 +-
+ protein/00-core/map/manifest.txt                              |  2 +-
+ protein/11-molecules/live.molecule                            | 11 ++++++-----
+ .../12-runtime/bridge/reorganize-20260911-153755/aws.route    |  0
+ .../12-runtime/bridge/reorganize-20260911-165233/aws.route    |  0
+ protein/12-runtime/state/folding.result                       |  6 +++---
+ protein/12-runtime/state/folding.state                        |  6 +++---
+ protein/12-runtime/state/molecule.state                       | 10 +++++-----
+ protein/projects/nutdata                                      |  1 -
+ 10 files changed, 20 insertions(+), 20 deletions(-)
+
+--- FINAL VALIDATION ---
+ENGINE=OK
+STATE=OK
+RESULT=OK
+FINAL_STATUS=OK
+========== END COMPLETE AUDIT ==========

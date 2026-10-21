@@ -1,0 +1,428 @@
+TYPE=LIVE_RELATION_CAPTURE
+STATUS=CAPTURED
+TIMESTAMP=20260930_072940
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+SOURCE_AXIS=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/symlink-axis.latest
+MODE=OBSERVE_PRESERVE
+
+=== ROOT ===
+/data/data/com.termux/files/home/.config/dynu-audit
+
+=== EXISTING_BEADS ===
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-1.state
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-2.state
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-3.state
+
+=== RELATION_EDGES ===
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/ai-router
+TARGET=/data/data/com.termux/files/home/ai-router
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/ai-router	/data/data/com.termux/files/home/ai-router
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns	/data/data/com.termux/files/home/.config/dynu-audit
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu	/data/data/com.termux/files/home/.config/dynu-audit
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/network
+TARGET=/data/data/com.termux/files/home/network
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/network	/data/data/com.termux/files/home/network
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/recovery
+TARGET=/data/data/com.termux/files/home/recovery
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/recovery	/data/data/com.termux/files/home/recovery
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/bead20
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/bead20-result.txt
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/bead20	/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/bead20-result.txt
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/molecules
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/molecules	/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/bridge
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/bridge
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/bridge	/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/bridge
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/governor
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein/10-governor
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/governor	/data/data/com.termux/files/home/.config/dynu-audit/protein/10-governor
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/manifest.txt
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein/02-collector/inventory/scripts-manifest.txt
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/manifest.txt	/data/data/com.termux/files/home/.config/dynu-audit/protein/02-collector/inventory/scripts-manifest.txt
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/sys-info
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-system-info.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/sys-info	/data/data/com.termux/files/home/.config/dynu-audit/protein-system-info.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/full-audit
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-full-audit.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/full-audit	/data/data/com.termux/files/home/.config/dynu-audit/protein-full-audit.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/net-monitor
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-network-monitor.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/net-monitor	/data/data/com.termux/files/home/.config/dynu-audit/protein-network-monitor.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/proc-audit
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-process-audit.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/proc-audit	/data/data/com.termux/files/home/.config/dynu-audit/protein-process-audit.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/hw-sensors
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-hardware-sensors.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/hw-sensors	/data/data/com.termux/files/home/.config/dynu-audit/protein-hardware-sensors.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/battery-storage
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-battery-storage.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/battery-storage	/data/data/com.termux/files/home/.config/dynu-audit/protein-battery-storage.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/storage-format
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-storage-formatter.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/storage-format	/data/data/com.termux/files/home/.config/dynu-audit/protein-storage-formatter.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/kernel-audit
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-kernel-audit.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/kernel-audit	/data/data/com.termux/files/home/.config/dynu-audit/protein-kernel-audit.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/net-deep
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-network-deep.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/net-deep	/data/data/com.termux/files/home/.config/dynu-audit/protein-network-deep.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/master-status
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/master-status	/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/blueprint
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/blueprint	/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/live
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-live-stream.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/live	/data/data/com.termux/files/home/.config/dynu-audit/protein-live-stream.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/load-inspect
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-load-inspector.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/load-inspect	/data/data/com.termux/files/home/.config/dynu-audit/protein-load-inspector.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/purge
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-load-cleanup.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/purge	/data/data/com.termux/files/home/.config/dynu-audit/protein-load-cleanup.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/reaper
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-orphan-reaper.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/reaper	/data/data/com.termux/files/home/.config/dynu-audit/protein-orphan-reaper.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/deep-inspect
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-deep-inspect.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/deep-inspect	/data/data/com.termux/files/home/.config/dynu-audit/protein-deep-inspect.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/fibers/01-pen-nib-bridge.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-nib.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/fibers/01-pen-nib-bridge.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-nib.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/fibers/02-folding-engine.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/fibers/02-folding-engine.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/fibers/03-master-status.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/fibers/03-master-status.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/fibers/04-system-blueprint.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/fibers/04-system-blueprint.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/symlink-axis.latest
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/symlink-axis.20260926_153724.state
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/symlink-axis.latest	/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/symlink-axis.20260926_153724.state
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/AUG-initiation/fold
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/protein/AUG-initiation/fold	/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/prototype/ai-router
+TARGET=/data/data/com.termux/files/home/ai-router
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/ai-router	/data/data/com.termux/files/home/ai-router
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime	/data/data/com.termux/files/home/.config/dynu-audit/protein
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/dry-run.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-dry-run.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/dry-run.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-dry-run.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/governor.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-governor.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/governor.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-governor.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/cycle.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-cycle.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/cycle.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-cycle.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/lib64
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/lib
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/lib64	/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/lib
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/bin/python
+TARGET=python3
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/bin/python	python3
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/bin/python3
+TARGET=/usr/bin/python3
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/bin/python3	/usr/bin/python3
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/bin/python3.13
+TARGET=python3
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/bin/python3.13	python3
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/venv
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/venv	/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/models
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/models
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/models	/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/models
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/ai-router
+TARGET=/data/data/com.termux/files/home/ai-router
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/ai-router	/data/data/com.termux/files/home/ai-router
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/dns
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/dns	/data/data/com.termux/files/home/.config/dynu-audit
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/nutdata-project
+TARGET=/data/data/com.termux/files/home/nutdata
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/nutdata-project	/data/data/com.termux/files/home/nutdata
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/dynu
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/dynu	/data/data/com.termux/files/home/.config/dynu-audit
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/network
+TARGET=/data/data/com.termux/files/home/network
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/network	/data/data/com.termux/files/home/network
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/recovery
+TARGET=/data/data/com.termux/files/home/recovery
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/recovery	/data/data/com.termux/files/home/recovery
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/protein-lite
+TARGET=/data/data/com.termux/files/home/protein-lite
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/protein-lite	/data/data/com.termux/files/home/protein-lite
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/protein-prototype-backup
+TARGET=/data/data/com.termux/files/home/protein-prototype-backup
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/projects/protein-prototype-backup	/data/data/com.termux/files/home/protein-prototype-backup
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/bead20
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/evidence/bead20-result.txt
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/bead20	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/evidence/bead20-result.txt
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/molecules
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/11-molecules
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/molecules	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/11-molecules
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/bridge
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/bridge
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/bridge	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/bridge
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/governor
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/10-governor
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/governor	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/10-governor
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/manifest.txt
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/02-collector/inventory/scripts-manifest.txt
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/manifest.txt	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/02-collector/inventory/scripts-manifest.txt
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/sys-info
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-system-info.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/sys-info	/data/data/com.termux/files/home/.config/dynu-audit/protein-system-info.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/full-audit
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-full-audit.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/full-audit	/data/data/com.termux/files/home/.config/dynu-audit/protein-full-audit.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/net-monitor
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-network-monitor.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/net-monitor	/data/data/com.termux/files/home/.config/dynu-audit/protein-network-monitor.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/proc-audit
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-process-audit.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/proc-audit	/data/data/com.termux/files/home/.config/dynu-audit/protein-process-audit.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/hw-sensors
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-hardware-sensors.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/hw-sensors	/data/data/com.termux/files/home/.config/dynu-audit/protein-hardware-sensors.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/battery-storage
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-battery-storage.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/battery-storage	/data/data/com.termux/files/home/.config/dynu-audit/protein-battery-storage.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/storage-format
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-storage-formatter.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/storage-format	/data/data/com.termux/files/home/.config/dynu-audit/protein-storage-formatter.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/kernel-audit
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-kernel-audit.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/kernel-audit	/data/data/com.termux/files/home/.config/dynu-audit/protein-kernel-audit.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/net-deep
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-network-deep.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/net-deep	/data/data/com.termux/files/home/.config/dynu-audit/protein-network-deep.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/master-status
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/master-status	/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/blueprint
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/blueprint	/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/live
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-live-stream.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/live	/data/data/com.termux/files/home/.config/dynu-audit/protein-live-stream.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/load-inspect
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-load-inspector.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/load-inspect	/data/data/com.termux/files/home/.config/dynu-audit/protein-load-inspector.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/purge
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-load-cleanup.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/purge	/data/data/com.termux/files/home/.config/dynu-audit/protein-load-cleanup.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/reaper
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-orphan-reaper.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/reaper	/data/data/com.termux/files/home/.config/dynu-audit/protein-orphan-reaper.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/deep-inspect
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-deep-inspect.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/deep-inspect	/data/data/com.termux/files/home/.config/dynu-audit/protein-deep-inspect.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/01-pen-nib-bridge.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-nib.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/01-pen-nib-bridge.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-nib.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/02-folding-engine.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/02-folding-engine.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/03-master-status.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/03-master-status.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/04-system-blueprint.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/04-system-blueprint.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/molecule
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/11-molecules
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/molecule	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/11-molecules
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/molecule-state
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/state/molecule.state
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/molecule-state	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/state/molecule.state
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/recovery
+TARGET=/data/data/com.termux/files/home/recovery
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/00-core/map/fibers/recovery	/data/data/com.termux/files/home/recovery
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/AUG-initiation/fold
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/AUG-initiation/fold	/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/home/.config/dynu-audit/protein
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/home/.config/dynu-audit/protein	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/bead20
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/evidence/bead20-result.txt
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/bead20	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/evidence/bead20-result.txt
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/00-core/map/molecules
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/11-molecules
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/00-core/map/molecules	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/11-molecules
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/00-core/map/bridge
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/bridge
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/00-core/map/bridge	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/bridge
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/00-core/map/governor
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/10-governor
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/00-core/map/governor	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/10-governor
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/00-core/map/manifest.txt
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/02-collector/inventory/scripts-manifest.txt
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/00-core/map/manifest.txt	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/02-collector/inventory/scripts-manifest.txt
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/00-core/map/fibers/molecule
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/11-molecules
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/00-core/map/fibers/molecule	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/11-molecules
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/00-core/map/fibers/molecule-state
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/state/molecule.state
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/00-core/map/fibers/molecule-state	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/state/molecule.state
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095634/reaper
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-orphan-reaper.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095634/reaper	/data/data/com.termux/files/home/.config/dynu-audit/protein-orphan-reaper.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095634/protein-lite
+TARGET=/data/data/com.termux/files/home/protein-lite
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095634/protein-lite	/data/data/com.termux/files/home/protein-lite
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095634/protein-prototype-backup
+TARGET=/data/data/com.termux/files/home/protein-prototype-backup
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095634/protein-prototype-backup	/data/data/com.termux/files/home/protein-prototype-backup
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095634/dns
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095634/dns	/data/data/com.termux/files/home/.config/dynu-audit
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095634/dynu
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095634/dynu	/data/data/com.termux/files/home/.config/dynu-audit
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095725/protein-venv/lib64
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095725/protein-venv/lib
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095725/protein-venv/lib64	/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095725/protein-venv/lib
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095725/protein-venv/bin/python3
+TARGET=/usr/bin/python3
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095725/protein-venv/bin/python3	/usr/bin/python3
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095725/protein-venv/bin/python
+TARGET=python3
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095725/protein-venv/bin/python	python3
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095725/protein-venv/bin/python3.13
+TARGET=python3
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095725/protein-venv/bin/python3.13	python3
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095725/protein-venv-link
+TARGET=shared/venv
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095725/protein-venv-link	shared/venv
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095859/protein/00-core/map/fibers/03-master-status.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095859/protein/00-core/map/fibers/03-master-status.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095859/protein/00-core/map/fibers/04-system-blueprint.sh
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095859/protein/00-core/map/fibers/04-system-blueprint.sh	/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095859/protein/00-core/map/fibers/recovery
+TARGET=/data/data/com.termux/files/home/recovery
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095859/protein/00-core/map/fibers/recovery	/data/data/com.termux/files/home/recovery
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095859/prototype/ai-router
+TARGET=/data/data/com.termux/files/home/ai-router
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095859/prototype/ai-router	/data/data/com.termux/files/home/ai-router
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095923/protein/00-core/map/fibers/molecule
+TARGET=/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095923/protein/11-molecules
+EDGE=SYMLINK
+/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095923/protein/00-core/map/fibers/molecule	/data/data/com.termux/files/home/.config/dynu-audit/.folded-paths/20260916_095923/protein/11-molecules

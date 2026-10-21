@@ -1,0 +1,42 @@
+=== TIME ===
+Thu Oct  1 22:07:55 +07 2026
+=== LOAD / MEMORY ===
+ 22:07:55 up 7 days, 18:42,  0 users,  load average: 33.83, 33.46, 32.48
+               total        used        free      shared  buff/cache   available
+Mem:           5.5Gi       3.4Gi       140Mi        40Mi       2.4Gi       2.1Gi
+Swap:          2.2Gi       1.4Gi       900Mi
+=== TOP CPU ===
+  PID  PPID %CPU %MEM   RSS     ELAPSED CMD
+28137 27256 50.0  0.0  3760       00:00 ps -eo pid,ppid,%cpu,%mem,rss,etime,cmd --sort=-%cpu
+27256  3623  0.1  0.1  6416    21:57:36 /data/data/com.termux/files/usr/bin/zsh -l
+12314  3623  0.0  0.0  2348  1-01:01:33 /data/data/com.termux/files/usr/bin/zsh -l
+28138 27256  0.0  0.0  4820       00:00 head -n 16
+=== TOP MEMORY ===
+  PID  PPID %CPU %MEM   RSS     ELAPSED CMD
+27256  3623  0.1  0.1  6420    21:57:36 /data/data/com.termux/files/usr/bin/zsh -l
+28140 27256  0.0  0.0  4692       00:00 head -n 16
+28139 27256 50.0  0.0  3884       00:00 ps -eo pid,ppid,%cpu,%mem,rss,etime,cmd --sort=-%mem
+12314  3623  0.0  0.0  2348  1-01:01:33 /data/data/com.termux/files/usr/bin/zsh -l
+=== TERMUX / PROTEIN PROCESSES ===
+u0_a372  12314  3623  0  2022 pts/29   00:00:16 /data/data/com.termux/files/usr/bin/zsh -l
+u0_a372  27256  3623  0  2022 pts/28   00:01:20 /data/data/com.termux/files/usr/bin/zsh -l
+=== PROCESS COUNT ===
+TOTAL=5
+PYTHON=0
+ZSH=2
+=== SWAP ===
+=== STORAGE ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/block/dm-2  50G   38G   12G  77% /data
+=== LARGEST RUNTIME DIRECTORIES ===
+4.0K	/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/termux-sync/
+80K	/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/bridge/
+252K	/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/conveyor/
+340K	/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/
+1.3M	/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/
+46M	/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/
+=== RECENT LARGE FILES ===
+39906225 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/runtime-execution-references.txt
+6502987 /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/map-build-20260929T221637Z/execution-references.txt
+=== ACTIVE CONVEYOR ===
+=== LOCKS / CLAIMS ===

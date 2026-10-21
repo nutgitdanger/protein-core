@@ -1,0 +1,11 @@
+=== 2. EXTERNAL TARGETS ===
+EXISTS /data/data/com.termux/files/home/ai-router
+280K	/data/data/com.termux/files/home/ai-router
+EXISTS /data/data/com.termux/files/home/network
+4.0K	/data/data/com.termux/files/home/network
+EXISTS /data/data/com.termux/files/home/protein-lite
+56K	/data/data/com.termux/files/home/protein-lite
+EXISTS /data/data/com.termux/files/home/protein-prototype-backup
+292K	/data/data/com.termux/files/home/protein-prototype-backup
+EXISTS /data/data/com.termux/files/home/recovery
+16K	/data/data/com.termux/files/home/recovery

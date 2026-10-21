@@ -1,0 +1,5 @@
+=== 5. BROKEN SYMLINKS ===
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/bin/python
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/bin/python3
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/shared/venv/bin/python3.13
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/map/reaper

@@ -1,0 +1,8 @@
+# Logs & Runtime states
+logs/
+pipeline/processing/*
+pipeline/pending/*
+pipeline/completed/*
+pipeline/failed/*
+*.pid
+system.env

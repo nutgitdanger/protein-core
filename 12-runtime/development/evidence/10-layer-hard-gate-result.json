@@ -1,0 +1,223 @@
+{
+  "RESULT": "PASS",
+  "MODE": "HARD_SEMANTIC_GATE",
+  "CORE_MUTATION": false,
+  "AUTO_PROMOTION": false,
+  "CHECKS": [
+    {
+      "NAME": "bead20-normalization-result.json",
+      "OK": true,
+      "DETAIL": "READ"
+    },
+    {
+      "NAME": "bead20-convergence-v2-result.json",
+      "OK": true,
+      "DETAIL": "READ"
+    },
+    {
+      "NAME": "bead20-constraint-stress-result.json",
+      "OK": true,
+      "DETAIL": "READ"
+    },
+    {
+      "NAME": "bead20-mutation-unit-result.json",
+      "OK": true,
+      "DETAIL": "READ"
+    },
+    {
+      "NAME": "bead20-mutation-pair-result.json",
+      "OK": true,
+      "DETAIL": "READ"
+    },
+    {
+      "NAME": "bead20-co-mutation-result.json",
+      "OK": true,
+      "DETAIL": "READ"
+    },
+    {
+      "NAME": "bead20-propagation-selection-result.json",
+      "OK": true,
+      "DETAIL": "READ"
+    },
+    {
+      "NAME": "bead20-relation-conservation-result.json",
+      "OK": true,
+      "DETAIL": "READ"
+    },
+    {
+      "NAME": "03.RESULT",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "03.INPUT_RUNS>0",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "03.NORMALIZED_RUNS>0",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "03.PAIR_COMPARISONS>0",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "03.ROTATION_ALIGNMENT",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "04.RESULT",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "04.RUNS>1",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "04.PAIR_COMPARISONS>0",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "04.AVERAGE_RMSD",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "04.ROTATION_ALIGNED",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "05.RESULT",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "05.RESULTS>0",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "05.MULTIPLE_THRESHOLDS",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "05.THRESHOLD_EFFECT",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "06.RESULT",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "06.SINGLE_EVENT",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "06.VALID",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "07.RESULT",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "07.PAIR_DISTINCT",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "07.A_UNIQUE",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "07.B_UNIQUE",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "08.RESULT",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "08.CO_MUTATION",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "08.CHANGE_COUNT>=2",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "08.UNIQUE_PRESERVED",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "09.RESULT",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "09.GENERATIONS>=2",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "09.CHILDREN>0",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "09.POPULATION>=2",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "10.RESULT",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "10.SOURCE_RELATIONS=190",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "10.GENERATIONS>=2",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "10.G0.CURRENT_RELATIONS>0",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "10.G1.CURRENT_RELATIONS>0",
+      "OK": true,
+      "DETAIL": "PASS"
+    },
+    {
+      "NAME": "10.G2.CURRENT_RELATIONS>0",
+      "OK": true,
+      "DETAIL": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+NIB=pen-nib
+TIMESTAMP=20260916_114252
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+PROTEIN=/data/data/com.termux/files/home/.config/dynu-audit/protein
+POLICY=CHECK_OBSERVE_POLICY_DISCOVER_MEASURE_EVIDENCE_VERIFY_PROMOTE_OR_FOLDBACK
+CORE_MUTATION=NO
+AWS_MUTATION=NO
+BACKGROUND=NO
+DELETE=NO
+MOVE=NO
+RESOURCE_LIMIT=30s
+FOLDING_ENGINE=/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+FOLDING_SHA256=1ea9aa5b4658cc1d76f726c8e46006e95d64312cd17a03925315af8b7875708a
+STATUS_ENGINE=/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+
+=== FOLDING ===
+>>> FOLDING
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+PROTEIN=/data/data/com.termux/files/home/.config/dynu-audit/protein
+[OK] folding state written
+ENGINE=folding
+STATUS=FOLDED
+TIMESTAMP=20260916_114252
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+FIBERS=1
+MOLECULES=5
+STATES=11
+FOLDING=PASS
+=== STATUS ===
+=====================================================================
+           🧬 PROTEIN ECOSYSTEM: MASTER STATUS DASHBOARD             
+=====================================================================
+[📂 PINNED MAP INVENTORY]
+total 76
+lrwxrwxrwx. 1 u0_a372 u0_a372   78 Sep 11 15:57 battery-storage -> /data/data/com.termux/files/home/.config/dynu-audit/protein-battery-storage.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   84 Sep 11 16:05 blueprint -> /data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   77 Sep 12 00:25 bridge -> /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/bridge
+lrwxrwxrwx. 1 u0_a372 u0_a372   75 Sep 11 16:10 deep-inspect -> /data/data/com.termux/files/home/.config/dynu-audit/protein-deep-inspect.sh
+drwx------. 2 u0_a372 u0_a372 4096 Sep 16 11:34 fibers
+lrwxrwxrwx. 1 u0_a372 u0_a372   73 Sep 11 23:59 full-audit -> /data/data/com.termux/files/home/.config/dynu-audit/protein-full-audit.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   71 Sep 12 00:25 governor -> /data/data/com.termux/files/home/.config/dynu-audit/protein/10-governor
+lrwxrwxrwx. 1 u0_a372 u0_a372   79 Sep 11 15:56 hw-sensors -> /data/data/com.termux/files/home/.config/dynu-audit/protein-hardware-sensors.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   75 Sep 11 16:00 kernel-audit -> /data/data/com.termux/files/home/.config/dynu-audit/protein-kernel-audit.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   74 Sep 11 16:06 live -> /data/data/com.termux/files/home/.config/dynu-audit/protein-live-stream.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   77 Sep 11 16:06 load-inspect -> /data/data/com.termux/files/home/.config/dynu-audit/protein-load-inspector.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372  103 Sep 11 23:59 manifest.txt -> /data/data/com.termux/files/home/.config/dynu-audit/protein/02-collector/inventory/scripts-manifest.txt
+lrwxrwxrwx. 1 u0_a372 u0_a372   76 Sep 11 16:02 master-status -> /data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   18 Sep 13 00:34 molecules -> ../../11-molecules
+lrwxrwxrwx. 1 u0_a372 u0_a372   75 Sep 11 16:01 net-deep -> /data/data/com.termux/files/home/.config/dynu-audit/protein-network-deep.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   78 Sep 11 23:59 net-monitor -> /data/data/com.termux/files/home/.config/dynu-audit/protein-network-monitor.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   76 Sep 11 15:55 proc-audit -> /data/data/com.termux/files/home/.config/dynu-audit/protein-process-audit.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   75 Sep 11 16:06 purge -> /data/data/com.termux/files/home/.config/dynu-audit/protein-load-cleanup.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   80 Sep 11 15:59 storage-format -> /data/data/com.termux/files/home/.config/dynu-audit/protein-storage-formatter.sh
+lrwxrwxrwx. 1 u0_a372 u0_a372   74 Sep 11 23:59 sys-info -> /data/data/com.termux/files/home/.config/dynu-audit/protein-system-info.sh
+---------------------------------------------------------------------
+[⚙️ SYSTEM LOAD & UPTIME]
+ 11:42:52 up 1 day, 22:19,  0 users,  load average: 32.33, 31.96, 32.03
+---------------------------------------------------------------------
+[💾 RAM USAGE]
+Mem:           5.5Gi       3.9Gi       138Mi        21Mi       1.8Gi       1.7Gi
+Swap:          2.2Gi       2.2Gi        95Mi
+---------------------------------------------------------------------
+[🌐 ACTIVE IP & INTERFACE]
+Cellular interface inactive
+=====================================================================
+STATUS=PASS
+RESULT=VERIFIED

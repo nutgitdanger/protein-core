@@ -1,0 +1,95 @@
+{
+  "RESULT": "PASS",
+  "MODE": "CONSTRAINT_STRESS",
+  "THRESHOLDS": [
+    0.035,
+    0.05,
+    0.08
+  ],
+  "RUNS": 9,
+  "IMPROVED_RUNS": 9,
+  "RESULTS": [
+    {
+      "SEED": 11,
+      "COLLISION_THRESHOLD": 0.035,
+      "INITIAL_COST": 99.61785231536639,
+      "FINAL_COST": 47.167510663201625,
+      "ACCEPTED": 192,
+      "REJECTED": 208,
+      "IMPROVED": true
+    },
+    {
+      "SEED": 22,
+      "COLLISION_THRESHOLD": 0.035,
+      "INITIAL_COST": 86.85666036521287,
+      "FINAL_COST": 36.14356870527001,
+      "ACCEPTED": 190,
+      "REJECTED": 210,
+      "IMPROVED": true
+    },
+    {
+      "SEED": 33,
+      "COLLISION_THRESHOLD": 0.035,
+      "INITIAL_COST": 76.36713075238163,
+      "FINAL_COST": 30.92350688719699,
+      "ACCEPTED": 175,
+      "REJECTED": 225,
+      "IMPROVED": true
+    },
+    {
+      "SEED": 11,
+      "COLLISION_THRESHOLD": 0.05,
+      "INITIAL_COST": 99.61785231536639,
+      "FINAL_COST": 47.167510663201625,
+      "ACCEPTED": 192,
+      "REJECTED": 208,
+      "IMPROVED": true
+    },
+    {
+      "SEED": 22,
+      "COLLISION_THRESHOLD": 0.05,
+      "INITIAL_COST": 86.85666036521287,
+      "FINAL_COST": 36.14356870527001,
+      "ACCEPTED": 190,
+      "REJECTED": 210,
+      "IMPROVED": true
+    },
+    {
+      "SEED": 33,
+      "COLLISION_THRESHOLD": 0.05,
+      "INITIAL_COST": 76.36713075238163,
+      "FINAL_COST": 30.92350688719699,
+      "ACCEPTED": 175,
+      "REJECTED": 225,
+      "IMPROVED": true
+    },
+    {
+      "SEED": 11,
+      "COLLISION_THRESHOLD": 0.08,
+      "INITIAL_COST": 99.61785231536639,
+      "FINAL_COST": 47.167510663201625,
+      "ACCEPTED": 192,
+      "REJECTED": 208,
+      "IMPROVED": true
+    },
+    {
+      "SEED": 22,
+      "COLLISION_THRESHOLD": 0.08,
+      "INITIAL_COST": 86.91997385205012,
+      "FINAL_COST": 36.14356870527001,
+      "ACCEPTED": 190,
+      "REJECTED": 210,
+      "IMPROVED": true
+    },
+    {
+      "SEED": 33,
+      "COLLISION_THRESHOLD": 0.08,
+      "INITIAL_COST": 76.36713075238163,
+      "FINAL_COST": 30.92350688719699,
+      "ACCEPTED": 175,
+      "REJECTED": 225,
+      "IMPROVED": true
+    }
+  ]
+}
+EVIDENCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/bead20-constraint-stress-result.json

@@ -1,0 +1,90 @@
+=== FINALIZE CANONICAL GENERATION ===
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+=== BEFORE ===
+STATUS=FOLDED
+TIMESTAMP=20260930_125409
+FIBERS=1
+MOLECULES=4
+STATES=25
+STATUS=ACTIVE
+BEADS=5
+LAST_BEAD=5
+TIMESTAMP=20260930_171613
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+VALID_BEADS=5
+=== FOLD ===
+FOLD_RC=0
+=== MOLECULE ENGINE ===
+ENGINE_RC=0
+=== FINAL STATE ===
+STATUS=FOLDED
+TIMESTAMP=20260930_171745
+FIBERS=1
+MOLECULES=5
+STATES=28
+STATUS=ACTIVE
+TIMESTAMP=20260930_171746
+FIBERS=1
+MOLECULES=5
+STATES=28
+OUTPUT=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/molecule-engine.molecule
+STATUS=ACTIVE
+BEADS=5
+LAST_BEAD=5
+TIMESTAMP=20260930_171613
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+NEXT=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-5.state
+=== CONSISTENCY ===
+VALID_BEADS=5
+FOLD_MOLECULES=5
+ENGINE_MOLECULES=5
+CANON_BEADS=5
+LAST_BEAD=5
+GENERATION_MARKER=20260930_125409
+CONSISTENCY=PASS
+=== BRIDGE IDEMPOTENCE MARKER ===
+MARKER=20260930_125409
+=== GIT SUMMARY ===
+ M config/canonical.env
+ M dynu-offload/protein/l6.py
+ M pro
+ M protein-folding-engine.sh
+ M protein/11-molecules/live.molecule
+ M protein/11-molecules/molecule-engine.zsh
+ M protein/12-runtime/state/folding.result
+ M protein/12-runtime/state/folding.state
+ M protein/12-runtime/state/molecule.state
+ M runtime/ec2-offload/ssh-config
+ M wg0.conf
+?? ROOT
+?? auto-router.sh
+?? containers/protein/__pycache__/
+?? containers/protein/dynamic-dns.py
+?? containers/protein/full-pipeline.py.new
+?? control/
+?? dynu-dynamic.sh
+?? lineage/
+?? protein-folding-engine.sh.pre-semantic-20260930_125157
+?? protein-folding-engine.sh.pre-semantic-20260930_125345
+?? protein-folding-engine.sh.pre-semantic-final-20260930_125301
+?? protein-folding-engine.sh.pre-semantic-final-20260930_125316
+?? protein/04-relation/lab-lineage-reconcile-20260930_170930/
+?? protein/04-relation/lineage-reconcile-20260930T095807Z/
+?? protein/04-relation/symlink-lineage-test-run-20260930_102326/
+?? protein/04-relation/symlink-lineage-test-run-current/
+?? protein/04-relation/symlink-lineage-test-run/
+?? protein/11-molecules/beads/bead-4.state
+?? protein/11-molecules/beads/bead-5.state
+?? protein/11-molecules/beads/relation-capture.20260930_072940.state
+?? protein/11-molecules/molecule-engine.molecule
+?? protein/11-molecules/molecule-engine.zsh.pre-semantic-20260930_125157
+?? protein/11-molecules/molecule-engine.zsh.pre-semantic-20260930_125345
+?? protein/11-molecules/molecule-engine.zsh.pre-semantic-final-20260930_125301
+?? protein/11-molecules/molecule-engine.zsh.pre-semantic-final-20260930_125316
+?? protein/12-runtime/audit-readonly/
+?? protein/12-runtime/bridge/fold-molecule.zsh
+?? protein/12-runtime/bridge/offload-bead20.sh
+?? protein/12-runtime/development/evidence/finalize-20260930_171745/
+=== RESULT ===
+RESULT=CANONICAL_GENERATION_FINALIZED
+EVIDENCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/finalize-20260930_171745

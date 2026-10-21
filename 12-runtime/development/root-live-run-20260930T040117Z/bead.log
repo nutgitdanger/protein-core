@@ -1,0 +1,29 @@
+>>> MOLECULE BEAD BUILDER
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+[BEAD] 4
+[OK] molecule chain extended
+
+=== MOLECULE STATE ===
+ENGINE=molecules
+STATUS=ACTIVE
+BEADS=4
+LAST_BEAD=4
+TIMESTAMP=20260930_110118
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+NEXT=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-4.state
+
+=== LIVE MOLECULE ===
+TYPE=MOLECULE_CHAIN
+STATUS=ACTIVE
+BEADS=4
+LAST_BEAD=4
+TIMESTAMP=20260930_110118
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state
+
+=== BEAD CHAIN ===
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-1.state
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-2.state
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-3.state
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-4.state
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-axis.20260926_154055.state
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-axis.20260926_154235.state

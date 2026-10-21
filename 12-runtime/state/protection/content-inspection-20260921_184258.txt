@@ -1,0 +1,149 @@
+=== CONTENT INSPECTION ===
+TIME=20260921_184258
+SOURCE=expansion/incoming/protein-molecule-architecture.zip
+
+--- FILE IDENTITY ---
+
+--- SIZE ---
+-rw-------. 1 u0_a372 u0_a372 3.0K Sep 20 10:46 expansion/incoming/protein-molecule-architecture.zip
+
+--- SHA256 ---
+ecd8ff651acf1747b548aee86024d3e6304b71776d1a3034a247e07381e0c901  expansion/incoming/protein-molecule-architecture.zip
+
+--- ZIP TEST ---
+Archive:  expansion/incoming/protein-molecule-architecture.zip
+    testing: protein/04-relation/protein-relation.state   OK
+    testing: protein/11-molecules/BEAD-ARCHITECTURE.md   OK
+    testing: protein/11-molecules/live.molecule   OK
+    testing: protein/11-molecules/bead-types/README   OK
+    testing: protein/12-runtime/state/molecule.state   OK
+    testing: protein/12-runtime/state/folding.state   OK
+    testing: protein/06-promoter/bead-promotion/README   OK
+No errors detected in compressed data of expansion/incoming/protein-molecule-architecture.zip.
+
+--- ZIP MEMBERS ---
+protein/04-relation/protein-relation.state
+protein/11-molecules/BEAD-ARCHITECTURE.md
+protein/11-molecules/live.molecule
+protein/11-molecules/bead-types/README
+protein/12-runtime/state/molecule.state
+protein/12-runtime/state/folding.state
+protein/06-promoter/bead-promotion/README
+
+--- SUSPICIOUS PATHS ---
+protein/04-relation/protein-relation.state
+protein/11-molecules/BEAD-ARCHITECTURE.md
+protein/11-molecules/live.molecule
+protein/11-molecules/bead-types/README
+protein/12-runtime/state/molecule.state
+protein/12-runtime/state/folding.state
+protein/06-promoter/bead-promotion/README
+
+--- ZIP METADATA ---
+Archive:  expansion/incoming/protein-molecule-architecture.zip
+There is no zipfile comment.
+
+End-of-central-directory record:
+-------------------------------
+
+  Zip archive file size:                      3049 (0000000000000BE9h)
+  Actual end-cent-dir record offset:          3027 (0000000000000BD3h)
+  Expected end-cent-dir record offset:        3027 (0000000000000BD3h)
+  (based on the length of the central directory and its expected offset)
+
+  This zipfile constitutes the sole disk of a single-part archive; its
+  central directory contains 7 entries.
+  The central directory is 595 (0000000000000253h) bytes long,
+  and its (expected) offset in bytes from the beginning of the zipfile
+  is 2432 (0000000000000980h).
+
+
+Central directory entry #1:
+---------------------------
+
+  protein/04-relation/protein-relation.state
+
+  offset of local header from start of archive:   0
+                                                  (0000000000000000h) bytes
+  file system or operating system of origin:      Unix
+  version of encoding software:                   2.0
+  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+  minimum software version required to extract:   2.0
+  compression method:                             deflated
+  compression sub-type (deflation):               normal
+  file security status:                           not encrypted
+  extended local header:                          no
+  file last modified on (DOS date/time):          2026 Sep 20 03:46:24
+  32-bit CRC value (hex):                         9de1f901
+  compressed size:                                287 bytes
+  uncompressed size:                              575 bytes
+  length of filename:                             42 characters
+  length of extra field:                          0 bytes
+  length of file comment:                         0 characters
+  disk number on which file begins:               disk 1
+  apparent file type:                             binary
+  Unix file attributes (100644 octal):            -rw-r--r--
+  MS-DOS file attributes (00 hex):                none
+
+  There is no file comment.
+
+Central directory entry #2:
+---------------------------
+
+  protein/11-molecules/BEAD-ARCHITECTURE.md
+
+  offset of local header from start of archive:   359
+                                                  (0000000000000167h) bytes
+  file system or operating system of origin:      Unix
+  version of encoding software:                   2.0
+  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+  minimum software version required to extract:   2.0
+  compression method:                             deflated
+  compression sub-type (deflation):               normal
+  file security status:                           not encrypted
+  extended local header:                          no
+  file last modified on (DOS date/time):          2026 Sep 20 03:46:24
+  32-bit CRC value (hex):                         fbc1abe1
+  compressed size:                                574 bytes
+  uncompressed size:                              1220 bytes
+  length of filename:                             41 characters
+  length of extra field:                          0 bytes
+  length of file comment:                         0 characters
+  disk number on which file begins:               disk 1
+  apparent file type:                             binary
+  Unix file attributes (100644 octal):            -rw-r--r--
+  MS-DOS file attributes (00 hex):                none
+
+  There is no file comment.
+
+Central directory entry #3:
+---------------------------
+
+  protein/11-molecules/live.molecule
+
+  offset of local header from start of archive:   1004
+                                                  (00000000000003ECh) bytes
+  file system or operating system of origin:      Unix
+  version of encoding software:                   2.0
+  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+  minimum software version required to extract:   2.0
+  compression method:                             deflated
+  compression sub-type (deflation):               normal
+  file security status:                           not encrypted
+  extended local header:                          no
+  file last modified on (DOS date/time):          2026 Sep 20 03:46:24
+  32-bit CRC value (hex):                         64263443
+  compressed size:                                148 bytes
+  uncompressed size:                              200 bytes
+  length of filename:                             34 characters
+  length of extra field:                          0 bytes
+  length of file comment:                         0 characters
+  disk number on which file begins:               disk 1
+  apparent file type:                             binary
+
+=== INSPECTION ONLY ===
+NO EXTRACTION
+NO IMPORT
+NO MOVE
+NO MERGE
+NO DELETE

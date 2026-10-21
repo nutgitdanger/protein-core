@@ -1,0 +1,982 @@
+{
+  "type": "bead20-relation-map",
+  "source": "protein/12-runtime/development/evidence/bead20-result.txt",
+  "bead_count": 20,
+  "unique_count": 20,
+  "fold_passes": 5,
+  "relation_count": 190,
+  "beads": [
+    "Flower",
+    "MetalSpacer",
+    "Bugle",
+    "Twisted",
+    "Acrylic",
+    "Glass",
+    "GoldBead",
+    "Heart",
+    "Facet",
+    "Pearl",
+    "Neon",
+    "SeedBead",
+    "Antique",
+    "LetterA",
+    "Crystal",
+    "Shell",
+    "Smile",
+    "Gemstone",
+    "Star",
+    "Wood"
+  ],
+  "relations": [
+    {
+      "from": "Flower",
+      "to": "MetalSpacer",
+      "distance": 0.023665674504384136
+    },
+    {
+      "from": "Flower",
+      "to": "Bugle",
+      "distance": 0.016583322373300798
+    },
+    {
+      "from": "Flower",
+      "to": "Twisted",
+      "distance": 0.023009803673027126
+    },
+    {
+      "from": "Flower",
+      "to": "Acrylic",
+      "distance": 0.012735332864980851
+    },
+    {
+      "from": "Flower",
+      "to": "Glass",
+      "distance": 0.007267781656304182
+    },
+    {
+      "from": "Flower",
+      "to": "GoldBead",
+      "distance": 0.015273377672750622
+    },
+    {
+      "from": "Flower",
+      "to": "Heart",
+      "distance": 0.020288905117536025
+    },
+    {
+      "from": "Flower",
+      "to": "Facet",
+      "distance": 0.010822202023204563
+    },
+    {
+      "from": "Flower",
+      "to": "Pearl",
+      "distance": 0.020067681425109236
+    },
+    {
+      "from": "Flower",
+      "to": "Neon",
+      "distance": 0.013115275077412662
+    },
+    {
+      "from": "Flower",
+      "to": "SeedBead",
+      "distance": 0.009479164988113388
+    },
+    {
+      "from": "Flower",
+      "to": "Antique",
+      "distance": 0.016233183801335444
+    },
+    {
+      "from": "Flower",
+      "to": "LetterA",
+      "distance": 0.016788111230092658
+    },
+    {
+      "from": "Flower",
+      "to": "Crystal",
+      "distance": 0.021427153242331805
+    },
+    {
+      "from": "Flower",
+      "to": "Shell",
+      "distance": 0.017346547344900362
+    },
+    {
+      "from": "Flower",
+      "to": "Smile",
+      "distance": 0.012724670854877732
+    },
+    {
+      "from": "Flower",
+      "to": "Gemstone",
+      "distance": 0.016623467497733465
+    },
+    {
+      "from": "Flower",
+      "to": "Star",
+      "distance": 0.007718213609059907
+    },
+    {
+      "from": "Flower",
+      "to": "Wood",
+      "distance": 0.01442485166392542
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Bugle",
+      "distance": 0.02324531617453457
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Twisted",
+      "distance": 0.0230985048990196
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Acrylic",
+      "distance": 0.02861600930716384
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Glass",
+      "distance": 0.02728263460853799
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "GoldBead",
+      "distance": 0.013840285814401918
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Heart",
+      "distance": 0.011293101557842288
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Facet",
+      "distance": 0.017732022227392744
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Pearl",
+      "distance": 0.023231977613767423
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Neon",
+      "distance": 0.024228181700709638
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "SeedBead",
+      "distance": 0.025251714840725505
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Antique",
+      "distance": 0.015319003083016914
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "LetterA",
+      "distance": 0.027816472276481492
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Crystal",
+      "distance": 0.023748104759255206
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Shell",
+      "distance": 0.019045239273294646
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Smile",
+      "distance": 0.02464365752133475
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Gemstone",
+      "distance": 0.010203628246917949
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Star",
+      "distance": 0.030627400159079648
+    },
+    {
+      "from": "MetalSpacer",
+      "to": "Wood",
+      "distance": 0.0370199956708567
+    },
+    {
+      "from": "Bugle",
+      "to": "Twisted",
+      "distance": 0.00742155798153243
+    },
+    {
+      "from": "Bugle",
+      "to": "Acrylic",
+      "distance": 0.011658549582751216
+    },
+    {
+      "from": "Bugle",
+      "to": "Glass",
+      "distance": 0.022914471489270425
+    },
+    {
+      "from": "Bugle",
+      "to": "GoldBead",
+      "distance": 0.02300610665610088
+    },
+    {
+      "from": "Bugle",
+      "to": "Heart",
+      "distance": 0.0244812734792731
+    },
+    {
+      "from": "Bugle",
+      "to": "Facet",
+      "distance": 0.01602666936356166
+    },
+    {
+      "from": "Bugle",
+      "to": "Pearl",
+      "distance": 0.03205862069981321
+    },
+    {
+      "from": "Bugle",
+      "to": "Neon",
+      "distance": 0.020180593776017636
+    },
+    {
+      "from": "Bugle",
+      "to": "SeedBead",
+      "distance": 0.016092155463206366
+    },
+    {
+      "from": "Bugle",
+      "to": "Antique",
+      "distance": 0.020767484678357536
+    },
+    {
+      "from": "Bugle",
+      "to": "LetterA",
+      "distance": 0.02338081621584406
+    },
+    {
+      "from": "Bugle",
+      "to": "Crystal",
+      "distance": 0.0070468091562791504
+    },
+    {
+      "from": "Bugle",
+      "to": "Shell",
+      "distance": 0.020755724096380674
+    },
+    {
+      "from": "Bugle",
+      "to": "Smile",
+      "distance": 0.026129806736943286
+    },
+    {
+      "from": "Bugle",
+      "to": "Gemstone",
+      "distance": 0.01787257910665081
+    },
+    {
+      "from": "Bugle",
+      "to": "Star",
+      "distance": 0.022210833618055443
+    },
+    {
+      "from": "Bugle",
+      "to": "Wood",
+      "distance": 0.021201318975215364
+    },
+    {
+      "from": "Twisted",
+      "to": "Acrylic",
+      "distance": 0.01889333029221847
+    },
+    {
+      "from": "Twisted",
+      "to": "Glass",
+      "distance": 0.028878481095184313
+    },
+    {
+      "from": "Twisted",
+      "to": "GoldBead",
+      "distance": 0.025720765550748512
+    },
+    {
+      "from": "Twisted",
+      "to": "Heart",
+      "distance": 0.0254953937668699
+    },
+    {
+      "from": "Twisted",
+      "to": "Facet",
+      "distance": 0.01941956713233798
+    },
+    {
+      "from": "Twisted",
+      "to": "Pearl",
+      "distance": 0.03690081363936319
+    },
+    {
+      "from": "Twisted",
+      "to": "Neon",
+      "distance": 0.023709112402875335
+    },
+    {
+      "from": "Twisted",
+      "to": "SeedBead",
+      "distance": 0.020898372695648967
+    },
+    {
+      "from": "Twisted",
+      "to": "Antique",
+      "distance": 0.022556050870436092
+    },
+    {
+      "from": "Twisted",
+      "to": "LetterA",
+      "distance": 0.02648975421348134
+    },
+    {
+      "from": "Twisted",
+      "to": "Crystal",
+      "distance": 0.0037620847685412135
+    },
+    {
+      "from": "Twisted",
+      "to": "Shell",
+      "distance": 0.022239529047432784
+    },
+    {
+      "from": "Twisted",
+      "to": "Smile",
+      "distance": 0.03211313317583993
+    },
+    {
+      "from": "Twisted",
+      "to": "Gemstone",
+      "distance": 0.020559104742251345
+    },
+    {
+      "from": "Twisted",
+      "to": "Star",
+      "distance": 0.02877390990543082
+    },
+    {
+      "from": "Twisted",
+      "to": "Wood",
+      "distance": 0.028371631700471255
+    },
+    {
+      "from": "Acrylic",
+      "to": "Glass",
+      "distance": 0.019278952168858228
+    },
+    {
+      "from": "Acrylic",
+      "to": "GoldBead",
+      "distance": 0.025567537850746516
+    },
+    {
+      "from": "Acrylic",
+      "to": "Heart",
+      "distance": 0.029250708668692327
+    },
+    {
+      "from": "Acrylic",
+      "to": "Facet",
+      "distance": 0.01960020577045982
+    },
+    {
+      "from": "Acrylic",
+      "to": "Pearl",
+      "distance": 0.028067280285701542
+    },
+    {
+      "from": "Acrylic",
+      "to": "Neon",
+      "distance": 0.02273396794526755
+    },
+    {
+      "from": "Acrylic",
+      "to": "SeedBead",
+      "distance": 0.017354139793804683
+    },
+    {
+      "from": "Acrylic",
+      "to": "Antique",
+      "distance": 0.02545451334363442
+    },
+    {
+      "from": "Acrylic",
+      "to": "LetterA",
+      "distance": 0.026073370223805403
+    },
+    {
+      "from": "Acrylic",
+      "to": "Crystal",
+      "distance": 0.0185097075755692
+    },
+    {
+      "from": "Acrylic",
+      "to": "Shell",
+      "distance": 0.02610366654604017
+    },
+    {
+      "from": "Acrylic",
+      "to": "Smile",
+      "distance": 0.020205108344418587
+    },
+    {
+      "from": "Acrylic",
+      "to": "Gemstone",
+      "distance": 0.01986814451834527
+    },
+    {
+      "from": "Acrylic",
+      "to": "Star",
+      "distance": 0.01688120509844072
+    },
+    {
+      "from": "Acrylic",
+      "to": "Wood",
+      "distance": 0.012237650757362386
+    },
+    {
+      "from": "Glass",
+      "to": "GoldBead",
+      "distance": 0.01562901129609418
+    },
+    {
+      "from": "Glass",
+      "to": "Heart",
+      "distance": 0.021114276957357226
+    },
+    {
+      "from": "Glass",
+      "to": "Facet",
+      "distance": 0.012803671464897545
+    },
+    {
+      "from": "Glass",
+      "to": "Pearl",
+      "distance": 0.020689736075791852
+    },
+    {
+      "from": "Glass",
+      "to": "Neon",
+      "distance": 0.011701102790417655
+    },
+    {
+      "from": "Glass",
+      "to": "SeedBead",
+      "distance": 0.010300970056590473
+    },
+    {
+      "from": "Glass",
+      "to": "Antique",
+      "distance": 0.0168444439634666
+    },
+    {
+      "from": "Glass",
+      "to": "LetterA",
+      "distance": 0.014200138997395065
+    },
+    {
+      "from": "Glass",
+      "to": "Crystal",
+      "distance": 0.026741506308378907
+    },
+    {
+      "from": "Glass",
+      "to": "Shell",
+      "distance": 0.017407783111112348
+    },
+    {
+      "from": "Glass",
+      "to": "Smile",
+      "distance": 0.01431827543571912
+    },
+    {
+      "from": "Glass",
+      "to": "Gemstone",
+      "distance": 0.02185834653853578
+    },
+    {
+      "from": "Glass",
+      "to": "Star",
+      "distance": 0.005028261313832989
+    },
+    {
+      "from": "Glass",
+      "to": "Wood",
+      "distance": 0.016683754434671638
+    },
+    {
+      "from": "GoldBead",
+      "to": "Heart",
+      "distance": 0.005875555324965528
+    },
+    {
+      "from": "GoldBead",
+      "to": "Facet",
+      "distance": 0.008848347945240562
+    },
+    {
+      "from": "GoldBead",
+      "to": "Pearl",
+      "distance": 0.018833534307083028
+    },
+    {
+      "from": "GoldBead",
+      "to": "Neon",
+      "distance": 0.013099454930238275
+    },
+    {
+      "from": "GoldBead",
+      "to": "SeedBead",
+      "distance": 0.015709449964301358
+    },
+    {
+      "from": "GoldBead",
+      "to": "Antique",
+      "distance": 0.00598958841050153
+    },
+    {
+      "from": "GoldBead",
+      "to": "LetterA",
+      "distance": 0.016446931128366087
+    },
+    {
+      "from": "GoldBead",
+      "to": "Crystal",
+      "distance": 0.02441261569614206
+    },
+    {
+      "from": "GoldBead",
+      "to": "Shell",
+      "distance": 0.010141899463078691
+    },
+    {
+      "from": "GoldBead",
+      "to": "Smile",
+      "distance": 0.018311226199171547
+    },
+    {
+      "from": "GoldBead",
+      "to": "Gemstone",
+      "distance": 0.014282159176795678
+    },
+    {
+      "from": "GoldBead",
+      "to": "Star",
+      "distance": 0.019999506810397125
+    },
+    {
+      "from": "GoldBead",
+      "to": "Wood",
+      "distance": 0.029504183600975866
+    },
+    {
+      "from": "Heart",
+      "to": "Facet",
+      "distance": 0.011700897728964939
+    },
+    {
+      "from": "Heart",
+      "to": "Pearl",
+      "distance": 0.023112710894350883
+    },
+    {
+      "from": "Heart",
+      "to": "Neon",
+      "distance": 0.015966234643028085
+    },
+    {
+      "from": "Heart",
+      "to": "SeedBead",
+      "distance": 0.01920058629308466
+    },
+    {
+      "from": "Heart",
+      "to": "Antique",
+      "distance": 0.006321864728816482
+    },
+    {
+      "from": "Heart",
+      "to": "LetterA",
+      "distance": 0.01875024017252632
+    },
+    {
+      "from": "Heart",
+      "to": "Crystal",
+      "distance": 0.024407330839858975
+    },
+    {
+      "from": "Heart",
+      "to": "Shell",
+      "distance": 0.010172080536932325
+    },
+    {
+      "from": "Heart",
+      "to": "Smile",
+      "distance": 0.02362442944908231
+    },
+    {
+      "from": "Heart",
+      "to": "Gemstone",
+      "distance": 0.0158046666380221
+    },
+    {
+      "from": "Heart",
+      "to": "Star",
+      "distance": 0.02529631874567131
+    },
+    {
+      "from": "Heart",
+      "to": "Wood",
+      "distance": 0.03426873225488889
+    },
+    {
+      "from": "Facet",
+      "to": "Pearl",
+      "distance": 0.02388460637710508
+    },
+    {
+      "from": "Facet",
+      "to": "Neon",
+      "distance": 0.007068924184011242
+    },
+    {
+      "from": "Facet",
+      "to": "SeedBead",
+      "distance": 0.00779766668555544
+    },
+    {
+      "from": "Facet",
+      "to": "Antique",
+      "distance": 0.006218367281752122
+    },
+    {
+      "from": "Facet",
+      "to": "LetterA",
+      "distance": 0.011210470114191136
+    },
+    {
+      "from": "Facet",
+      "to": "Crystal",
+      "distance": 0.017317622632559374
+    },
+    {
+      "from": "Facet",
+      "to": "Shell",
+      "distance": 0.00692522724567576
+    },
+    {
+      "from": "Facet",
+      "to": "Smile",
+      "distance": 0.019898654087712592
+    },
+    {
+      "from": "Facet",
+      "to": "Gemstone",
+      "distance": 0.01557323329365656
+    },
+    {
+      "from": "Facet",
+      "to": "Star",
+      "distance": 0.01557425641370347
+    },
+    {
+      "from": "Facet",
+      "to": "Wood",
+      "distance": 0.023327171273187303
+    },
+    {
+      "from": "Pearl",
+      "to": "Neon",
+      "distance": 0.027810325686463095
+    },
+    {
+      "from": "Pearl",
+      "to": "SeedBead",
+      "distance": 0.027629273717101832
+    },
+    {
+      "from": "Pearl",
+      "to": "Antique",
+      "distance": 0.024513238246735878
+    },
+    {
+      "from": "Pearl",
+      "to": "LetterA",
+      "distance": 0.03133140771633109
+    },
+    {
+      "from": "Pearl",
+      "to": "Crystal",
+      "distance": 0.03671509655959816
+    },
+    {
+      "from": "Pearl",
+      "to": "Shell",
+      "distance": 0.0283081734589466
+    },
+    {
+      "from": "Pearl",
+      "to": "Smile",
+      "distance": 0.008956797868060832
+    },
+    {
+      "from": "Pearl",
+      "to": "Gemstone",
+      "distance": 0.01798188667691123
+    },
+    {
+      "from": "Pearl",
+      "to": "Star",
+      "distance": 0.023801036630986032
+    },
+    {
+      "from": "Pearl",
+      "to": "Wood",
+      "distance": 0.031197077516307625
+    },
+    {
+      "from": "Neon",
+      "to": "SeedBead",
+      "distance": 0.005811724482396072
+    },
+    {
+      "from": "Neon",
+      "to": "Antique",
+      "distance": 0.009821881107951517
+    },
+    {
+      "from": "Neon",
+      "to": "LetterA",
+      "distance": 0.004302670630918046
+    },
+    {
+      "from": "Neon",
+      "to": "Crystal",
+      "distance": 0.020798081502045696
+    },
+    {
+      "from": "Neon",
+      "to": "Shell",
+      "distance": 0.0075430565177385086
+    },
+    {
+      "from": "Neon",
+      "to": "Smile",
+      "distance": 0.023270131417511823
+    },
+    {
+      "from": "Neon",
+      "to": "Gemstone",
+      "distance": 0.022472097485837374
+    },
+    {
+      "from": "Neon",
+      "to": "Star",
+      "distance": 0.01411690914892913
+    },
+    {
+      "from": "Neon",
+      "to": "Wood",
+      "distance": 0.022919960261844466
+    },
+    {
+      "from": "SeedBead",
+      "to": "Antique",
+      "distance": 0.0132077098243513
+    },
+    {
+      "from": "SeedBead",
+      "to": "LetterA",
+      "distance": 0.00871946887765086
+    },
+    {
+      "from": "SeedBead",
+      "to": "Crystal",
+      "distance": 0.018041831274551973
+    },
+    {
+      "from": "SeedBead",
+      "to": "Shell",
+      "distance": 0.011741934772959881
+    },
+    {
+      "from": "SeedBead",
+      "to": "Smile",
+      "distance": 0.02155271505339444
+    },
+    {
+      "from": "SeedBead",
+      "to": "Gemstone",
+      "distance": 0.02133251544683086
+    },
+    {
+      "from": "SeedBead",
+      "to": "Star",
+      "distance": 0.01085806995760324
+    },
+    {
+      "from": "SeedBead",
+      "to": "Wood",
+      "distance": 0.017606408375602154
+    },
+    {
+      "from": "Antique",
+      "to": "LetterA",
+      "distance": 0.012801865620313544
+    },
+    {
+      "from": "Antique",
+      "to": "Crystal",
+      "distance": 0.02071227448435008
+    },
+    {
+      "from": "Antique",
+      "to": "Shell",
+      "distance": 0.004443066241982829
+    },
+    {
+      "from": "Antique",
+      "to": "Smile",
+      "distance": 0.022723253028435843
+    },
+    {
+      "from": "Antique",
+      "to": "Gemstone",
+      "distance": 0.016774979485276065
+    },
+    {
+      "from": "Antique",
+      "to": "Star",
+      "distance": 0.020573333910195
+    },
+    {
+      "from": "Antique",
+      "to": "Wood",
+      "distance": 0.02936918064174353
+    },
+    {
+      "from": "LetterA",
+      "to": "Crystal",
+      "distance": 0.023278963448621747
+    },
+    {
+      "from": "LetterA",
+      "to": "Shell",
+      "distance": 0.009578308180094206
+    },
+    {
+      "from": "LetterA",
+      "to": "Smile",
+      "distance": 0.0268839450028122
+    },
+    {
+      "from": "LetterA",
+      "to": "Gemstone",
+      "distance": 0.026704276311883428
+    },
+    {
+      "from": "LetterA",
+      "to": "Star",
+      "distance": 0.016210693084907645
+    },
+    {
+      "from": "LetterA",
+      "to": "Wood",
+      "distance": 0.024874286866803874
+    },
+    {
+      "from": "Crystal",
+      "to": "Shell",
+      "distance": 0.019798422539370555
+    },
+    {
+      "from": "Crystal",
+      "to": "Smile",
+      "distance": 0.0315931343598978
+    },
+    {
+      "from": "Crystal",
+      "to": "Gemstone",
+      "distance": 0.02133465150792549
+    },
+    {
+      "from": "Crystal",
+      "to": "Star",
+      "distance": 0.02657909250978921
+    },
+    {
+      "from": "Crystal",
+      "to": "Wood",
+      "distance": 0.02666757583770522
+    },
+    {
+      "from": "Shell",
+      "to": "Smile",
+      "distance": 0.025677690969927662
+    },
+    {
+      "from": "Shell",
+      "to": "Gemstone",
+      "distance": 0.020351537464042876
+    },
+    {
+      "from": "Shell",
+      "to": "Star",
+      "distance": 0.020605723044100892
+    },
+    {
+      "from": "Shell",
+      "to": "Wood",
+      "distance": 0.029061226322083238
+    },
+    {
+      "from": "Smile",
+      "to": "Gemstone",
+      "distance": 0.01682127088687873
+    },
+    {
+      "from": "Smile",
+      "to": "Star",
+      "distance": 0.01614119869642844
+    },
+    {
+      "from": "Smile",
+      "to": "Wood",
+      "distance": 0.02230788364842622
+    },
+    {
+      "from": "Gemstone",
+      "to": "Star",
+      "distance": 0.024180381707262447
+    },
+    {
+      "from": "Gemstone",
+      "to": "Wood",
+      "distance": 0.028820213997505065
+    },
+    {
+      "from": "Star",
+      "to": "Wood",
+      "distance": 0.01192910594608481
+    }
+  ]
+}

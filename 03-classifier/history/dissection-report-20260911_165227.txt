@@ -1,0 +1,175 @@
+=========================================
+ PROTEIN SYSTEM DISSECTION REPORT
+ Timestamp: 20260911_165227
+=========================================
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-classifier.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-cost-evaluator.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-demand.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-dissector.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-engine.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-evolution.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-healer.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-metabolism.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-omniscience.zsh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-overview.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-reorganize.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-replicator.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-sentinel.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-status.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-verifier.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-bind.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-system-info.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-full-audit.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-network-monitor.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-ecosystem-bind.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-process-audit.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-hardware-sensors.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-battery-storage.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-storage-formatter.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-kernel-audit.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-network-deep.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-live-stream.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-load-inspector.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-load-cleanup.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-orphan-reaper.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-deep-inspect.sh -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh -> Essential for system metabolism.
+[STANDALONE] /data/data/com.termux/files/home/protein-lite/cells/00-example.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/protein-lite/core/09-verifier.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/protein-lite/core/10-governor.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/protein-lite/core/live-push.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/protein-lite/core/live.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/protein-lite/core/pre-inventory-safe-guard.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/protein-lite/core/protein.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/protein-lite/finish.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/protein-lite/run-all.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/protein-lite/run.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/.aws_aliases.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/.p10k.zsh -> Unmapped script file.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/nutdata/core_archive/.sudo-command-line.backup.zsh -> Stale or test asset. Consider archiving.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/09-verifier.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/10-governor.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/assign_sso_user_to_account.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/associate_iam_role.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/attach_sso_policy.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/audit-zsh-p10k.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/aws_cleanup_final.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/aws_inventory_check.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/build.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/check-processes.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/check-running.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/code.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/create-next-structure.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/create_bucket.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/create_ec2_instance.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/create_iam_user_admin.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/create_keypair.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/create_sso_permission_set.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/create_sso_user.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/dropbox-recover.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/dynu-project-map.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/dynu-safe-audit.sh -> Unmapped script file.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/nutdata/core_archive/dynu_dns_full_test.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/nutdata/core_archive/dynu_network_final_test.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/nutdata/core_archive/dynu_network_live_test.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/nutdata/core_archive/dynu_path_final_test.sh -> Stale or test asset. Consider archiving.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/dynu_record_diagnostic.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/dynu_update.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/fedora.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/finalize.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/find_all_files.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/fix-p10k-zshrc.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/fix-termux-setup.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/full-audit.sh -> Unmapped script file.
+[ACTIVE-CORE] /data/data/com.termux/files/home/nutdata/core_archive/full-network-audit.sh -> Essential for system metabolism.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/gemini.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/install-protein-v2.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/inventory-reconcile.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/inventory-step1-prepare.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/inventory-step2-phase1-v2.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/inventory-step2-phase1-v3.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/inventory-step2-phase1.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/inventory-step3-phase2a-analyze.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/inventory-step4-phase2b-usage.sh -> Unmapped script file.
+[ACTIVE-CORE] /data/data/com.termux/files/home/nutdata/core_archive/inventory-step5-phase2c-ai-router-compare.sh -> Essential for system metabolism.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/inventory-step6-phase2d-source-compare.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/local_system_check.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/network-baseline-2.sh -> Unmapped script file.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/nutdata/core_archive/network_path_test.sh -> Stale or test asset. Consider archiving.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/nut-diagnostic.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/nut-live-shell.zsh -> Unmapped script file.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/nutdata/core_archive/nut-p10k-final-path-test.zsh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/nutdata/core_archive/nut-p10k-single-test.zsh -> Stale or test asset. Consider archiving.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/oh-my-zsh.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/p10k-dump-u0_a287.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/p10k-instant-prompt-u0_a287.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/pipeline.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/pre-inventory-safe-guard.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-bootstrap.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell12-git-source-fiber.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell4R.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell4R3.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell5R2.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell5R3.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell6R1.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell7R1.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell8R1.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell8R2-broken-20260905-030728.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell8R2.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell8R3-before-fix-20260905-031121.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell8R3.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell9R1-validation-before-fix-20260905-031827.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell9R1-validation-before-fix-20260905-032055.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-cell9R1-validation.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-core-run.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-dna.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-evolution-cycle.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-extension-branch.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-git-pipeline.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-reconcile.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-resource-harvester.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein-safe-cycle.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/protein.zsh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/quick-check.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/recovery-unprocessed-sort.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/recreate_all.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/recreate_ec2_full_access.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/run-long-audit.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/run.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/setup-ec2-full.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/setup-free-tier-max.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/setup-zsh-full.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/setup_api.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/setup_api_full.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/setup_full_termux.sh -> Unmapped script file.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/nutdata/core_archive/ssh_to_latest_ec2.sh -> Stale or test asset. Consider archiving.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/stage4-value-sort.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/start_ssm_session.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/terminate_ec2.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/translate.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/warp-memory-audit.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/warpcheck.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/zsh-load-forensics.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/core_archive/ชื่อไฟล์.sh -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/src/protein_magnet_sync.py -> Unmapped script file.
+[STANDALONE] /data/data/com.termux/files/home/nutdata/src/protein_resource_monitor.py -> Unmapped script file.
+[ACTIVE-CORE] /data/data/com.termux/files/home/ai-router/ecosystem.config.js -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/ai-router/openai-test/openai-test.js -> Essential for system metabolism.
+[ACTIVE-CORE] /data/data/com.termux/files/home/ai-router/server.js -> Essential for system metabolism.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-classifier.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-cost-evaluator.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-demand.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-dissector.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-engine.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-evolution.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-healer.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-metabolism.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-omniscience.zsh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-overview.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-replicator.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-sentinel.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-status.sh -> Stale or test asset. Consider archiving.
+[CANDIDATE-QUARANTINE] /data/data/com.termux/files/home/protein-prototype-backup/protein-verifier.sh -> Stale or test asset. Consider archiving.

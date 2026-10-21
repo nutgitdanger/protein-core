@@ -1,0 +1,20 @@
+>>> MOLECULES
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+
+=== LIVE MOLECULE ===
+TYPE=MOLECULE
+STATUS=ACTIVE
+TIMESTAMP=20260930_171746
+FIBERS=1
+MOLECULES=5
+STATES=28
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+
+=== MOLECULE STATE ===
+ENGINE=molecules
+STATUS=ACTIVE
+TIMESTAMP=20260930_171746
+FIBERS=1
+MOLECULES=5
+STATES=28
+OUTPUT=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/molecule-engine.molecule

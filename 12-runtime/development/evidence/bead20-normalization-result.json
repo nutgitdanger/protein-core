@@ -1,0 +1,329 @@
+{
+  "RESULT": "PASS",
+  "MODE": "STRUCTURE_NORMALIZATION",
+  "INPUT_RUNS": 10,
+  "NORMALIZED_RUNS": 10,
+  "PAIR_COMPARISONS": 45,
+  "ROTATION_ALIGNMENT": true,
+  "AVERAGE_RMSD": 1.5398739764166842,
+  "MIN_RMSD": 0.788142605206562,
+  "MAX_RMSD": 10.26696352025124,
+  "ERRORS": [],
+  "PAIRWISE": [
+    {
+      "A": 0,
+      "B": 1,
+      "SEED_A": 11,
+      "SEED_B": 22,
+      "RMSD_ROTATION_ALIGNED": 1.2087763025098583
+    },
+    {
+      "A": 0,
+      "B": 2,
+      "SEED_A": 11,
+      "SEED_B": 33,
+      "RMSD_ROTATION_ALIGNED": 1.3090303735152318
+    },
+    {
+      "A": 0,
+      "B": 3,
+      "SEED_A": 11,
+      "SEED_B": 44,
+      "RMSD_ROTATION_ALIGNED": 1.2518724897195501
+    },
+    {
+      "A": 0,
+      "B": 4,
+      "SEED_A": 11,
+      "SEED_B": 55,
+      "RMSD_ROTATION_ALIGNED": 0.9083178185197208
+    },
+    {
+      "A": 0,
+      "B": 5,
+      "SEED_A": 11,
+      "SEED_B": 66,
+      "RMSD_ROTATION_ALIGNED": 1.1974004531207831
+    },
+    {
+      "A": 0,
+      "B": 6,
+      "SEED_A": 11,
+      "SEED_B": 77,
+      "RMSD_ROTATION_ALIGNED": 2.537559185377639
+    },
+    {
+      "A": 0,
+      "B": 7,
+      "SEED_A": 11,
+      "SEED_B": 88,
+      "RMSD_ROTATION_ALIGNED": 0.9026467130581864
+    },
+    {
+      "A": 0,
+      "B": 8,
+      "SEED_A": 11,
+      "SEED_B": 99,
+      "RMSD_ROTATION_ALIGNED": 1.2241454236759644
+    },
+    {
+      "A": 0,
+      "B": 9,
+      "SEED_A": 11,
+      "SEED_B": 111,
+      "RMSD_ROTATION_ALIGNED": 1.676634991775614
+    },
+    {
+      "A": 1,
+      "B": 2,
+      "SEED_A": 22,
+      "SEED_B": 33,
+      "RMSD_ROTATION_ALIGNED": 1.625538577182267
+    },
+    {
+      "A": 1,
+      "B": 3,
+      "SEED_A": 22,
+      "SEED_B": 44,
+      "RMSD_ROTATION_ALIGNED": 0.9952904437157297
+    },
+    {
+      "A": 1,
+      "B": 4,
+      "SEED_A": 22,
+      "SEED_B": 55,
+      "RMSD_ROTATION_ALIGNED": 1.0559306714000574
+    },
+    {
+      "A": 1,
+      "B": 5,
+      "SEED_A": 22,
+      "SEED_B": 66,
+      "RMSD_ROTATION_ALIGNED": 1.3078255033293613
+    },
+    {
+      "A": 1,
+      "B": 6,
+      "SEED_A": 22,
+      "SEED_B": 77,
+      "RMSD_ROTATION_ALIGNED": 0.7924386498412869
+    },
+    {
+      "A": 1,
+      "B": 7,
+      "SEED_A": 22,
+      "SEED_B": 88,
+      "RMSD_ROTATION_ALIGNED": 0.859763923444205
+    },
+    {
+      "A": 1,
+      "B": 8,
+      "SEED_A": 22,
+      "SEED_B": 99,
+      "RMSD_ROTATION_ALIGNED": 1.9509349562738112
+    },
+    {
+      "A": 1,
+      "B": 9,
+      "SEED_A": 22,
+      "SEED_B": 111,
+      "RMSD_ROTATION_ALIGNED": 0.9596829849941332
+    },
+    {
+      "A": 2,
+      "B": 3,
+      "SEED_A": 33,
+      "SEED_B": 44,
+      "RMSD_ROTATION_ALIGNED": 0.9452499569370327
+    },
+    {
+      "A": 2,
+      "B": 4,
+      "SEED_A": 33,
+      "SEED_B": 55,
+      "RMSD_ROTATION_ALIGNED": 1.068361342983889
+    },
+    {
+      "A": 2,
+      "B": 5,
+      "SEED_A": 33,
+      "SEED_B": 66,
+      "RMSD_ROTATION_ALIGNED": 0.7977315889229025
+    },
+    {
+      "A": 2,
+      "B": 6,
+      "SEED_A": 33,
+      "SEED_B": 77,
+      "RMSD_ROTATION_ALIGNED": 2.58973531274722
+    },
+    {
+      "A": 2,
+      "B": 7,
+      "SEED_A": 33,
+      "SEED_B": 88,
+      "RMSD_ROTATION_ALIGNED": 1.0583879571475225
+    },
+    {
+      "A": 2,
+      "B": 8,
+      "SEED_A": 33,
+      "SEED_B": 99,
+      "RMSD_ROTATION_ALIGNED": 1.075661621430934
+    },
+    {
+      "A": 2,
+      "B": 9,
+      "SEED_A": 33,
+      "SEED_B": 111,
+      "RMSD_ROTATION_ALIGNED": 1.908740169451616
+    },
+    {
+      "A": 3,
+      "B": 4,
+      "SEED_A": 44,
+      "SEED_B": 55,
+      "RMSD_ROTATION_ALIGNED": 1.4472756341955444
+    },
+    {
+      "A": 3,
+      "B": 5,
+      "SEED_A": 44,
+      "SEED_B": 66,
+      "RMSD_ROTATION_ALIGNED": 1.46665226387741
+    },
+    {
+      "A": 3,
+      "B": 6,
+      "SEED_A": 44,
+      "SEED_B": 77,
+      "RMSD_ROTATION_ALIGNED": 1.8248540779443643
+    },
+    {
+      "A": 3,
+      "B": 7,
+      "SEED_A": 44,
+      "SEED_B": 88,
+      "RMSD_ROTATION_ALIGNED": 10.26696352025124
+    },
+    {
+      "A": 3,
+      "B": 8,
+      "SEED_A": 44,
+      "SEED_B": 99,
+      "RMSD_ROTATION_ALIGNED": 1.0276815433742112
+    },
+    {
+      "A": 3,
+      "B": 9,
+      "SEED_A": 44,
+      "SEED_B": 111,
+      "RMSD_ROTATION_ALIGNED": 3.2928068752646897
+    },
+    {
+      "A": 4,
+      "B": 5,
+      "SEED_A": 55,
+      "SEED_B": 66,
+      "RMSD_ROTATION_ALIGNED": 0.8333687033860797
+    },
+    {
+      "A": 4,
+      "B": 6,
+      "SEED_A": 55,
+      "SEED_B": 77,
+      "RMSD_ROTATION_ALIGNED": 1.6708729180290707
+    },
+    {
+      "A": 4,
+      "B": 7,
+      "SEED_A": 55,
+      "SEED_B": 88,
+      "RMSD_ROTATION_ALIGNED": 1.0752889400579282
+    },
+    {
+      "A": 4,
+      "B": 8,
+      "SEED_A": 55,
+      "SEED_B": 99,
+      "RMSD_ROTATION_ALIGNED": 0.9160169018245784
+    },
+    {
+      "A": 4,
+      "B": 9,
+      "SEED_A": 55,
+      "SEED_B": 111,
+      "RMSD_ROTATION_ALIGNED": 2.150171157958365
+    },
+    {
+      "A": 5,
+      "B": 6,
+      "SEED_A": 66,
+      "SEED_B": 77,
+      "RMSD_ROTATION_ALIGNED": 1.2229454425051378
+    },
+    {
+      "A": 5,
+      "B": 7,
+      "SEED_A": 66,
+      "SEED_B": 88,
+      "RMSD_ROTATION_ALIGNED": 1.2344611939147354
+    },
+    {
+      "A": 5,
+      "B": 8,
+      "SEED_A": 66,
+      "SEED_B": 99,
+      "RMSD_ROTATION_ALIGNED": 0.788142605206562
+    },
+    {
+      "A": 5,
+      "B": 9,
+      "SEED_A": 66,
+      "SEED_B": 111,
+      "RMSD_ROTATION_ALIGNED": 1.169701091927184
+    },
+    {
+      "A": 6,
+      "B": 7,
+      "SEED_A": 77,
+      "SEED_B": 88,
+      "RMSD_ROTATION_ALIGNED": 0.868098848607731
+    },
+    {
+      "A": 6,
+      "B": 8,
+      "SEED_A": 77,
+      "SEED_B": 99,
+      "RMSD_ROTATION_ALIGNED": 1.2782728894747182
+    },
+    {
+      "A": 6,
+      "B": 9,
+      "SEED_A": 77,
+      "SEED_B": 111,
+      "RMSD_ROTATION_ALIGNED": 1.2344899184913738
+    },
+    {
+      "A": 7,
+      "B": 8,
+      "SEED_A": 88,
+      "SEED_B": 99,
+      "RMSD_ROTATION_ALIGNED": 2.0596940614939685
+    },
+    {
+      "A": 7,
+      "B": 9,
+      "SEED_A": 88,
+      "SEED_B": 111,
+      "RMSD_ROTATION_ALIGNED": 1.145892125828661
+    },
+    {
+      "A": 8,
+      "B": 9,
+      "SEED_A": 99,
+      "SEED_B": 111,
+      "RMSD_ROTATION_ALIGNED": 1.1130208140627187
+    }
+  ]
+}

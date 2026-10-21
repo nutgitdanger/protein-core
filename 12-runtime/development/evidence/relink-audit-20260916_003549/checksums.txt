@@ -1,0 +1,4 @@
+=== 12. CHECKSUMS OF CURRENT RELATION CORE ===
+2180ff0434e53ac106ef48b7ed5d89cb5e47bab53baa2efd12d94202bb169af6  /data/data/com.termux/files/home/.config/dynu-audit/protein/04-relation/protein-relation.state
+a293a6513ca73cd2b7e125dd5546f263b78b4ecb7d61fca568db6381fe6afd9b  /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/relation/bead20/bead20-relation.json
+2d6a53ca795e148cd192667186bf1b04cb9af8a65ce52be6faf9e5260c0d324f  /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/relation/bead20/bead20-backbone.json

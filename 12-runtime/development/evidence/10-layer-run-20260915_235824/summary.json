@@ -1,0 +1,86 @@
+{
+  "RESULT": "PASS",
+  "MODE": "10_LAYER_SEQUENTIAL_RUNTIME",
+  "RUN_ID": "20260915_235824",
+  "EXECUTION": "SEQUENTIAL",
+  "AUTO_PROMOTION": false,
+  "CORE_MUTATION": false,
+  "LAYERS_REQUESTED": 8,
+  "LAYERS_EXECUTED": 8,
+  "PASS": 8,
+  "FAIL": 0,
+  "RESULTS": [
+    {
+      "LAYER": "03_NORMALIZATION",
+      "STATUS": "PASS",
+      "RETURN_CODE": 0,
+      "RUNTIME_SEC": 0.177688,
+      "FILE": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-normalization.py",
+      "STDOUT_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/03-bead20-normalization.py.stdout.log",
+      "STDERR_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/03-bead20-normalization.py.stderr.log"
+    },
+    {
+      "LAYER": "04_CONVERGENCE",
+      "STATUS": "PASS",
+      "RETURN_CODE": 0,
+      "RUNTIME_SEC": 0.145882,
+      "FILE": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-convergence-v2.py",
+      "STDOUT_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/04-bead20-convergence-v2.py.stdout.log",
+      "STDERR_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/04-bead20-convergence-v2.py.stderr.log"
+    },
+    {
+      "LAYER": "05_CONSTRAINT_STRESS",
+      "STATUS": "PASS",
+      "RETURN_CODE": 0,
+      "RUNTIME_SEC": 9.637429,
+      "FILE": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-constraint-stress.py",
+      "STDOUT_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/05-bead20-constraint-stress.py.stdout.log",
+      "STDERR_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/05-bead20-constraint-stress.py.stderr.log"
+    },
+    {
+      "LAYER": "06_MUTATION_UNIT",
+      "STATUS": "PASS",
+      "RETURN_CODE": 0,
+      "RUNTIME_SEC": 0.147413,
+      "FILE": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-mutation-unit.py",
+      "STDOUT_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/06-bead20-mutation-unit.py.stdout.log",
+      "STDERR_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/06-bead20-mutation-unit.py.stderr.log"
+    },
+    {
+      "LAYER": "07_MUTATION_PAIR",
+      "STATUS": "PASS",
+      "RETURN_CODE": 0,
+      "RUNTIME_SEC": 0.153571,
+      "FILE": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-mutation-pair.py",
+      "STDOUT_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/07-bead20-mutation-pair.py.stdout.log",
+      "STDERR_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/07-bead20-mutation-pair.py.stderr.log"
+    },
+    {
+      "LAYER": "08_CO_MUTATION",
+      "STATUS": "PASS",
+      "RETURN_CODE": 0,
+      "RUNTIME_SEC": 0.140493,
+      "FILE": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-co-mutation.py",
+      "STDOUT_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/08-bead20-co-mutation.py.stdout.log",
+      "STDERR_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/08-bead20-co-mutation.py.stderr.log"
+    },
+    {
+      "LAYER": "09_PROPAGATION_SELECTION",
+      "STATUS": "PASS",
+      "RETURN_CODE": 0,
+      "RUNTIME_SEC": 0.147001,
+      "FILE": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-propagation-selection.py",
+      "STDOUT_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/09-bead20-propagation-selection.py.stdout.log",
+      "STDERR_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/09-bead20-propagation-selection.py.stderr.log"
+    },
+    {
+      "LAYER": "10_RELATION_CONSERVATION",
+      "STATUS": "PASS",
+      "RETURN_CODE": 0,
+      "RUNTIME_SEC": 0.141637,
+      "FILE": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-relation-conservation.py",
+      "STDOUT_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/10-bead20-relation-conservation.py.stdout.log",
+      "STDERR_LOG": "/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/10-layer-run-20260915_235824/10-bead20-relation-conservation.py.stderr.log"
+    }
+  ]
+}

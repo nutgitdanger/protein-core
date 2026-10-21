@@ -1,0 +1,23 @@
+{
+  "RESULT": "PASS",
+  "MODE": "RELATION_CONSERVATION",
+  "SOURCE_RELATIONS": 190,
+  "GENERATIONS": 3,
+  "CHECKS": [
+    {
+      "GENERATION": 0,
+      "RELATION_OVERLAP": 19,
+      "CURRENT_RELATIONS": 19
+    },
+    {
+      "GENERATION": 1,
+      "RELATION_OVERLAP": 19,
+      "CURRENT_RELATIONS": 19
+    },
+    {
+      "GENERATION": 2,
+      "RELATION_OVERLAP": 19,
+      "CURRENT_RELATIONS": 19
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+>>> FOLDING
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+PROTEIN=/data/data/com.termux/files/home/.config/dynu-audit/protein
+[OK] folding state written
+ENGINE=folding
+STATUS=FOLDED
+TIMESTAMP=20260930_171745
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+FIBERS=1
+MOLECULES=5
+STATES=28

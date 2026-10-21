@@ -1,0 +1,71 @@
+=== LAB LINEAGE RECONCILIATION ===
+TIMESTAMP=20260930_170930
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+LAB=/data/data/com.termux/files/home/protein-lab
+
+=== CLASSIFICATION ===
+TYPE=BRANCH_EXTENSION
+STATUS=ACTIVE
+ROLE=DEVELOPMENT
+STRUCTURAL_LINEAGE=PROVEN
+COMMON_HISTORY=PROVEN
+ROOT_REFERENCE=PROVEN
+DIRECT_EXECUTION=NOT_PROVEN
+ROOT_DIRECT_WRITE=NO
+MERGE=NO
+DELETE=NO
+MOVE=NO
+
+=== REGISTERED ROOT ===
+5:~/protein-lab	RELATED	ACTIVE	DEVELOPMENT
+
+=== ROOT RELATION ===
+4:protein-lab	~/.config/dynu-audit/protein	DIRECT-PROTEIN	protein-folding-engine.sh
+
+=== ACTIVE ROOT REFERENCES ===
+/data/data/com.termux/files/home/.config/dynu-audit/control/roots.tsv:5:~/protein-lab	RELATED	ACTIVE	DEVELOPMENT
+/data/data/com.termux/files/home/.config/dynu-audit/control/relations.tsv:6:~/protein-lab	~/.config/dynu-audit/protein	DEVELOPMENT
+/data/data/com.termux/files/home/.config/dynu-audit/control/check-root.zsh:30:    protein-lab) base="$HOME/protein-lab" ;;
+/data/data/com.termux/files/home/.config/dynu-audit/control/root-relations.tsv:4:protein-lab	~/.config/dynu-audit/protein	DIRECT-PROTEIN	protein-folding-engine.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-restore-safe.zsh:10:LAB="$HOME/protein-lab"
+/data/data/com.termux/files/home/.config/dynu-audit/protein-restore-safe.zsh:49:    .config/dynu-audit protein-lab 2>/dev/null || true
+
+=== EXECUTION-CALL CHECK ===
+DIRECT_EXECUTION=NOT_FOUND
+
+=== LAB GATE ===
+ROOT GATE
+
+Expansion Layer has NO DIRECT WRITE AUTHORITY over Root/DNA.
+
+FLOW:
+EXPANSION
+ -> EVIDENCE
+ -> TEST
+ -> REVIEW
+ -> CENTRAL CORE
+ -> FOLD
+ -> ROOT CANDIDATE
+ -> FINAL VALIDATION
+ -> ROOT'
+
+Until validated:
+candidate knowledge remains outside Root.
+
+=== LAB MANIFEST ===
+EXPANSION_ROOT=/data/data/com.termux/files/home/.config/dynu-audit/expansion
+CREATED=2026-09-12T23:38:09+07:00
+LAYERS=5
+FRONT_PER_LAYER=5
+BACK_PER_LAYER=5
+TOTAL_EXPANSION_NODES=50
+FOLD_MODEL=0+1
+ROOT_DIRECT_WRITE=NO
+DAEMON=NO
+BACKGROUND_LOOP=NO
+AUTO_SOS=NOT_ENABLED
+
+=== LAB CANONICAL REFERENCES ===
+protein/00-core/map/fibers/molecule
+protein/00-core/map/fibers/molecule-state
+protein/00-core/map/molecules

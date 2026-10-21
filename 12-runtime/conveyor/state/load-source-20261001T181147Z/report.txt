@@ -1,0 +1,19 @@
+=== LOAD ===
+ 01:11:47 up 7 days, 21:46,  0 users,  load average: 33.75, 33.22, 32.32
+=== PROCESS STATES ===
+S   PID  PPID %CPU %MEM   RSS WCHAN                        ELAPSED CMD
+R  6702 27256 50.0  0.0  3716 -                              00:00 ps -eo state,pid,ppid,%cpu,%mem,rss,wchan:24,etime,cmd
+S  6703 27256  0.0  0.0  4780 pipe_read                      00:00 head -n 40
+S 12314  3623  0.0  0.0  2348 wait_woken                1-04:05:25 /data/data/com.termux/files/usr/bin/zsh -l
+S 27256  3623  0.0  0.1  6232 SyS_rt_sigsuspend         1-01:01:29 /data/data/com.termux/files/usr/bin/zsh -l
+=== STATE COUNT ===
+      3 R
+      2 S
+=== CPU PRESSURE ===
+=== MEMORY PRESSURE ===
+=== IO PRESSURE ===
+=== SWAP ===
+=== MEMORY ===
+               total        used        free      shared  buff/cache   available
+Mem:            5666        3023         586          32        2348        2642
+Swap:           2303        1102        1201

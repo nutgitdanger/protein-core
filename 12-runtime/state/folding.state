@@ -1,0 +1,8 @@
+ENGINE=folding
+STATUS=FOLDED
+TIMESTAMP=20260930_171745
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+FIBERS=1
+MOLECULES=5
+STATES=28
+test-pulse=1790777184

@@ -1,0 +1,5 @@
+FOLD_TIMESTAMP=20260930_125409
+MOLECULE_TIMESTAMP=20260930_110118
+MOLECULE_SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+ACTION=BUILD_MOLECULE
+RESULT=BEAD_FAIL

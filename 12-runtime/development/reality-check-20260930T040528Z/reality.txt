@@ -1,0 +1,540 @@
+=== ROOT ===
+HOME=/data/data/com.termux/files/home
+PWD=/data/data/com.termux/files/home
+main
+03356d7
+
+=== TOP LEVEL ===
+.env
+.folded-paths
+.git
+.reconcile
+.s3-evidence
+_promoter' 
+auto-router.sh
+check-reach.sh
+config
+containers
+cycle.sh
+device-hardware-verify.sh
+dry-run.sh
+dynu-daemon.sh
+dynu-dynamic.sh
+dynu-offload
+evidence
+expansion
+governor.sh
+links
+master-map.zsh
+printf
+pro
+protein
+protein-10-layer-hard-gate.py
+protein-aws-vault-upgrade.sh
+protein-battery-storage.sh
+protein-bind.sh
+protein-classifier.sh
+protein-cognitive-engine.py
+protein-cost-evaluator.sh
+protein-cycle.sh
+protein-deep-inspect.sh
+protein-demand.sh
+protein-dissector.sh
+protein-dry-run.sh
+protein-ec2-local.py
+protein-ecosystem-bind.sh
+protein-engine.sh
+protein-evolution.sh
+protein-evolve.sh
+protein-fiber-link.sh
+protein-folding-engine.sh
+protein-full-audit.sh
+protein-full-system-blueprint.sh
+protein-governor.sh
+protein-hardware-sensors.sh
+protein-healer.sh
+protein-image-cluster.sh
+protein-kernel-audit.sh
+protein-live-stream.sh
+protein-load-cleanup.sh
+protein-load-inspector.sh
+protein-master-runner.py
+protein-master-status.sh
+protein-metabolism.sh
+protein-network-deep.sh
+protein-network-monitor.sh
+protein-neural-v2.py
+protein-neural.py
+protein-nib.sh
+protein-omniscience.zsh
+protein-overview.sh
+protein-process-audit.sh
+protein-reconcile.sh
+protein-reorganize.sh
+protein-replicator.sh
+protein-restore-safe.zsh
+protein-sentinel.sh
+protein-smart-manager.sh
+protein-status.sh
+protein-storage-formatter.sh
+protein-synthesizer.sh
+protein-system-info.sh
+protein-ultimate-upgrade.sh
+protein-verifier.sh
+protein-welcome.sh
+prototype
+reality-exec.sh
+reality-net-test.sh
+recovery-canonical.zsh
+recovery-one-shot.zsh
+reports
+route53-router.sh
+run-protein-worker.sh
+runtime
+secrets
+state
+tatus
+tools
+validate.sh
+vault
+wg0.conf
+
+=== EXECUTABLE SURFACES ===
+/data/data/com.termux/files/home/.config/dynu-audit/auto-router.sh
+/data/data/com.termux/files/home/.config/dynu-audit/check-reach.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/archive/contract-fix-20260918_210738/research.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/archive/contract-fix-20260918_210738/worker.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/archive/network-audit/ec2-net-audit.py
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/archive/worker-home-fix-20260918T171136Z/processing-worker.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/archive/worker-pre-home-20260918T171040Z/processing-worker.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/benchmark-pipeline.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/health.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/local-worker.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/process.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/processing-worker.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/research.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/run.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/worker.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/dynamic-dns.py
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/full-pipeline.py
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/git-vault-pipeline.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/health-check-pipeline.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/lan-scanner.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/port-scan-pipeline.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/protein-pipeline.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/protein-reconcile.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/protein-worker.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/protein.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/router-recon-pipeline.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/target-probe.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/wan-ip.sh
+/data/data/com.termux/files/home/.config/dynu-audit/device-hardware-verify.sh
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-daemon.sh
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-dynamic.sh
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/backup_guard.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/control/control_plane.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/protein/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/protein/l1.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/protein/l2.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/protein/l3.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/protein/l4.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/protein/l5.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/protein/l6.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/protein/l7.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/protein/models/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/protein/models/physics.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/reasoning/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/corrupt-phase5-20260922_025358/tests/verify_pipeline.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/control/control_plane.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/protein/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/protein/l1.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/protein/l2.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/protein/l3.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/protein/l4.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/protein/l5.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/protein/l6.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/protein/l7.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/protein/models/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/protein/models/physics.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/reasoning/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/restore-test/phase5-20260922_025358/tests/verify_pipeline.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/control/control_plane.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/protein/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/protein/l1.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/protein/l2.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/protein/l3.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/protein/l4.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/protein/l5.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/protein/l6.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/protein/l7.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/protein/models/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/protein/models/physics.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/reasoning/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/snapshots/phase5-20260922_025358/tests/verify_pipeline.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/backup/test_guard.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/control/control_plane.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/control/run_control_test.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/control/run_phase4_final.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/execution/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/execution/executor.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/execution/retry.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/execution/state.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/execution/tests/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/execution/tests/test_6a.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/execution/tests/test_6b.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/execution/tests/test_6c.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/execution/tests/test_6d.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/execution/worker/worker.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/phase7-run.sh
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/phase7/data_plane/contract.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/phase7/data_plane/storage.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/protein/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/protein/l1.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/protein/l2.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/protein/l3.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/protein/l4.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/protein/l5.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/protein/l6.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/protein/l7.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/protein/models/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/protein/models/physics.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/reasoning/__init__.py
+/data/data/com.termux/files/home/.config/dynu-audit/dynu-offload/tests/verify_pipeline.py
+/data/data/com.termux/files/home/.config/dynu-audit/master-map.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-10-layer-hard-gate.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein-aws-vault-upgrade.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-battery-storage.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-bind.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-classifier.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-cognitive-engine.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein-cost-evaluator.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-cycle.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-deep-inspect.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-demand.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-dissector.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-dry-run.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-ec2-local.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein-ecosystem-bind.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-engine.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-evolution.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-evolve.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-fiber-link.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-full-audit.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-governor.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-hardware-sensors.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-healer.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-image-cluster.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-kernel-audit.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-live-stream.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-load-cleanup.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-load-inspector.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-master-runner.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-metabolism.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-network-deep.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-network-monitor.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-neural-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein-neural.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein-nib.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-omniscience.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-overview.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-process-audit.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-reconcile.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-reorganize.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-replicator.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-restore-safe.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-sentinel.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-smart-manager.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-status.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-storage-formatter.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-synthesizer.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-system-info.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-ultimate-upgrade.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-verifier.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-welcome.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/policy/protein-admission-gate.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/protein/00-core/policy/protein-safety-gate.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/protein/05-validator/validator.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/protein/10-governor/evolution_acceptance.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/capture-symlink-axis.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/extend-bead-from-symlink-axis.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/molecule-bead.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/molecule-engine.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/protein-auto-synthesized.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-co-mutation.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-collision-contract-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-collision-contract.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-constraint-stress.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-convergence-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-motion.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-mutation-pair.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-mutation-unit.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-normalization.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-propagation-selection.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-relation-conservation.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-self-fold-compare.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-self-fold-multiseed.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-self-fold-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20-self-fold.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/candidates/bead20.py
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/molecule-state-fix-20260930_100213/molecule-engine.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/reality-exec.sh
+/data/data/com.termux/files/home/.config/dynu-audit/reality-net-test.sh
+/data/data/com.termux/files/home/.config/dynu-audit/recovery-canonical.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/recovery-one-shot.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/route53-router.sh
+/data/data/com.termux/files/home/.config/dynu-audit/run-protein-worker.sh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/folding-writer-backup-20260928_152017/protein-folding-engine.sh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/master-map-before-entry-count-20260929_210047.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/master-map-before-entry-count-20260929_210250.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/master-map-before-entry-count-20260929_210325.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/master-map-before-map-node-count-20260929_210715.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/master-map-before-reader-20260928_180310.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/master-map-before-recursive-count-20260929_205946.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/master-map-reader-before-health-20260929_203452.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/master-map-reader-before-index-20260929_203320.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/master-map-reader-before-lookup-20260929_203147.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/master-map-reader-health-ok-20260929_203911.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/molecule-bead-before-20260928_154802.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/molecule-engine-before-20260928_155033.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/reconcile-before-20260928_153734.sh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/reconcile-before-20260928_153906.sh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/pipeline-backup-20260929T153451Z.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/11-molecules/molecule-bead.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/11-molecules/molecule-engine.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-co-mutation.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-collision-contract-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-collision-contract.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-constraint-stress.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-convergence-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-motion.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-mutation-pair.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-mutation-unit.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-normalization.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-propagation-selection.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-relation-conservation.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-self-fold-compare.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-self-fold-multiseed.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-self-fold-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20-self-fold.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T141603Z/workspace/protein/12-runtime/development/candidates/bead20.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/11-molecules/molecule-bead.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/11-molecules/molecule-engine.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-co-mutation.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-collision-contract-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-collision-contract.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-constraint-stress.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-convergence-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-motion.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-mutation-pair.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-mutation-unit.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-normalization.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-propagation-selection.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-relation-conservation.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-self-fold-compare.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-self-fold-multiseed.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-self-fold-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20-self-fold.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260918T171145Z/workspace/protein/12-runtime/development/candidates/bead20.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/00-core/policy/protein-admission-gate.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/00-core/policy/protein-safety-gate.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/05-validator/validator.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/10-governor/evolution_acceptance.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/11-molecules/beads/capture-symlink-axis.sh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/11-molecules/beads/extend-bead-from-symlink-axis.sh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/11-molecules/molecule-bead.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/11-molecules/molecule-engine.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/11-molecules/protein-auto-synthesized.sh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/audit-readonly/lineage-map-20260929T221313Z/protein-engine.sh
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-co-mutation.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-collision-contract-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-collision-contract.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-constraint-stress.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-convergence-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-motion.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-mutation-pair.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-mutation-unit.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-normalization.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-propagation-selection.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-relation-conservation.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-self-fold-compare.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-self-fold-multiseed.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-self-fold-v2.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20-self-fold.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/candidates/bead20.py
+/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/workspace/protein/12-runtime/development/molecule-state-fix-20260930_100213/molecule-engine.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/state/pre-casacam-canonical-20260922T005231Z/device-hardware-verify.sh
+/data/data/com.termux/files/home/.config/dynu-audit/state/pre-casacam-canonical-20260922T005231Z/dynu-v2-sync.sh
+/data/data/com.termux/files/home/.config/dynu-audit/state/pre-casacam-canonical-20260922T005231Z/protein-reconcile.sh
+/data/data/com.termux/files/home/.config/dynu-audit/state/pre-casacam-canonical-20260922T005231Z/reality-exec.sh
+/data/data/com.termux/files/home/.config/dynu-audit/state/quarantine-dns-20260922T012000Z/dynu-sync.sh
+/data/data/com.termux/files/home/.config/dynu-audit/state/remove-old-target-20260922T005855Z/check-reach.sh
+/data/data/com.termux/files/home/.config/dynu-audit/state/remove-old-target-20260922T005855Z/dynu-sync.sh
+/data/data/com.termux/files/home/.config/dynu-audit/tools/atavism-shield.sh
+/data/data/com.termux/files/home/.config/dynu-audit/tools/bridge-acceptance-check.sh
+/data/data/com.termux/files/home/.config/dynu-audit/tools/enforce-gate.sh
+/data/data/com.termux/files/home/.config/dynu-audit/tools/home-live-inventory.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/tools/portable-bootstrap.sh
+/data/data/com.termux/files/home/.config/dynu-audit/validate.sh
+
+=== CANONICAL ROOT ENGINES ===
+/data/data/com.termux/files/home/.config/dynu-audit/protein-nib.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/molecule-bead.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/molecule-engine.zsh
+
+=== CONTAINER EXECUTORS ===
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/archive/contract-fix-20260918_210738/research.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/archive/contract-fix-20260918_210738/worker.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/archive/network-audit/ec2-net-audit.py
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/archive/worker-home-fix-20260918T171136Z/processing-worker.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/archive/worker-pre-home-20260918T171040Z/processing-worker.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/benchmark-pipeline.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/health.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/local-worker.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/process.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/processing-worker.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/research.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/run.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/worker.zsh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/dynamic-dns.py
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/full-pipeline.py
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/git-vault-pipeline.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/health-check-pipeline.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/lan-scanner.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/port-scan-pipeline.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/protein-pipeline.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/protein-reconcile.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/protein-worker.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/protein.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/router-recon-pipeline.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/target-probe.sh
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/wan-ip.sh
+
+=== CURRENT STATES ===
+
+[/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state]
+ENGINE=folding
+STATUS=FOLDED
+TIMESTAMP=20260930_110118
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+FIBERS=1
+MOLECULES=19
+STATES=24
+
+[/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.result]
+FOLDING_RESULT=OK
+TIMESTAMP=20260930_110118
+FIBERS=1
+MOLECULES=19
+STATES=24
+
+[/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state]
+ENGINE=molecules
+STATUS=ACTIVE
+BEADS=4
+LAST_BEAD=4
+TIMESTAMP=20260930_110118
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+NEXT=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-4.state
+
+[/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule-engine.state]
+ENGINE=molecules
+STATUS=ACTIVE
+TIMESTAMP=20260930_110119
+FIBERS=1
+MOLECULES=20
+STATES=24
+OUTPUT=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/molecule-engine.molecule
+
+[/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/molecule-engine.molecule]
+TYPE=MOLECULE
+STATUS=ACTIVE
+TIMESTAMP=20260930_110119
+FIBERS=1
+MOLECULES=20
+STATES=24
+SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+
+=== MOLECULE BEADS ===
+bead-1.state
+bead-2.state
+bead-3.state
+bead-4.state
+
+=== LIVE RUN ===
+root-live-run-20260930T040117Z
+
+=== GIT STATUS ===
+ M config/canonical.env
+ M dynu-offload/protein/l6.py
+ M protein/11-molecules/live.molecule
+ M protein/11-molecules/molecule-engine.zsh
+ M protein/12-runtime/state/folding.result
+ M protein/12-runtime/state/folding.state
+ M protein/12-runtime/state/molecule.state
+ M runtime/ec2-offload/ssh-config
+ M wg0.conf
+?? auto-router.sh
+?? containers/protein/__pycache__/
+?? containers/protein/dynamic-dns.py
+?? containers/protein/full-pipeline.py.new
+?? dynu-dynamic.sh
+?? protein/04-relation/symlink-lineage-test-run-20260930_102326/
+?? protein/04-relation/symlink-lineage-test-run-current/
+?? protein/04-relation/symlink-lineage-test-run/
+?? protein/11-molecules/beads/bead-4.state
+?? protein/11-molecules/beads/relation-capture.20260930_072940.state
+?? protein/11-molecules/molecule-engine.molecule
+?? protein/12-runtime/audit-readonly/
+?? protein/12-runtime/development/molecule-state-fix-20260930_100213/
+?? protein/12-runtime/development/reality-check-20260930T040528Z/
+?? protein/12-runtime/development/root-live-run-20260930T040117Z/
+?? protein/12-runtime/state/molecule-engine.state
+?? protein/12-runtime/state/molecule.state.before-reconcile.20260930_100507
+?? protein/12-runtime/state/nib-evidence/run-20260930_110117.log
+?? recovery-canonical.zsh
+?? recovery-one-shot.zsh
+?? route53-router.sh
+?? runtime/audit-readonly/
+?? runtime/aws-final-capture-20260929T183339Z/
+?? runtime/aws-inventory/
+?? runtime/ebs/folding-writer-backup-20260928_152017/
+?? runtime/ebs/master-map-before-entry-count-20260929_210047.zsh
+?? runtime/ebs/master-map-before-entry-count-20260929_210250.zsh
+?? runtime/ebs/master-map-before-entry-count-20260929_210325.zsh
+?? runtime/ebs/master-map-before-map-node-count-20260929_210715.zsh
+?? runtime/ebs/master-map-before-reader-20260928_180310.zsh
+?? runtime/ebs/master-map-before-recursive-count-20260929_205946.zsh
+?? runtime/ebs/master-map-reader-before-health-20260929_203452.zsh
+?? runtime/ebs/master-map-reader-before-index-20260929_203320.zsh
+?? runtime/ebs/master-map-reader-before-lookup-20260929_203147.zsh
+?? runtime/ebs/master-map-reader-health-ok-20260929_203911.zsh
+?? runtime/ebs/molecule-bead-before-20260928_154802.zsh
+?? runtime/ebs/molecule-engine-before-20260928_155033.zsh
+?? runtime/ebs/protein-vault-20260926_224626/
+?? runtime/ebs/reaper-broken-link-before-remove-20260929_204413
+?? runtime/ebs/reconcile-before-20260928_153734.sh
+?? runtime/ebs/reconcile-before-20260928_153906.sh
+?? runtime/ec2-offload/ebs.yaml
+?? runtime/ec2-offload/elastic-ip.yaml
+?? runtime/ec2-offload/instance.yaml
+?? runtime/ec2-offload/internet-gateway.yaml
+?? runtime/ec2-offload/nginx-routing.txt
+?? runtime/ec2-offload/routes.yaml
+?? runtime/ec2-offload/runtime-snapshot.txt
+?? runtime/ec2-offload/security-group.yaml
+?? runtime/ec2-offload/service-manifest.txt
+?? runtime/ec2-offload/subnet.yaml
+?? runtime/final-m7-current/
+?? runtime/live-final/
+?? runtime/protein/processing/__pycache__/
+?? runtime/protein/processing/pipeline-backup-20260929T153451Z.py
+?? runtime/protein/processing/runs/20260930T030735Z/
+?? runtime/recovery-canonical/
+?? runtime/recovery-manifest/
+?? runtime/recovery-one-shot/
+?? validate.sh

@@ -1,0 +1,335 @@
+=== 7. PROTEIN / FOLD / RELATION REFERENCES ===
+
+[/data/data/com.termux/files/home/ai-router]
+
+[/data/data/com.termux/files/home/network]
+
+[/data/data/com.termux/files/home/protein-lite]
+/data/data/com.termux/files/home/protein-lite/.gitignore:1:# root & runtime
+/data/data/com.termux/files/home/protein-lite/.gitignore:15:../.config/dynu-audit/
+/data/data/com.termux/files/home/protein-lite/.gitignore:18:dynu-audit/
+/data/data/com.termux/files/home/protein-lite/core/live-push.zsh:1:protein-touch-root() { touch "$HOME/protein-lite/ROOT"; }
+/data/data/com.termux/files/home/protein-lite/core/live-push.zsh:3:add-zsh-hook preexec protein-touch-root
+/data/data/com.termux/files/home/protein-lite/core/live.zsh:1:export PROTEIN_ROOT_FILE="$HOME/protein-lite/ROOT"
+/data/data/com.termux/files/home/protein-lite/core/live.zsh:3:protein-live-check() {
+/data/data/com.termux/files/home/protein-lite/core/live.zsh:7:    for f in $HOME/protein-lite/cells/*.zsh(N); do source "$f" >/dev/null 2>&1; done
+/data/data/com.termux/files/home/protein-lite/core/live.zsh:11:add-zsh-hook precmd protein-live-check
+/data/data/com.termux/files/home/protein-lite/core/protein.zsh:1:# protein-lite - lightweight shim
+/data/data/com.termux/files/home/protein-lite/core/protein.zsh:2:[ -f ~/protein-lite/core/09-verifier.zsh ] && source ~/protein-lite/core/09-verifier.zsh
+/data/data/com.termux/files/home/protein-lite/core/protein.zsh:3:[ -f ~/protein-lite/core/10-governor.zsh ] && source ~/protein-lite/core/10-governor.zsh
+/data/data/com.termux/files/home/protein-lite/core/protein.zsh:5:[ -f ~/.config/dynu-audit/protein-omniscience.zsh ] && source ~/.config/dynu-audit/protein-omniscience.zsh
+/data/data/com.termux/files/home/protein-lite/finish.sh:3:COUNT=$(ls ~/my-core-projects/nutdata/core_archive/protein-cell*.zsh 2>/dev/null | wc -l)
+/data/data/com.termux/files/home/protein-lite/finish.sh:4:REALLEAK=$(grep -r "/data/.*\.ssh\|/data/.*\.aws\|/home/.*\.ssh" ~/my-core-projects/nutdata/core_archive/ ~/protein-lite/core/ 2>/dev/null | grep -v "verifier\|governor\|check" | wc -l)
+/data/data/com.termux/files/home/protein-lite/finish.sh:8:  date > ~/.config/dynu-audit/state/DONE
+/data/data/com.termux/files/home/protein-lite/finish.sh:9:  echo "DONE" > ~/protein-lite/DONE
+/data/data/com.termux/files/home/protein-lite/run-all.sh:3:echo "[1] protein-lite 48K -> guard"
+/data/data/com.termux/files/home/protein-lite/run-all.sh:4:cd ~/protein-lite &&./run.sh
+/data/data/com.termux/files/home/protein-lite/run-all.sh:7:ls ~/my-core-projects/nutdata/core_archive/protein-cell*.zsh
+/data/data/com.termux/files/home/protein-lite/run-all.sh:9:echo "[3] dynu-audit 15M -> engine"
+/data/data/com.termux/files/home/protein-lite/run-all.sh:10:ls ~/.config/dynu-audit/protein/ | head -n 12
+/data/data/com.termux/files/home/protein-lite/run.sh:2:cd ~/protein-lite
+/data/data/com.termux/files/home/protein-lite/run.sh:3:zsh core/protein.zsh
+
+[/data/data/com.termux/files/home/protein-prototype-backup]
+/data/data/com.termux/files/home/protein-prototype-backup/protein-classifier.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-classifier.sh:26:    for candidate in "$@"; do
+/data/data/com.termux/files/home/protein-prototype-backup/protein-classifier.sh:27:        if [ -d "$candidate" ]; then
+/data/data/com.termux/files/home/protein-prototype-backup/protein-classifier.sh:28:            ln -sfn "$candidate" "$PROTEIN_HOME/projects/$name"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-classifier.sh:29:            echo "Linked $name -> $candidate" | tee -a "$LOG_FILE"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-classifier.sh:37:link_project "dns" "$HOME/router-audit" "$HOME/projects/router-audit" "$HOME/.config/dynu-audit"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-classifier.sh:39:link_project "dynu" "$HOME/.config/dynu-audit"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-cost-evaluator.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-cost-evaluator.sh:6:QUARANTINE_DIR="$PROTEIN_HOME/07-quarantine/$(date +%Y%m%d)"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-cost-evaluator.sh:21:    echo "  -> [PRUNED & ISOLATED] Relocated to quarantine to lighten metabolic load." | tee -a "$COST_LOG"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-demand.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-demand.sh:18:    # ข้ามโฟลเดอร์ระบบภายใน protein และตัว projects เองเพื่อกัน Loop
+/data/data/com.termux/files/home/protein-prototype-backup/protein-demand.sh:19:    [[ "$dirname" == "protein" || "$dirname" == "dynu-audit" || "$dirname" == "protein-next" || "$dirname" == "projects" ]] && continue
+/data/data/com.termux/files/home/protein-prototype-backup/protein-dissector.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-dissector.sh:24:        if [[ "$file" =~ '.config/dynu-audit' || "$file" =~ 'ai-router' || "$file" =~ 'network-audit' || "$file" =~ 'router-audit' ]]; then
+/data/data/com.termux/files/home/protein-prototype-backup/protein-engine.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-engine.sh:20:ps -ef | grep -E 'dynu|protein|pm2' | grep -v grep > "$PROTEIN_HOME/01-observer/metrics/active-processes.txt" || true
+/data/data/com.termux/files/home/protein-prototype-backup/protein-engine.sh:24:find "$HOME/.config/dynu-audit" -maxdepth 2 -type f > "$PROTEIN_HOME/02-collector/inventory/dynu-files.txt" 2>/dev/null || true
+/data/data/com.termux/files/home/protein-prototype-backup/protein-engine.sh:31:    for p in ai-router network dns recovery dynu; do
+/data/data/com.termux/files/home/protein-prototype-backup/protein-engine.sh:40:# 4. 08-cleaner: เคลียร์ไฟล์ชั่วคราวที่เก่าเกินไป (ถ้ามีใน quarantine เกิน 7 วัน)
+/data/data/com.termux/files/home/protein-prototype-backup/protein-engine.sh:41:log "[Cleaner] Sweeping old quarantine artifacts..."
+/data/data/com.termux/files/home/protein-prototype-backup/protein-engine.sh:42:find "$PROTEIN_HOME/07-quarantine" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/protein-prototype-backup/protein-evolution.sh:2:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-evolution.sh:44:        if [[ "$pname" == "."* ]] || [[ "$pname" == "storage" ]] || [[ "$pname" == "protein" ]] || [[ "$pname" == "~" ]]; then
+/data/data/com.termux/files/home/protein-prototype-backup/protein-healer.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-healer.sh:19:        echo "[Healer] Symlink for $name is broken or missing. Searching for candidate..." | tee -a "$HEAL_LOG"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-healer.sh:20:        for candidate in "$@"; do
+/data/data/com.termux/files/home/protein-prototype-backup/protein-healer.sh:21:            if [ -d "$candidate" ]; then
+/data/data/com.termux/files/home/protein-prototype-backup/protein-healer.sh:22:                ln -sfn "$candidate" "$target"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-healer.sh:23:                echo "[Healer] REPAIRED: Linked $name -> $candidate" | tee -a "$HEAL_LOG"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-healer.sh:36:fix_link "dns" "$HOME/router-audit" "$HOME/projects/router-audit" "$HOME/.config/dynu-audit"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-healer.sh:38:fix_link "dynu" "$HOME/.config/dynu-audit"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-metabolism.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-omniscience.zsh:1:export PROTEIN_HOME="$HOME/.config/dynu-audit"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-omniscience.zsh:9:        git -C "$PROTEIN_HOME" commit -m "protein: auto-background snapshot $(date +%Y%m%d_%H%M%S)" --quiet 2>/dev/null
+/data/data/com.termux/files/home/protein-prototype-backup/protein-overview.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-overview.sh:35:for p in ai-router network dns recovery dynu vpn github; do
+/data/data/com.termux/files/home/protein-prototype-backup/protein-overview.sh:59:QUARANTINE_COUNT=$(find "$PROTEIN_HOME/07-quarantine" -type f 2>/dev/null | wc -l || echo "0")
+/data/data/com.termux/files/home/protein-prototype-backup/protein-overview.sh:66:if crontab -l 2>/dev/null | grep -q "protein-engine.sh"; then
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:4:ROOT="$HOME/.config/dynu-audit"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:8:RUN="$ROOT/protein/12-runtime/bridge/reorganize-$TS"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:19:test -x "$ROOT/protein/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:20:test -d "$ROOT/protein/00-core"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:21:test -d "$ROOT/protein/11-molecules"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:22:test -d "$ROOT/protein/12-runtime"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:45:  protein/00-core/map \
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:46:  protein/04-relation \
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:47:  protein/10-governor \
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:48:  protein/12-runtime/bridge \
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:49:  protein/12-runtime/state
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:53:echo "RESOURCE=protein/11-molecules"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:55:echo "RUN=protein/12-runtime/bridge"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:56:echo "STATE=state + protein/12-runtime/state"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:59:echo "MAP=protein/00-core/map"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:60:echo "RELATION=protein/04-relation"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:61:echo "DECISION=protein/10-governor"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:66:         protein/11-molecules \
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:67:         protein/12-runtime/bridge \
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:68:         protein/12-runtime/state \
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:69:         protein/00-core/map \
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:70:         protein/04-relation \
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:71:         protein/10-governor
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:80:find protein/12-runtime/bridge \
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:81:  -maxdepth 1 -type d -name 'protein-full-*' -print 2>/dev/null | sort || true
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:85:if [ -f protein/00-core/map/provenance.tsv ]; then
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:86:    cat protein/00-core/map/provenance.tsv
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:93:./protein/protein route aws > "$RUN/aws.route" 2>&1 || true
+/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh:102:    if ./protein/protein route "$m" > "$RUN/$m.route" 2>&1; then
+/data/data/com.termux/files/home/protein-prototype-backup/protein-replicator.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-sentinel.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-sentinel.sh:23:    find "$HOME/.config/dynu-audit" "$HOME/ai-router" "$HOME/network-audit" \
+/data/data/com.termux/files/home/protein-prototype-backup/protein-status.sh:2:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-verifier.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/protein-verifier.sh:26:for p in ai-router network dns recovery dynu vpn github; do
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/ROOTS.txt:4:core-blueprint -> /data/data/com.termux/files/home/.protein-core
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/ROOTS.txt:5:runtime        -> /data/data/com.termux/files/home/.config/dynu-audit/protein
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/ROOTS.txt:6:protein        -> /data/data/com.termux/files/home/protein
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/ROOTS.txt:7:protein-lite   -> /data/data/com.termux/files/home/protein-lite
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/.gitignore:1:# root & runtime
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/.gitignore:15:../.config/dynu-audit/
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/.gitignore:18:dynu-audit/
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/core/live-push.zsh:1:protein-touch-root() { touch "$HOME/protein-lite/ROOT"; }
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/core/live-push.zsh:3:add-zsh-hook preexec protein-touch-root
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/core/live.zsh:1:export PROTEIN_ROOT_FILE="$HOME/protein-lite/ROOT"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/core/live.zsh:3:protein-live-check() {
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/core/live.zsh:7:    for f in $HOME/protein-lite/cells/*.zsh(N); do source "$f" >/dev/null 2>&1; done
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/core/live.zsh:11:add-zsh-hook precmd protein-live-check
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/core/protein.zsh:1:# protein-lite - lightweight shim
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/core/protein.zsh:2:[ -f ~/protein-lite/core/09-verifier.zsh ] && source ~/protein-lite/core/09-verifier.zsh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/core/protein.zsh:3:[ -f ~/protein-lite/core/10-governor.zsh ] && source ~/protein-lite/core/10-governor.zsh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/core/protein.zsh:5:[ -f ~/.config/dynu-audit/protein-omniscience.zsh ] && source ~/.config/dynu-audit/protein-omniscience.zsh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/finish.sh:3:COUNT=$(ls ~/my-core-projects/nutdata/core_archive/protein-cell*.zsh 2>/dev/null | wc -l)
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/finish.sh:4:REALLEAK=$(grep -r "/data/.*\.ssh\|/data/.*\.aws\|/home/.*\.ssh" ~/my-core-projects/nutdata/core_archive/ ~/protein-lite/core/ 2>/dev/null | grep -v "verifier\|governor\|check" | wc -l)
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/finish.sh:8:  date > ~/.config/dynu-audit/state/DONE
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/finish.sh:9:  echo "DONE" > ~/protein-lite/DONE
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/run-all.sh:3:echo "[1] protein-lite 48K -> guard"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/run-all.sh:4:cd ~/protein-lite &&./run.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/run-all.sh:7:ls ~/my-core-projects/nutdata/core_archive/protein-cell*.zsh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/run-all.sh:9:echo "[3] dynu-audit 15M -> engine"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/run-all.sh:10:ls ~/.config/dynu-audit/protein/ | head -n 12
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/run.sh:2:cd ~/protein-lite
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/protein-lite/run.sh:3:zsh core/protein.zsh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:1:/data/data/com.termux/files/home/protein-lite/finish.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:2:/data/data/com.termux/files/home/protein-lite/run-all.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:3:/data/data/com.termux/files/home/protein-lite/run.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:4:/data/data/com.termux/files/home/protein-prototype-backup/protein-classifier.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:5:/data/data/com.termux/files/home/protein-prototype-backup/protein-cost-evaluator.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:6:/data/data/com.termux/files/home/protein-prototype-backup/protein-demand.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:7:/data/data/com.termux/files/home/protein-prototype-backup/protein-dissector.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:8:/data/data/com.termux/files/home/protein-prototype-backup/protein-engine.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:9:/data/data/com.termux/files/home/protein-prototype-backup/protein-evolution.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:10:/data/data/com.termux/files/home/protein-prototype-backup/protein-healer.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:11:/data/data/com.termux/files/home/protein-prototype-backup/protein-metabolism.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:12:/data/data/com.termux/files/home/protein-prototype-backup/protein-omniscience.zsh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:13:/data/data/com.termux/files/home/protein-prototype-backup/protein-overview.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:14:/data/data/com.termux/files/home/protein-prototype-backup/protein-reorganize.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:15:/data/data/com.termux/files/home/protein-prototype-backup/protein-replicator.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:16:/data/data/com.termux/files/home/protein-prototype-backup/protein-sentinel.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:17:/data/data/com.termux/files/home/protein-prototype-backup/protein-status.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/scripts-manifest.txt:18:/data/data/com.termux/files/home/protein-prototype-backup/protein-verifier.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/directories-manifest.txt:11:/data/data/com.termux/files/home/.config/dynu-audit
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/directories-manifest.txt:13:/data/data/com.termux/files/home/protein-lite
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/directories-manifest.txt:14:/data/data/com.termux/files/home/protein-lite/.git
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/directories-manifest.txt:15:/data/data/com.termux/files/home/protein-lite/cells
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/directories-manifest.txt:16:/data/data/com.termux/files/home/protein-lite/core
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/directories-manifest.txt:31:/data/data/com.termux/files/home/protein-prototype-backup
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/directories-manifest.txt:32:/data/data/com.termux/files/home/protein-prototype-backup/.git
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/directories-manifest.txt:33:/data/data/com.termux/files/home/protein-prototype-backup/prototype
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:1:/data/data/com.termux/files/home/.config/dynu-audit/protein/metabolism.state
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:2:/data/data/com.termux/files/home/.config/dynu-audit/protein/system.env
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:3:/data/data/com.termux/files/home/.config/dynu-audit/protein/base-network.state
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:4:/data/data/com.termux/files/home/.config/dynu-audit/protein/git-sync.state
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:5:/data/data/com.termux/files/home/.config/dynu-audit/protein/purged-garbage.log
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:6:/data/data/com.termux/files/home/.config/dynu-audit/protein/protein
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:7:/data/data/com.termux/files/home/.config/dynu-audit/protein/shield.state
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:8:/data/data/com.termux/files/home/.config/dynu-audit/protein-classifier.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:9:/data/data/com.termux/files/home/.config/dynu-audit/protein-cost-evaluator.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:10:/data/data/com.termux/files/home/.config/dynu-audit/protein-demand.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:11:/data/data/com.termux/files/home/.config/dynu-audit/protein-dissector.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:12:/data/data/com.termux/files/home/.config/dynu-audit/protein-engine.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:13:/data/data/com.termux/files/home/.config/dynu-audit/protein-evolution.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:14:/data/data/com.termux/files/home/.config/dynu-audit/protein-healer.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:15:/data/data/com.termux/files/home/.config/dynu-audit/protein-metabolism.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:16:/data/data/com.termux/files/home/.config/dynu-audit/protein-omniscience.zsh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:17:/data/data/com.termux/files/home/.config/dynu-audit/protein-overview.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:18:/data/data/com.termux/files/home/.config/dynu-audit/protein-reorganize.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:19:/data/data/com.termux/files/home/.config/dynu-audit/protein-replicator.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:20:/data/data/com.termux/files/home/.config/dynu-audit/protein-sentinel.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:21:/data/data/com.termux/files/home/.config/dynu-audit/protein-status.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:22:/data/data/com.termux/files/home/.config/dynu-audit/protein-verifier.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:23:/data/data/com.termux/files/home/.config/dynu-audit/prototype/ROOTS.txt
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:24:/data/data/com.termux/files/home/.config/dynu-audit/.git/description
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:25:/data/data/com.termux/files/home/.config/dynu-audit/.git/config
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:26:/data/data/com.termux/files/home/.config/dynu-audit/.git/HEAD
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:27:/data/data/com.termux/files/home/.config/dynu-audit/.git/FETCH_HEAD
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:28:/data/data/com.termux/files/home/.config/dynu-audit/.git/index
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:29:/data/data/com.termux/files/home/.config/dynu-audit/.git/COMMIT_EDITMSG
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:30:/data/data/com.termux/files/home/.config/dynu-audit/.git/ORIG_HEAD
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:31:/data/data/com.termux/files/home/.config/dynu-audit/state/governor-20260911_172525.log
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:32:/data/data/com.termux/files/home/.config/dynu-audit/state/governor-20260911_172622.log
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:33:/data/data/com.termux/files/home/.config/dynu-audit/state/governor-20260911_173120.log
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:34:/data/data/com.termux/files/home/.config/dynu-audit/state/governor-20260911_174037.log
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:35:/data/data/com.termux/files/home/.config/dynu-audit/protein-bind.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:36:/data/data/com.termux/files/home/.config/dynu-audit/protein-system-info.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:37:/data/data/com.termux/files/home/.config/dynu-audit/protein-full-audit.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:38:/data/data/com.termux/files/home/.config/dynu-audit/protein-network-monitor.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:39:/data/data/com.termux/files/home/.config/dynu-audit/protein-ecosystem-bind.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:40:/data/data/com.termux/files/home/.config/dynu-audit/protein-process-audit.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:41:/data/data/com.termux/files/home/.config/dynu-audit/protein-hardware-sensors.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:42:/data/data/com.termux/files/home/.config/dynu-audit/protein-battery-storage.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:43:/data/data/com.termux/files/home/.config/dynu-audit/protein-storage-formatter.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:44:/data/data/com.termux/files/home/.config/dynu-audit/protein-kernel-audit.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:45:/data/data/com.termux/files/home/.config/dynu-audit/protein-network-deep.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:46:/data/data/com.termux/files/home/.config/dynu-audit/protein-master-status.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:47:/data/data/com.termux/files/home/.config/dynu-audit/protein-full-system-blueprint.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:48:/data/data/com.termux/files/home/.config/dynu-audit/protein-live-stream.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:49:/data/data/com.termux/files/home/.config/dynu-audit/protein-load-inspector.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:50:/data/data/com.termux/files/home/.config/dynu-audit/protein-load-cleanup.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:51:/data/data/com.termux/files/home/.config/dynu-audit/protein-cycle.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:52:/data/data/com.termux/files/home/.config/dynu-audit/protein-deep-inspect.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:53:/data/data/com.termux/files/home/.config/dynu-audit/protein-folding-engine.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:54:/data/data/com.termux/files/home/.config/dynu-audit/protein-welcome.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:55:/data/data/com.termux/files/home/.config/dynu-audit/protein-dry-run.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:56:/data/data/com.termux/files/home/.config/dynu-audit/protein-governor.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:57:/data/data/com.termux/files/home/.config/dynu-audit/tatus
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:58:/data/data/com.termux/files/home/.config/dynu-audit/protein-nib.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:59:/data/data/com.termux/files/home/.config/dynu-audit/protein-fiber-link.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/02-collector/inventory/dynu-files.txt:60:/data/data/com.termux/files/home/.config/dynu-audit/protein-evolve.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/.gitignore:1:# root & runtime
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/.gitignore:15:../.config/dynu-audit/
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/.gitignore:18:dynu-audit/
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/core/live-push.zsh:1:protein-touch-root() { touch "$HOME/protein-lite/ROOT"; }
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/core/live-push.zsh:3:add-zsh-hook preexec protein-touch-root
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/core/live.zsh:1:export PROTEIN_ROOT_FILE="$HOME/protein-lite/ROOT"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/core/live.zsh:3:protein-live-check() {
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/core/live.zsh:7:    for f in $HOME/protein-lite/cells/*.zsh(N); do source "$f" >/dev/null 2>&1; done
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/core/live.zsh:11:add-zsh-hook precmd protein-live-check
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/core/protein.zsh:1:# protein-lite - lightweight shim
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/core/protein.zsh:2:[ -f ~/protein-lite/core/09-verifier.zsh ] && source ~/protein-lite/core/09-verifier.zsh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/core/protein.zsh:3:[ -f ~/protein-lite/core/10-governor.zsh ] && source ~/protein-lite/core/10-governor.zsh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/core/protein.zsh:5:[ -f ~/.config/dynu-audit/protein-omniscience.zsh ] && source ~/.config/dynu-audit/protein-omniscience.zsh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/finish.sh:3:COUNT=$(ls ~/my-core-projects/nutdata/core_archive/protein-cell*.zsh 2>/dev/null | wc -l)
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/finish.sh:4:REALLEAK=$(grep -r "/data/.*\.ssh\|/data/.*\.aws\|/home/.*\.ssh" ~/my-core-projects/nutdata/core_archive/ ~/protein-lite/core/ 2>/dev/null | grep -v "verifier\|governor\|check" | wc -l)
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/finish.sh:8:  date > ~/.config/dynu-audit/state/DONE
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/finish.sh:9:  echo "DONE" > ~/protein-lite/DONE
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/run-all.sh:3:echo "[1] protein-lite 48K -> guard"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/run-all.sh:4:cd ~/protein-lite &&./run.sh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/run-all.sh:7:ls ~/my-core-projects/nutdata/core_archive/protein-cell*.zsh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/run-all.sh:9:echo "[3] dynu-audit 15M -> engine"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/run-all.sh:10:ls ~/.config/dynu-audit/protein/ | head -n 12
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/run.sh:2:cd ~/protein-lite
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/protein-lite/run.sh:3:zsh core/protein.zsh
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-classifier.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-classifier.sh:26:    for candidate in "$@"; do
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-classifier.sh:27:        if [ -d "$candidate" ]; then
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-classifier.sh:28:            ln -sfn "$candidate" "$PROTEIN_HOME/projects/$name"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-classifier.sh:29:            echo "Linked $name -> $candidate" | tee -a "$LOG_FILE"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-classifier.sh:37:link_project "dns" "$HOME/router-audit" "$HOME/projects/router-audit" "$HOME/.config/dynu-audit"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-classifier.sh:39:link_project "dynu" "$HOME/.config/dynu-audit"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-cost-evaluator.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-cost-evaluator.sh:6:QUARANTINE_DIR="$PROTEIN_HOME/07-quarantine/$(date +%Y%m%d)"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-cost-evaluator.sh:21:    echo "  -> [PRUNED & ISOLATED] Relocated to quarantine to lighten metabolic load." | tee -a "$COST_LOG"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-demand.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-demand.sh:18:    # ข้ามโฟลเดอร์ระบบภายใน protein และตัว projects เองเพื่อกัน Loop
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-demand.sh:19:    [[ "$dirname" == "protein" || "$dirname" == "dynu-audit" || "$dirname" == "protein-next" || "$dirname" == "projects" ]] && continue
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-dissector.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-dissector.sh:24:        if [[ "$file" =~ '.config/dynu-audit' || "$file" =~ 'ai-router' || "$file" =~ 'network-audit' || "$file" =~ 'router-audit' ]]; then
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-engine.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-engine.sh:20:ps -ef | grep -E 'dynu|protein|pm2' | grep -v grep > "$PROTEIN_HOME/01-observer/metrics/active-processes.txt" || true
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-engine.sh:24:find "$HOME/.config/dynu-audit" -maxdepth 2 -type f > "$PROTEIN_HOME/02-collector/inventory/dynu-files.txt" 2>/dev/null || true
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-engine.sh:31:    for p in ai-router network dns recovery dynu; do
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-engine.sh:40:# 4. 08-cleaner: เคลียร์ไฟล์ชั่วคราวที่เก่าเกินไป (ถ้ามีใน quarantine เกิน 7 วัน)
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-engine.sh:41:log "[Cleaner] Sweeping old quarantine artifacts..."
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-engine.sh:42:find "$PROTEIN_HOME/07-quarantine" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-evolution.sh:2:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-evolution.sh:44:        if [[ "$pname" == "."* ]] || [[ "$pname" == "storage" ]] || [[ "$pname" == "protein" ]] || [[ "$pname" == "~" ]]; then
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-healer.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-healer.sh:19:        echo "[Healer] Symlink for $name is broken or missing. Searching for candidate..." | tee -a "$HEAL_LOG"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-healer.sh:20:        for candidate in "$@"; do
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-healer.sh:21:            if [ -d "$candidate" ]; then
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-healer.sh:22:                ln -sfn "$candidate" "$target"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-healer.sh:23:                echo "[Healer] REPAIRED: Linked $name -> $candidate" | tee -a "$HEAL_LOG"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-healer.sh:36:fix_link "dns" "$HOME/router-audit" "$HOME/projects/router-audit" "$HOME/.config/dynu-audit"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-healer.sh:38:fix_link "dynu" "$HOME/.config/dynu-audit"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-metabolism.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-omniscience.zsh:1:export PROTEIN_HOME="$HOME/.config/dynu-audit"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-omniscience.zsh:9:        git -C "$PROTEIN_HOME" commit -m "protein: auto-background snapshot $(date +%Y%m%d_%H%M%S)" --quiet 2>/dev/null
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-overview.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-overview.sh:35:for p in ai-router network dns recovery dynu vpn github; do
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-overview.sh:59:QUARANTINE_COUNT=$(find "$PROTEIN_HOME/07-quarantine" -type f 2>/dev/null | wc -l || echo "0")
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-overview.sh:66:if crontab -l 2>/dev/null | grep -q "protein-engine.sh"; then
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:4:ROOT="$HOME/.config/dynu-audit"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:8:RUN="$ROOT/protein/12-runtime/bridge/reorganize-$TS"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:19:test -x "$ROOT/protein/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:20:test -d "$ROOT/protein/00-core"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:21:test -d "$ROOT/protein/11-molecules"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:22:test -d "$ROOT/protein/12-runtime"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:45:  protein/00-core/map \
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:46:  protein/04-relation \
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:47:  protein/10-governor \
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:48:  protein/12-runtime/bridge \
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:49:  protein/12-runtime/state
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:53:echo "RESOURCE=protein/11-molecules"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:55:echo "RUN=protein/12-runtime/bridge"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:56:echo "STATE=state + protein/12-runtime/state"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:59:echo "MAP=protein/00-core/map"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:60:echo "RELATION=protein/04-relation"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:61:echo "DECISION=protein/10-governor"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:66:         protein/11-molecules \
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:67:         protein/12-runtime/bridge \
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:68:         protein/12-runtime/state \
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:69:         protein/00-core/map \
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:70:         protein/04-relation \
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:71:         protein/10-governor
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:80:find protein/12-runtime/bridge \
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:81:  -maxdepth 1 -type d -name 'protein-full-*' -print 2>/dev/null | sort || true
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:85:if [ -f protein/00-core/map/provenance.tsv ]; then
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:86:    cat protein/00-core/map/provenance.tsv
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:93:./protein/protein route aws > "$RUN/aws.route" 2>&1 || true
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-reorganize.sh:102:    if ./protein/protein route "$m" > "$RUN/$m.route" 2>&1; then
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-replicator.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-sentinel.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-sentinel.sh:23:    find "$HOME/.config/dynu-audit" "$HOME/ai-router" "$HOME/network-audit" \
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-status.sh:2:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-verifier.sh:4:PROTEIN_HOME="$HOME/.config/dynu-audit/protein"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/protein-verifier.sh:26:for p in ai-router network dns recovery dynu vpn github; do
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/ROOTS.txt:4:core-blueprint -> /data/data/com.termux/files/home/.protein-core
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/ROOTS.txt:5:runtime        -> /data/data/com.termux/files/home/.config/dynu-audit/protein
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/ROOTS.txt:6:protein        -> /data/data/com.termux/files/home/protein
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/ROOTS.txt:7:protein-lite   -> /data/data/com.termux/files/home/protein-lite
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/protein-lite/.gitignore:1:# root & runtime
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/protein-lite/.gitignore:15:../.config/dynu-audit/
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/protein-lite/.gitignore:18:dynu-audit/
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/protein-lite/core/live-push.zsh:1:protein-touch-root() { touch "$HOME/protein-lite/ROOT"; }
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/protein-lite/core/live-push.zsh:3:add-zsh-hook preexec protein-touch-root
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/protein-lite/core/live.zsh:1:export PROTEIN_ROOT_FILE="$HOME/protein-lite/ROOT"
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/protein-lite/core/live.zsh:3:protein-live-check() {
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/protein-lite/core/live.zsh:7:    for f in $HOME/protein-lite/cells/*.zsh(N); do source "$f" >/dev/null 2>&1; done
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/protein-lite/core/live.zsh:11:add-zsh-hook precmd protein-live-check
+/data/data/com.termux/files/home/protein-prototype-backup/prototype/runtime/projects/dns/prototype/protein-lite/core/protein.zsh:1:# protein-lite - lightweight shim
+
+[/data/data/com.termux/files/home/recovery]

@@ -1,0 +1,180 @@
+=== PROTEIN FULL SYSTEM READ-ONLY GATE ===
+TIMESTAMP=20260914_215350
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+
+=== ZSH ===
+SHELL=/data/data/com.termux/files/usr/bin/zsh
+ZSH_VERSION=5.9.2
+ZDOTDIR=<unset>
+ZSHRC=/data/data/com.termux/files/home/.zshrc
+
+=== ROOTS ===
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/00-core
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/04-relation
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/05-validator
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/07-quarantine
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/08-cleaner
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/10-governor
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime
+PRESENT /data/data/com.termux/files/home/.config/dynu-audit/containers/protein
+PRESENT /data/data/com.termux/files/home/recovery
+
+=== GIT BASELINE ===
+/data/data/com.termux/files/home/.config/dynu-audit
+main
+a835be2
+ M containers/protein/container.meta
+ D protein/12-runtime/bridge/reorganize-20260911-153755/aws.route
+ D protein/12-runtime/bridge/reorganize-20260911-165233/aws.route
+ M protein/12-runtime/state/folding.result
+ M protein/12-runtime/state/folding.state
+ D protein/projects/nutdata
+ D prototype/AWS
+ D prototype/GitHub
+ D prototype/core-blueprint
+ D prototype/network-audit
+ D prototype/protein
+ D prototype/router-audit
+?? containers/protein/.dockerignore
+?? containers/protein/Dockerfile
+?? containers/protein/README.md
+?? containers/protein/bin/
+?? containers/protein/config/
+?? containers/protein/research/
+?? protein-evolve.sh
+?? protein-fiber-link.sh
+?? protein-nib.sh
+?? protein/08-cleaner/receipts/engine-20260912_005739.log
+?? protein/08-cleaner/receipts/engine-20260912_032812.log
+?? protein/08-cleaner/receipts/engine-20260912_032816.log
+?? protein/08-cleaner/receipts/engine-20260912_033057.log
+?? protein/12-runtime/state/audit-evidence/
+?? protein/12-runtime/state/nib-evidence/
+?? runtime/protein/
+
+=== ACTIVE PROCESSES ===
+u0_a372  30139 11172  0  2022 pts/28   00:00:00 tee /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/audit-evidence/full-system-20260914_215350.log
+
+=== BACKGROUND REFERENCES ===
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-cost-evaluator.sh:15:find "$PROTEIN_HOME/08-cleaner/receipts" "$PROTEIN_HOME/05-validator/conflicts" "$PROTEIN_HOME/01-observer/metrics" -type f -mtime +7 2>/dev/null | while read -r oldfile; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-dissector.sh:22:    find "$HOME" -maxdepth 3 -type f \( -name "*.sh" -o -name "*.zsh" -o -name "*.py" -o -name "*.js" \) 2>/dev/null | while read -r file; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-omniscience.zsh:6:    while true; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-omniscience.zsh:10:        sleep "$interval"
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-omniscience.zsh:11:    done &
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-sentinel.sh:25:        2>/dev/null | while read -r file; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-cost-evaluator.sh:15:find "$PROTEIN_HOME/08-cleaner/receipts" "$PROTEIN_HOME/05-validator/conflicts" "$PROTEIN_HOME/01-observer/metrics" -type f -mtime +7 2>/dev/null | while read -r oldfile; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-dissector.sh:22:    find "$HOME" -maxdepth 3 -type f \( -name "*.sh" -o -name "*.zsh" -o -name "*.py" -o -name "*.js" \) 2>/dev/null | while read -r file; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-omniscience.zsh:6:    while true; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-omniscience.zsh:10:        sleep "$interval"
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-omniscience.zsh:11:    done &
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-sentinel.sh:25:        2>/dev/null | while read -r file; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/tatus:37:[32m+[m[32m        2>/dev/null | while read -r file; do[m
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/containers/protein/bin/run.zsh:58:# It will not be executed until that operation is isolated/replaced.
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/containers/protein/research/packages/README.md:8:Large artifacts may remain remote while the package keeps their manifest,
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-cost-evaluator.sh:15:find "$PROTEIN_HOME/08-cleaner/receipts" "$PROTEIN_HOME/05-validator/conflicts" "$PROTEIN_HOME/01-observer/metrics" -type f -mtime +7 2>/dev/null | while read -r oldfile; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-dissector.sh:22:    find "$HOME" -maxdepth 3 -type f \( -name "*.sh" -o -name "*.zsh" -o -name "*.py" -o -name "*.js" \) 2>/dev/null | while read -r file; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-omniscience.zsh:6:    while true; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-omniscience.zsh:10:        sleep "$interval"
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-omniscience.zsh:11:    done &
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-sentinel.sh:25:        2>/dev/null | while read -r file; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/tatus:37:[32m+[m[32m        2>/dev/null | while read -r file; do[m
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/containers/protein/bin/run.zsh:58:# It will not be executed until that operation is isolated/replaced.
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/containers/protein/research/packages/README.md:8:Large artifacts may remain remote while the package keeps their manifest,
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-cost-evaluator.sh:15:find "$PROTEIN_HOME/08-cleaner/receipts" "$PROTEIN_HOME/05-validator/conflicts" "$PROTEIN_HOME/01-observer/metrics" -type f -mtime +7 2>/dev/null | while read -r oldfile; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-dissector.sh:22:    find "$HOME" -maxdepth 3 -type f \( -name "*.sh" -o -name "*.zsh" -o -name "*.py" -o -name "*.js" \) 2>/dev/null | while read -r file; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-omniscience.zsh:6:    while true; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-omniscience.zsh:10:        sleep "$interval"
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-omniscience.zsh:11:    done &
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-sentinel.sh:25:        2>/dev/null | while read -r file; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein-cost-evaluator.sh:15:find "$PROTEIN_HOME/08-cleaner/receipts" "$PROTEIN_HOME/05-validator/conflicts" "$PROTEIN_HOME/01-observer/metrics" -type f -mtime +7 2>/dev/null | while read -r oldfile; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein-dissector.sh:22:    find "$HOME" -maxdepth 3 -type f \( -name "*.sh" -o -name "*.zsh" -o -name "*.py" -o -name "*.js" \) 2>/dev/null | while read -r file; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein-omniscience.zsh:6:    while true; do
+/data/data/com.termux/files/home/.config/dynu-audit/protein-omniscience.zsh:10:        sleep "$interval"
+/data/data/com.termux/files/home/.config/dynu-audit/protein-omniscience.zsh:11:    done &
+/data/data/com.termux/files/home/.config/dynu-audit/protein-sentinel.sh:25:        2>/dev/null | while read -r file; do
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime/projects/protein-prototype-backup/protein-cost-evaluator.sh:15:find "$PROTEIN_HOME/08-cleaner/receipts" "$PROTEIN_HOME/05-validator/conflicts" "$PROTEIN_HOME/01-observer/metrics" -type f -mtime +7 2>/dev/null | while read -r oldfile; do
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime/projects/protein-prototype-backup/protein-dissector.sh:22:    find "$HOME" -maxdepth 3 -type f \( -name "*.sh" -o -name "*.zsh" -o -name "*.py" -o -name "*.js" \) 2>/dev/null | while read -r file; do
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime/projects/protein-prototype-backup/protein-omniscience.zsh:6:    while true; do
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime/projects/protein-prototype-backup/protein-omniscience.zsh:10:        sleep "$interval"
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime/projects/protein-prototype-backup/protein-omniscience.zsh:11:    done &
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime/projects/protein-prototype-backup/protein-sentinel.sh:25:        2>/dev/null | while read -r file; do
+/data/data/com.termux/files/home/.config/dynu-audit/tatus:37:[32m+[m[32m        2>/dev/null | while read -r file; do[m
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/bin/run.zsh:58:# It will not be executed until that operation is isolated/replaced.
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/research/packages/README.md:8:Large artifacts may remain remote while the package keeps their manifest,
+
+=== DESTRUCTIVE REFERENCES ===
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-cost-evaluator.sh:20:    mv "$oldfile" "$QUARANTINE_DIR/"
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-engine.sh:42:find "$PROTEIN_HOME/07-quarantine" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-evolution.sh:36:find "$PROJECT_DIR" -type l -delete
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-metabolism.sh:14:find "$PROTEIN_HOME/08-cleaner/receipts" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-metabolism.sh:15:find "$PROTEIN_HOME/05-validator/conflicts" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-omniscience.zsh:19:        rm -f "$PROTEIN_HOME/runs/guardian.pid"
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-cost-evaluator.sh:20:    mv "$oldfile" "$QUARANTINE_DIR/"
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-engine.sh:42:find "$PROTEIN_HOME/07-quarantine" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-evolution.sh:36:find "$PROJECT_DIR" -type l -delete
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-metabolism.sh:14:find "$PROTEIN_HOME/08-cleaner/receipts" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-metabolism.sh:15:find "$PROTEIN_HOME/05-validator/conflicts" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-omniscience.zsh:19:        rm -f "$PROTEIN_HOME/runs/guardian.pid"
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/reports/safety-boundary-20260914_195619.txt:240:NO git clean
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/reports/safety-boundary-20260914_195619.txt:241:NO git reset --hard
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-fiber-link.sh:25:rm -f "$PROTEIN_HOME/00-core/map/fibers/"* 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/containers/protein/Dockerfile:12: && rm -rf /var/lib/apt/lists/*
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/containers/protein/config/dependencies.txt:19:protein-engine.sh:42 -> find ... -delete
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-cost-evaluator.sh:20:    mv "$oldfile" "$QUARANTINE_DIR/"
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-engine.sh:42:find "$PROTEIN_HOME/07-quarantine" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-evolution.sh:36:find "$PROJECT_DIR" -type l -delete
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-metabolism.sh:14:find "$PROTEIN_HOME/08-cleaner/receipts" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-metabolism.sh:15:find "$PROTEIN_HOME/05-validator/conflicts" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-omniscience.zsh:19:        rm -f "$PROTEIN_HOME/runs/guardian.pid"
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/reports/safety-boundary-20260914_195619.txt:240:NO git clean
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/reports/safety-boundary-20260914_195619.txt:241:NO git reset --hard
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-fiber-link.sh:25:rm -f "$PROTEIN_HOME/00-core/map/fibers/"* 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/containers/protein/Dockerfile:12: && rm -rf /var/lib/apt/lists/*
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/containers/protein/config/dependencies.txt:19:protein-engine.sh:42 -> find ... -delete
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-cost-evaluator.sh:20:    mv "$oldfile" "$QUARANTINE_DIR/"
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-engine.sh:42:find "$PROTEIN_HOME/07-quarantine" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-evolution.sh:36:find "$PROJECT_DIR" -type l -delete
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-metabolism.sh:14:find "$PROTEIN_HOME/08-cleaner/receipts" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-metabolism.sh:15:find "$PROTEIN_HOME/05-validator/conflicts" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-omniscience.zsh:19:        rm -f "$PROTEIN_HOME/runs/guardian.pid"
+/data/data/com.termux/files/home/.config/dynu-audit/protein-cost-evaluator.sh:20:    mv "$oldfile" "$QUARANTINE_DIR/"
+/data/data/com.termux/files/home/.config/dynu-audit/protein-engine.sh:42:find "$PROTEIN_HOME/07-quarantine" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein-evolution.sh:36:find "$PROJECT_DIR" -type l -delete
+/data/data/com.termux/files/home/.config/dynu-audit/protein-metabolism.sh:14:find "$PROTEIN_HOME/08-cleaner/receipts" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein-metabolism.sh:15:find "$PROTEIN_HOME/05-validator/conflicts" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/protein-omniscience.zsh:19:        rm -f "$PROTEIN_HOME/runs/guardian.pid"
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime/projects/protein-prototype-backup/protein-cost-evaluator.sh:20:    mv "$oldfile" "$QUARANTINE_DIR/"
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime/projects/protein-prototype-backup/protein-engine.sh:42:find "$PROTEIN_HOME/07-quarantine" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime/projects/protein-prototype-backup/protein-evolution.sh:36:find "$PROJECT_DIR" -type l -delete
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime/projects/protein-prototype-backup/protein-metabolism.sh:14:find "$PROTEIN_HOME/08-cleaner/receipts" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime/projects/protein-prototype-backup/protein-metabolism.sh:15:find "$PROTEIN_HOME/05-validator/conflicts" -type f -mtime +7 -delete 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/prototype/runtime/projects/protein-prototype-backup/protein-omniscience.zsh:19:        rm -f "$PROTEIN_HOME/runs/guardian.pid"
+/data/data/com.termux/files/home/.config/dynu-audit/reports/safety-boundary-20260914_195619.txt:240:NO git clean
+/data/data/com.termux/files/home/.config/dynu-audit/reports/safety-boundary-20260914_195619.txt:241:NO git reset --hard
+/data/data/com.termux/files/home/.config/dynu-audit/protein-fiber-link.sh:25:rm -f "$PROTEIN_HOME/00-core/map/fibers/"* 2>/dev/null || true
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/Dockerfile:12: && rm -rf /var/lib/apt/lists/*
+/data/data/com.termux/files/home/.config/dynu-audit/containers/protein/config/dependencies.txt:19:protein-engine.sh:42 -> find ... -delete
+
+=== AWS REFERENCES ===
+
+=== NIB ===
+NIB_PRESENT=YES
+NIB_SHA256=59e2e07683945e70a3fed8d8dab06b5c50735b9588f86bc46b80371c6a6a9aa2
+
+=== FOLDING ENGINE ===
+FOLDING_PRESENT=YES
+FOLDING_SHA256=1ea9aa5b4658cc1d76f726c8e46006e95d64312cd17a03925315af8b7875708a
+
+=== RECOVERY ===
+RECOVERY=PRESENT
+
+=== ZSH PROTEIN BOUNDARY ===
+
+=== FINAL GATE ===
+READ_ONLY_AUDIT=COMPLETE
+PROMOTION=NOT_PERFORMED
+CORE_MODIFICATION=NOT_PERFORMED
+AWS_MODIFICATION=NOT_PERFORMED
+BACKGROUND_START=NOT_PERFORMED
+EVIDENCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/audit-evidence/full-system-20260914_215350.log

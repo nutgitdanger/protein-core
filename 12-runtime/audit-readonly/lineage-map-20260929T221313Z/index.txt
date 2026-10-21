@@ -1,0 +1,12 @@
+=== PROTEIN-ENGINE LINEAGE ===
+--- CURRENT HASHES ---
+b3a4f88651fc183c2280fec97ee6397ba8043692a39e10bdf599ebbf8fc6285b  /data/data/com.termux/files/home/.config/dynu-audit/protein-engine.sh
+b3a4f88651fc183c2280fec97ee6397ba8043692a39e10bdf599ebbf8fc6285b  /data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dns/protein-engine.sh
+b3a4f88651fc183c2280fec97ee6397ba8043692a39e10bdf599ebbf8fc6285b  /data/data/com.termux/files/home/.config/dynu-audit/protein/projects/dynu/protein-engine.sh
+--- HISTORICAL PATHS ---
+MISSING	/data/data/com.termux/files/home/protein-prototype-backup/protein-engine.sh
+MISSING	/data/data/com.termux/files/home/.config/dynu-audit/protein/projects/protein-prototype-backup/protein-engine.sh
+--- GIT LINEAGE ---
+ad8b822f99dc3f56080ffac39af10e28e11434cd|ad8b822|2026-09-11 16:27:36 +0700|feat(protein): establish deterministic folding engine and codon-based architecture
+--- CURRENT CONTENT HASH ---
+b3a4f88651fc183c2280fec97ee6397ba8043692a39e10bdf599ebbf8fc6285b  protein-engine.sh

@@ -1,0 +1,15 @@
+TYPE=SYMLINK_LINEAGE_TEST
+MODE=READ_ONLY_TEST
+TIMESTAMP=20260930T024155Z
+EXECUTION_ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+HOME=/data/data/com.termux/files/home
+PREFIX=/data/data/com.termux/files/usr
+SHELL=/data/data/com.termux/files/usr/bin/zsh
+KERNEL=Linux 4.14.141+ aarch64 Android
+CORES=
+GIT_BRANCH=main
+GIT_COMMIT=03356d7070b3979cee25dfdcfcb095d1820dbe18
+GIT_DIRTY=53
+FOLDING_STATE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+MOLECULE_STATE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state
+BEAD_DIR=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads

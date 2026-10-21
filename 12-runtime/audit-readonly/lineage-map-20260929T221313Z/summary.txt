@@ -1,0 +1,9 @@
+--- LINEAGE SUMMARY ---
+STATUS=CURRENT_EVIDENCE
+TYPE=ENGINE
+ORIGIN_COMMIT=ad8b822
+CURRENT_HASH=b3a4f88651fc183c2280fec97ee6397ba8043692a39e10bdf599ebbf8fc6285b
+SAME_HASH_ALIASES=protein/projects/dns/protein-engine.sh,protein/projects/dynu/protein-engine.sh
+HISTORICAL_MISSING=protein-prototype-backup/protein-engine.sh
+DESTRUCTIVE_OPERATION=find_07-quarantine_mtime_gt_7_delete
+EXECUTION=DO_NOT_RUN_DURING_RECONSTRUCTION

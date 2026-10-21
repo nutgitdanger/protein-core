@@ -1,0 +1,6 @@
+TYPE=MOLECULE_BEAD
+ID=6
+STATUS=BUILT
+TIMESTAMP=20261002_121057
+SOURCE=folding.state
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit

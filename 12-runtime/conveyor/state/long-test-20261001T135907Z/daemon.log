@@ -1,0 +1,21 @@
+=== SENSOR GATE DAEMON STARTED ===
+MONITORING: /data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+PRESS CTRL+C TO STOP.
+
+[20261001T135907Z] DETECTED CHANGE! NEW SHA: d58ad2c539e86830d504a6f1190be9cb444eae98479cbd5d23ca819288ac782f
+=== CONVEYOR EVALUATION CORE ===
+JOB_ID=folding-d58ad2c539e86830d504a6f1190be9cb444eae98479cbd5d23ca819288ac782f
+CACHE_KEY=d3cadb3a1d409d25f4b2a1599fde2e517964c7e9b6d1750ad1ab81fcf9748958
+CACHE=HIT
+ROUTE=SKIP_COMPUTE
+=== RESULT CONTENT ===
+JOB_ID=folding-d58ad2c539e86830d504a6f1190be9cb444eae98479cbd5d23ca819288ac782f
+INPUT_SHA256=d58ad2c539e86830d504a6f1190be9cb444eae98479cbd5d23ca819288ac782f
+METHOD=folding
+RESULT_SHA256=1e582b0e1228060b5a3fe5eeec9ba214931fec7491a0480c52b0f1e6d6f8f615
+RESULT_PATH=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/conveyor/results/folding-d58ad2c539e86830d504a6f1190be9cb444eae98479cbd5d23ca819288ac782f.result
+COMPUTE=EC2
+VALIDATION=PASSED
+STATUS=COMPLETED
+CREATED=20261001T134246Z
+--------------------------------------------------

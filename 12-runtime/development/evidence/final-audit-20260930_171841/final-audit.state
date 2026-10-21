@@ -1,0 +1,80 @@
+=== FINAL READ-ONLY AUDIT ===
+ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+=== CANONICAL STATE ===
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state:ENGINE=folding
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state:STATUS=FOLDED
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state:TIMESTAMP=20260930_171745
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state:ROOT=/data/data/com.termux/files/home/.config/dynu-audit
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state:FIBERS=1
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state:MOLECULES=5
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state:STATES=28
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state:ENGINE=molecules
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state:STATUS=ACTIVE
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state:BEADS=5
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state:LAST_BEAD=5
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state:TIMESTAMP=20260930_171613
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state:SOURCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/folding.state
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule.state:NEXT=/data/data/com.termux/files/home/.config/dynu-audit/protein/11-molecules/beads/bead-5.state
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule-engine.state:ENGINE=molecules
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule-engine.state:STATUS=ACTIVE
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule-engine.state:TIMESTAMP=20260930_171746
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule-engine.state:FIBERS=1
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule-engine.state:MOLECULES=5
+/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/state/molecule-engine.state:STATES=28
+=== VALID MOLECULE BEADS ===
+bead-1.state
+bead-2.state
+bead-3.state
+bead-4.state
+bead-5.state
+=== GENERATION ===
+FOLD_GENERATION=20260930_171745
+BRIDGE_MARKER=20260930_125409
+=== ROOT → LAB ===
+4:protein-lab	~/.config/dynu-audit/protein	DIRECT-PROTEIN	protein-folding-engine.sh
+=== NIB PIPELINE ===
+9:FOLD="$ROOT/protein-folding-engine.sh"
+60:if timeout 30s zsh "$FOLD" >> "$LOG" 2>&1; then
+=== FOLD PIPELINE ===
+26:if [[ -d "$P/11-molecules" ]]; then
+28:for bead in "$P/11-molecules/beads"/bead-*.state; do
+=== BRIDGE ===
+10:FOLD="$S/folding.state"
+13:BEAD="$M/molecule-bead.zsh"
+14:ENGINE="$M/molecule-engine.zsh"
+15:MARK="$S/fold-molecule.generation"
+45:BEAD_LOG="$S/fold-molecule-bead.log"
+46:ENGINE_LOG="$S/fold-molecule-engine.log"
+=== OFFLOAD ===
+13:scp "$PKG/bead20-self-fold-v2-worker.py" "$PKG/bead20-relation.json" "$PKG/bead20-backbone.json" "$REMOTE/in/"
+15:ssh m7 '
+19:python3 -m py_compile "$W/work/bead20-self-fold-v2-worker.py"
+21:timeout 120s python3 "$W/work/bead20-self-fold-v2-worker.py" >"$W/log/bead20-self-fold-v2-offload.log" 2>&1
+27:scp m7:~/dynu-worker/out/bead20-self-fold-v2-result.json "$EVIDENCE/"
+29:python3 - "$EVIDENCE/bead20-self-fold-v2-result.json" <<'PY2'
+36:    "RESULT": d.get("RESULT") == "PASS",
+42:    "RESULT_COUNT": len(d.get("RESULTS", [])) == 10,
+48:print("ACCEPTABLE=" + ("YES" if all(checks.values()) else "NO"))
+=== GIT SUMMARY ===
+MODIFIED=11
+UNTRACKED=82
+=== LARGE UNTRACKED DIRECTORIES ===
+48K	/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/reality-check-20260930T040528Z/
+100K	/data/data/com.termux/files/home/.config/dynu-audit/runtime/audit-readonly/
+124K	/data/data/com.termux/files/home/.config/dynu-audit/runtime/aws-final-capture-20260929T183339Z/
+160K	/data/data/com.termux/files/home/.config/dynu-audit/protein/04-relation/symlink-lineage-test-run-current/
+196K	/data/data/com.termux/files/home/.config/dynu-audit/protein/04-relation/symlink-lineage-test-run-20260930_102326/
+220K	/data/data/com.termux/files/home/.config/dynu-audit/runtime/aws-inventory/
+280K	/data/data/com.termux/files/home/.config/dynu-audit/protein/04-relation/symlink-lineage-test-run/
+316K	/data/data/com.termux/files/home/.config/dynu-audit/runtime/ebs/protein-vault-20260926_224626/
+328K	/data/data/com.termux/files/home/.config/dynu-audit/control/
+2.1M	/data/data/com.termux/files/home/.config/dynu-audit/runtime/recovery-one-shot/
+5.3M	/data/data/com.termux/files/home/.config/dynu-audit/runtime/recovery-canonical/
+29M	/data/data/com.termux/files/home/.config/dynu-audit/runtime/final-m7-current/
+46M	/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/audit-readonly/
+49M	/data/data/com.termux/files/home/.config/dynu-audit/runtime/protein/processing/runs/20260930T030735Z/
+3.9G	/data/data/com.termux/files/home/.config/dynu-audit/lineage/
+=== RESULT ===
+CANONICAL_RUNTIME=PASS
+MUTATION=NONE
+EVIDENCE=/data/data/com.termux/files/home/.config/dynu-audit/protein/12-runtime/development/evidence/final-audit-20260930_171841
