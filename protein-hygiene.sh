@@ -1,23 +1,13 @@
-#!/data/data/com.termux/files/usr/bin/zsh
+#!/data/data/com.termux/files/usr/bin/bash
 set -uo pipefail
-
 WORKSPACE="$HOME/protein-core"
 QUARANTINE_DIR="$WORKSPACE/12-runtime/conveyor/processing/quarantine_$(date +%Y%m%d_%H%M%S)"
-
-print "🛡️ [PROTEIN HYGIENE] Initiating system file audit & deduplication scan..."
-
-# สร้างโฟลเดอร์กักกัน (Quarantine)
-mkdir -p "$QUARANTINE_DIR"
-
-# ค้นหาไฟล์สำรองหรือไฟล์ซากชั่วคราวที่มีนามสกุล .bak, .tmp หรือลงท้ายด้วย ~
-dup_count=0
-find "$WORKSPACE" -type f \( -name "*.tmp" -o -name "*.bak" -o -name "*~" \) | while read -r file; do
-    if [[ -f "$file" ]]; then
-        print "⚠️ [QUARANTINE] Moving redundant file: $(basename "$file")"
-        mv "$file" "$QUARANTINE_DIR/"
-        ((dup_count++))
-    fi
-done
-
-print "✅ [HYGIENE COMPLETE] System audit finished. Quarantined items moved safely to:"
-print "   📁 $QUARANTINE_DIR"
+n=0
+while IFS= read -r file; do
+  mkdir -p "$QUARANTINE_DIR"
+  mv -n "$file" "$QUARANTINE_DIR/"
+  n=$((n+1))
+done < <(find "$WORKSPACE" \( -path "$WORKSPACE/.git" -o -path "*/quarantine_*" \) -prune -o -type f \( -name "*.tmp" -o -name "*.bak" -o -name "*~" \) -print)
+echo "hygiene: moved $n file(s)"
+[ "$n" -gt 0 ] && echo "  -> $QUARANTINE_DIR"
+exit 0

@@ -6,3 +6,10 @@ pipeline/completed/*
 pipeline/failed/*
 *.pid
 system.env
+12-runtime/conveyor/processing/
+pipeline/.neural_memory*
+pipeline/.synapse_broadcast
+pipeline/.system_policy
+pipeline/.semantic_intent
+pipeline/.meta_cognitive_state
+pipeline/.system_evolution_ledger
