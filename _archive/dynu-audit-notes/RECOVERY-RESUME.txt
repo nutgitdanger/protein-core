@@ -1,0 +1,19 @@
+PROJECT: DYNU-AUDIT / PROTEIN
+CHECKPOINT: 2026-10-20
+STATUS: PAUSED — DO NOT RUN PROTEIN JOBS YET
+
+CONFIRMED:
+- bash -n protein-governor.sh => PASS
+- No matching Protein/Governor/evolve-all/Guardian processes found by ps -A.
+- runs/guardian.pid does not exist.
+- state/governor-20261020_150514.log stops at "Verifying molecule executable permissions..."
+- Git status showed untracked: check-guardian.sh, runs/, state/governor-20261020_150514.log.
+- A timestamped backup of protein-governor.sh was just created; find it with:
+  ls -lt protein-governor.sh.bak-*
+
+NEXT:
+1. Read protein-governor.sh.
+2. Review and fix logging/error reporting only after inspecting the source.
+3. Test syntax and reporting without running Protein workloads.
+4. Do not run evolve-all, enable Guardian, delete files, or commit/push until explicitly decided.
+5. Use Termux-compatible `ps -A`; do not use `ps -A -o PID,STAT,ARGS` on this device.
