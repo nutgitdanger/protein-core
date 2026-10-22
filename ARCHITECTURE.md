@@ -22,7 +22,7 @@ pguard = สถานะ service + ค่าปัจจุบัน | pstatus =
 ## ของเก่า ไม่ใช่ตัวควบคุม (heuristic เท่านั้น ไม่ได้เทรนหรือเรียนรู้จริง)
 - neural-core-v2..v9, rbm-core.py, layers/L10-L12, synapse-mesh, protein-super-nexus.sh
   (pscan/ppulse/pheal) คำนวณสูตรถ่วงน้ำหนักแล้วพิมพ์ผล ไม่ได้สั่งอะไรกับระบบ
-  รอย้ายเข้า _archive/ หลัง Guardian รันนิ่ง
+  ย้ายเข้า _archive/ แล้ว 2026-10-22 (pscan/ppulse อาจใช้ไม่ได้ ยกเว้น pheal)
 
 ## ข้อจำกัดของเครื่อง
 OPPO F9, RAM 5.6GB, อ่าน /sys/class/power_supply ไม่ได้ (Permission denied)
