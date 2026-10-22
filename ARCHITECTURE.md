@@ -31,3 +31,9 @@ OPPO F9, RAM 5.6GB, อ่าน /sys/class/power_supply ไม่ได้ (Per
 ## EC2 (m7)
 ปิดอยู่โดยตั้งใจ ยังไม่ส่งงานไป EC2 จนกว่าฝั่ง Termux นิ่ง
 งานหนักต้องเช็ก: RAM พอ หรือ (EC2 running และ SSH ติด) ไม่ผ่านให้รอ
+
+## ส่วนเสริม (2026-10-23)
+- ~/pguard_sync.py : service ลูก (runit: pguard-sync) อ่านไฟล์ status ของ Guardian
+  ส่งขึ้น DynamoDB pguard-metrics (profile ap7, ap-southeast-1) ทุก 300 วินาที มี ttl 30 วัน
+  ไม่วัดค่าเอง ใช้ Guardian เป็นแหล่งข้อมูลเดียว ใช้ RAM ~50MB
+- pall = protein-overview-live.sh ดูภาพรวมทุก service ในคำสั่งเดียว
