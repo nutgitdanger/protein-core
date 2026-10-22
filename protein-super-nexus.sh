@@ -103,3 +103,8 @@ else
 fi
 print "====================================================================="
 print "💤 [SUPER-PROTEIN] Life-cycle completed peacefully. Resting at 0K idle."
+
+# --- AUTO-SYNAPSE MESH INTEGRATION ---
+if [[ -f "$HOME/protein-core/protein-synapse-mesh.sh" ]]; then
+    ~/protein-core/protein-synapse-mesh.sh > /dev/null 2>&1
+fi
