@@ -1,7 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
 S=$HOME/.cache/protein
 mkdir -p "$S/workers"
-state=OK; bat=-1; plug=UNPLUGGED; t=0; tick=0
+state=OK; bat=-1; plug=UNPLUGGED; t=0
+prev_mem=-1; calm=0; last_bat=0
 
 read_battery() {
   local j
@@ -12,16 +13,20 @@ read_battery() {
 }
 
 signal_workers() {
-  local f
+  local f pid
   for f in "$S"/workers/*.pid; do
-    [[ -f $f ]] && kill -"$1" "$(<"$f")" 2>/dev/null
+    [[ -f $f ]] || continue
+    pid=$(<"$f")
+    if [[ -z $pid ]] || ! kill -0 "$pid" 2>/dev/null; then
+      rm -f "$f"; continue
+    fi
+    kill -"$1" "$pid" 2>/dev/null
   done
 }
 
 trap 'signal_workers CONT; rm -f "$S/status"' EXIT
 trap 'exit 0' INT TERM
 
-# กู้ worker ที่อาจค้างจากรอบก่อน (เช่นถูก kill -9)
 signal_workers CONT
 
 while :; do
@@ -30,8 +35,10 @@ while :; do
     [[ $k == MemAvailable: ]] && { mem=$((v/1024)); break; }
   done </proc/meminfo
 
-  (( tick % 6 == 0 )) && read_battery
-  tick=$((tick+1))
+  now=$(printf '%(%s)T' -1)
+  bat_iv=120
+  (( bat >= 0 && bat < 35 )) && [[ $plug == UNPLUGGED ]] && bat_iv=30
+  if (( now - last_bat >= bat_iv )); then read_battery; last_bat=$now; fi
 
   charging=0; [[ $plug != UNPLUGGED ]] && charging=1
   new=$state
@@ -55,6 +62,17 @@ while :; do
   fi
 
   echo "$state mem=$mem bat=$bat t=$t plug=$plug" > "$S/status"
-  if [[ $state == PAUSE ]] || (( mem < 900 )); then sleep 3 & else sleep 10 & fi
-  wait $!
+
+  # ความถี่ตรวจปรับตามภาระ
+  head=$(( mem - 600 ))
+  delta=0; (( prev_mem >= 0 )) && delta=$(( prev_mem - mem ))
+  prev_mem=$mem
+  if   (( delta > 150 || head < 150 )); then iv=3;  calm=0
+  elif [[ $state == PAUSE ]];           then iv=5;  calm=0
+  elif (( head < 500 ));                then iv=5;  calm=0
+  else
+    calm=$((calm+1))
+    iv=$(( 10 + calm * 5 )); (( iv > 60 )) && iv=60
+  fi
+  sleep "$iv" & wait $!
 done
