@@ -5,7 +5,12 @@ ACTION="${1:-scan}"
 WORKSPACE="$HOME/protein-core"
 LAYERS_DIR="$WORKSPACE/12-runtime/conveyor/layers"
 PROCESSING_DIR="$WORKSPACE/12-runtime/conveyor/processing"
-RBM_ADAPTER="$WORKSPACE/12-runtime/conveyor/adapters/rbm-core.py"
+RBM_REMOTE_SCRIPT="/home/ubuntu/protein-core/12-runtime/conveyor/adapters/rbm-core.py"
+
+run_rbm() {
+    ssh -o BatchMode=yes -o ConnectTimeout=5 m7 \
+        "python3 $RBM_REMOTE_SCRIPT $1 $2 $3 $4"
+}
 HYGIENE_SCRIPT="$WORKSPACE/protein-hygiene.sh"
 
 mkdir -p "$PROCESSING_DIR"
@@ -39,8 +44,10 @@ case "$ACTION" in
         [[ -x "$LAYERS_DIR/L11-energy-immune.zsh" ]] && l11_out=$("$LAYERS_DIR/L11-energy-immune.zsh")
         
         rbm_out=""
-        if [[ -x "$RBM_ADAPTER" ]]; then
-            rbm_out=$("$RBM_ADAPTER" 0.6 0.4 0.2 0.3)
+        if rbm_out=$(run_rbm 0.6 0.4 0.2 0.3); then
+            :
+        else
+            rbm_out="RBM_ERROR=EC2_EXECUTION_FAILED"
         fi
 
         print "\n🧠 [RBM & HARMONIOUS NEURAL EVALUATION]"
@@ -62,8 +69,10 @@ GENESIS_EOF
     pulse)
         print "⚡ [PULSE] Executing lightweight RBM-assisted pulse..."
         rbm_out=""
-        if [[ -x "$RBM_ADAPTER" ]]; then
-            rbm_out=$("$RBM_ADAPTER" 0.3 0.2 0.1 0.1)
+        if rbm_out=$(run_rbm 0.3 0.2 0.1 0.1); then
+            print "$rbm_out"
+        else
+            rbm_out="RBM_ERROR=EC2_EXECUTION_FAILED"
             print "$rbm_out"
         fi
 
