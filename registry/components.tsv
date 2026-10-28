@@ -1,0 +1,10 @@
+protein-core	~/protein-core	แกนรวม (ตัวที่รันอยู่)
+protein-core@git	/data/data/com.termux/files/home/recovery-project-20261024-143905/repos/protein-core	สำเนา git (กู้คืน)
+dynu-audit	~/.config/dynu-audit	pipeline 00-12 (ตัวที่รันอยู่)
+dynu-audit@git	/data/data/com.termux/files/home/recovery-project-20261024-143905/repos/dynu-audit	สำเนา git (กู้คืน)
+protein-lite	/data/data/com.termux/files/home/recovery-project-20261024-143905/repos/protein-lite	guard เบา + zsh link
+nutdata	/data/data/com.termux/files/home/recovery-project-20261024-143905/repos/nutdata	vault/resource monitor
+dynu-environment	/data/data/com.termux/files/home/recovery-project-20261024-143905/repos/dynu-environment	inventory/forward-fold
+neural-rbm-dedup	/data/data/com.termux/files/home/recovery-project-20261024-143905/repos/neural-rbm-dedup	RBM/EC2 worker
+ai-router	/data/data/com.termux/files/home/recovery-project-20261024-143905/repos/ai-router	AI router
+rust-server	/data/data/com.termux/files/home/recovery-project-20261024-143905/repos/rust-server	rust server
