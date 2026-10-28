@@ -3,7 +3,7 @@ set -uo pipefail
 
 ACTION="${1:-scan}"
 WORKSPACE="$HOME/protein-core"
-LAYERS_DIR="$WORKSPACE/12-runtime/conveyor/layers"
+LAYERS_DIR="$WORKSPACE/_archive/layers"
 PROCESSING_DIR="$WORKSPACE/12-runtime/conveyor/processing"
 RBM_REMOTE_SCRIPT="/home/ubuntu/protein-core/12-runtime/conveyor/adapters/rbm-core.py"
 
