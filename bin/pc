@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+# pc status | pc check | pc list   (อ่านอย่างเดียว)
+REG="$HOME/protein-core/registry/components.tsv"
+each() { while IFS=$'\t' read -r n p r; do p="${p/#\~/$HOME}"; "$1" "$n" "$p" "$r"; done < "$REG"; }
+
+st() {
+  [ -d "$2" ] || { printf '%-18s MISSING  %s\n' "$1" "$2"; return; }
+  if git -C "$2" rev-parse --git-dir >/dev/null 2>&1; then
+    b=$(git -C "$2" branch --show-current); d=$(git -C "$2" status --porcelain | wc -l)
+    ab=$(git -C "$2" rev-list --left-right --count '@{u}...HEAD' 2>/dev/null | awk '{print "behind "$1" ahead "$2}')
+    printf '%-18s %-18s dirty=%-4s %s | %s\n' "$1" "$b" "$d" "${ab:-no-upstream}" "$(git -C "$2" log -1 --format=%h\ %s | cut -c1-40)"
+  else printf '%-18s ไม่ใช่ git repo\n' "$1"; fi
+}
+
+ck() {
+  [ -d "$2" ] || { printf '%-18s MISSING\n' "$1"; return; }
+  bad=0; n=0
+  while IFS= read -r f; do
+    n=$((n+1))
+    case "$f" in
+      *.sh)  bash -n "$f" 2>/dev/null || { echo "  FAIL $f"; bad=$((bad+1)); } ;;
+      *.zsh) zsh -n "$f" 2>/dev/null || { echo "  FAIL $f"; bad=$((bad+1)); } ;;
+      *.py)  python3 -c "import ast,sys;ast.parse(open(sys.argv[1]).read())" "$f" 2>/dev/null || { echo "  FAIL $f"; bad=$((bad+1)); } ;;
+    esac
+  done < <(find "$2" \( -name .git -o -name _archive -o -name node_modules -o -name legacy -o -name '*.bak*' \) -prune -o -type f \( -name '*.sh' -o -name '*.zsh' -o -name '*.py' \) -print 2>/dev/null)
+  printf '%-18s files=%-4s syntax_fail=%s\n' "$1" "$n" "$bad"
+  TOTAL_BAD=$((TOTAL_BAD+bad))
+}
+
+case "$1" in
+  list)   cat "$REG" ;;
+  status) each st ;;
+  check)  TOTAL_BAD=0; each ck
+          # each รันใน subshell ของ pipe? ไม่ใช่ (redirect) ค่า TOTAL_BAD จึงคงอยู่
+          r=PASS; [ "$TOTAL_BAD" -gt 0 ] && r=FAIL
+          echo "RESULT: $r"; command -v led >/dev/null && led add pc-check "$r" "syntax_fail=$TOTAL_BAD" ;;
+  *) echo "pc {list|status|check}" ;;
+esac
