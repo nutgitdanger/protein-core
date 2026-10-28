@@ -13,3 +13,9 @@ pipeline/.system_policy
 pipeline/.semantic_intent
 pipeline/.meta_cognitive_state
 pipeline/.system_evolution_ledger
+*.bak*
+*.pre-*
+*-broken-*
+*.log
+evidence/
+registry/*.local

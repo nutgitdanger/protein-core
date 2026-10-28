@@ -45,9 +45,12 @@ case "$ACTION" in
         
         rbm_out=""
         if rbm_out=$(run_rbm 0.6 0.4 0.2 0.3); then
-            :
+            rbm_status="COMPLETED"
+            rbm_homeostasis="STABLE_ACTIVE"
         else
             rbm_out="RBM_ERROR=EC2_EXECUTION_FAILED"
+            rbm_status="ERROR"
+            rbm_homeostasis="RBM_UNAVAILABLE"
         fi
 
         print "\n🧠 [RBM & HARMONIOUS NEURAL EVALUATION]"
@@ -56,10 +59,10 @@ case "$ACTION" in
         fi
 
         cat << GENESIS_EOF > "$PROCESSING_DIR/genesis_result.log"
-STATUS=COMPLETED
-HOMEOSTASIS=STABLE_ACTIVE
+STATUS=${rbm_status}
+HOMEOSTASIS=${rbm_homeostasis}
 BATTERY_ENERGY=${battery_level}%
-$(echo "$rbm_out" | grep -E "RBM_FREE_ENERGY|RBM_METABOLIC_STRESS|RBM_STATE")
+$(echo "$rbm_out" | grep -E "RBM_FREE_ENERGY|RBM_METABOLIC_STRESS|RBM_STATE|RBM_ERROR")
 0K_IDLE=ACTIVE
 GENESIS_EOF
 
@@ -70,17 +73,21 @@ GENESIS_EOF
         print "⚡ [PULSE] Executing lightweight RBM-assisted pulse..."
         rbm_out=""
         if rbm_out=$(run_rbm 0.3 0.2 0.1 0.1); then
+            rbm_status="COMPLETED"
+            rbm_homeostasis="STABLE_PULSE"
             print "$rbm_out"
         else
             rbm_out="RBM_ERROR=EC2_EXECUTION_FAILED"
+            rbm_status="ERROR"
+            rbm_homeostasis="RBM_UNAVAILABLE"
             print "$rbm_out"
         fi
 
         cat << GENESIS_EOF > "$PROCESSING_DIR/genesis_result.log"
-STATUS=COMPLETED
-HOMEOSTASIS=STABLE_PULSE
+STATUS=${rbm_status}
+HOMEOSTASIS=${rbm_homeostasis}
 BATTERY_ENERGY=${battery_level}%
-$(echo "$rbm_out" | grep -E "RBM_FREE_ENERGY|RBM_METABOLIC_STRESS|RBM_STATE")
+$(echo "$rbm_out" | grep -E "RBM_FREE_ENERGY|RBM_METABOLIC_STRESS|RBM_STATE|RBM_ERROR")
 0K_IDLE=ACTIVE
 GENESIS_EOF
         ;;
