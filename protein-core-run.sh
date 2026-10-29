@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+echo "=========================================="
+echo "   PROTEIN CORE SYSTEM INTEGRATION ENGINE"
+echo "=========================================="
+echo "[*] Loading Local Core Blueprints..."
+echo "[*] Active Scripts in bin: $(ls -l ~/bin/*.sh 2>/dev/null | wc -l)"
+echo "[*] Security Keys in Vault: $(ls -l ~/.ssh/*.pem 2>/dev/null | wc -l)"
+echo "[*] Knowledge Base Index : $(ls -l ~/nut-forensic/knowledge-base/ 2>/dev/null | wc -l) files"
+echo "------------------------------------------"
+echo "ระบบพร้อมทำงาน! คุณสามารถใช้คำสั่ง 'protein-search <keyword>'"
+echo "เพื่อค้นหาข้อมูล หรือเรียกใช้สคริปต์ใน ~/bin ได้ทันที"
+echo "=========================================="
