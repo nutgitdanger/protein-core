@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+[ "${ALLOW_PUSH:-0}" = "1" ] || { echo "auto-push ปิดอยู่"; exit 0; }
 ROOT="$HOME/.config/dynu-audit"
 cd "$ROOT" || exit 1
 
