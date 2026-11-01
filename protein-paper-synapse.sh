@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+[ "${ALLOW_PUSH:-0}" = "1" ] || { echo "auto-push ปิดอยู่"; exit 0; }
 # protein-paper-synapse.sh: ดึงเปเปอร์และทฤษฎีที่สื่อถึงกัน มาร้อยเรียงและหักล้างความซ้ำซ้อน
 
 set -e

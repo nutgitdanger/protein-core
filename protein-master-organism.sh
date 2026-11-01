@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+[ "${ALLOW_PUSH:-0}" = "1" ] || { echo "auto-push ปิดอยู่"; exit 0; }
 # protein-master-organism.sh: วงจรชีวิตสิ่งมีชีวิตดิจิทัลระดับโปรดักชัน (Master Orchestrator)
 # รองรับ Dynamic RBM, Zero-Bloat Trimming และ Auto-Git Cloud Synapse
 

@@ -19,3 +19,4 @@ pipeline/.system_evolution_ledger
 *.log
 evidence/
 registry/*.local
+__pycache__/
