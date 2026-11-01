@@ -22,3 +22,4 @@ registry/*.local
 __pycache__/
 12-runtime/woven_nexus_state.env
 12-runtime/conveyor/cache/*.key
+12-runtime/conveyor/cache/
